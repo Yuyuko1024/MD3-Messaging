@@ -12,15 +12,15 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
--keep class com.android.messaging.ui.contact.* { *; }
+-keep class com.android.messaging.md3.ui.contact.* { *; }
 
--assumenosideeffects public class com.android.messaging.util.Trace {
+-assumenosideeffects public class com.android.messaging.md3.util.Trace {
     public void beginSection(...);
     public void endSection(...);
 }
--assumenosideeffects public class com.android.messaging.util.Assert {
+-assumenosideeffects public class com.android.messaging.md3.util.Assert {
     private void setIfEngBuild();
 }
--assumenosideeffects public class com.android.messaging.util.DebugUtils {
+-assumenosideeffects public class com.android.messaging.md3.util.DebugUtils {
     public void logCurrentMethod(...);
 }

@@ -33,7 +33,7 @@
   !private *;
 }
 
--keep class com.android.messaging.ui.*.* { *; }
+-keep class com.android.messaging.md3.ui.*.* { *; }
 
 # Keep the classes needed by emma
 -keep class com.vladium.** { *; }

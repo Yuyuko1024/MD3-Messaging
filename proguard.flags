@@ -26,9 +26,9 @@
 -keep class com.android.messaging.*.*.* { *; }
 
 # Keep methods that have the @VisibleForAnimation annotation
--keep @interface com.android.messaging.annotation.VisibleForAnimation
+-keep @interface com.android.messaging.md3.annotation.VisibleForAnimation
 -keepclassmembers class * {
-  @com.android.messaging.annotation.VisibleForAnimation *;
+  @com.android.messaging.md3.annotation.VisibleForAnimation *;
 }
 
 -keep public class * extends android.app.Activity
@@ -53,7 +53,7 @@
 -keep class android.support.rastermill.** { *; }
 
 # Preserve the name of the getCaller method so it can find itself in the stack trace it generates
--keepclassmembers public class com.android.messaging.util.DebugUtils {
+-keepclassmembers public class com.android.messaging.md3.util.DebugUtils {
   public static java.lang.StackTraceElement getCaller(...);
 }
 

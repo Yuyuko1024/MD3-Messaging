@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging.ui.appsettings;
+package com.android.messaging.md3.ui.appsettings;
 
 import android.app.UiModeManager;
 import android.content.Context;
@@ -31,19 +31,20 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.core.app.NavUtils;
 import androidx.fragment.app.Fragment;
+import androidx.preference.SwitchPreference;
 
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 
-import com.android.messaging.R;
-import com.android.messaging.ui.LicenseActivity;
-import com.android.messaging.ui.UIIntents;
-import com.android.messaging.util.BuglePrefs;
-import com.android.messaging.util.DebugUtils;
-import com.android.messaging.util.OsUtil;
-import com.android.messaging.util.PhoneUtils;
+import com.android.messaging.md3.R;
+import com.android.messaging.md3.ui.LicenseActivity;
+import com.android.messaging.md3.ui.UIIntents;
+import com.android.messaging.md3.util.BuglePrefs;
+import com.android.messaging.md3.util.DebugUtils;
+import com.android.messaging.md3.util.OsUtil;
+import com.android.messaging.md3.util.PhoneUtils;
 
 import org.exthmui.settingslib.collapsingtoolbar.ExthmCollapsingToolbarBaseActivity;
 
@@ -86,6 +87,7 @@ public class ApplicationSettingsActivity extends ExthmCollapsingToolbarBaseActiv
         return true;
     }
 
+
     @Override
     public boolean onOptionsItemSelected(final MenuItem item) {
         switch (item.getItemId()) {
@@ -108,7 +110,11 @@ public class ApplicationSettingsActivity extends ExthmCollapsingToolbarBaseActiv
         private Preference mSmsDisabledPreference;
         private String mSmsEnabledPrefKey;
         private Preference mSmsEnabledPreference;
+        private Preference mLicensePreference;
+        private String mLicensePrefKey;
         private boolean mIsSmsPreferenceClicked;
+        private String mSwipeRightToDeleteConversationkey;
+        private SwitchPreference mSwipeRightToDeleteConversationPreference;
 
         @Override
         public void onCreatePreferences(@Nullable Bundle savedInstanceState, @Nullable String rootKey) {
@@ -122,6 +128,11 @@ public class ApplicationSettingsActivity extends ExthmCollapsingToolbarBaseActiv
             mSmsDisabledPreference = findPreference(mSmsDisabledPrefKey);
             mSmsEnabledPrefKey = getString(R.string.sms_enabled_pref_key);
             mSmsEnabledPreference = findPreference(mSmsEnabledPrefKey);
+            mLicensePrefKey = getString(R.string.key_license);
+            mLicensePreference = findPreference(mLicensePrefKey);
+            mSwipeRightToDeleteConversationkey = getString(
+                    R.string.swipe_right_deletes_conversation_key);
+            mSwipeRightToDeleteConversationPreference = findPreference(mSwipeRightToDeleteConversationkey);
             mIsSmsPreferenceClicked = false;
 
             if (!DebugUtils.isDebugEnabled()) {
@@ -159,6 +170,10 @@ public class ApplicationSettingsActivity extends ExthmCollapsingToolbarBaseActiv
             if (preference.getKey() ==  mSmsDisabledPrefKey ||
                     preference.getKey() == mSmsEnabledPrefKey) {
                 mIsSmsPreferenceClicked = true;
+            }
+            if (preference.getKey() == mLicensePrefKey){
+                final Intent intent = new Intent(getActivity(), LicenseActivity.class);
+                startActivity(intent);
             }
             return super.onPreferenceTreeClick(preference);
         }

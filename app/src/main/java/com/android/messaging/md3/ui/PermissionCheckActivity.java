@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging.ui;
+package com.android.messaging.md3.ui;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -28,16 +28,15 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
 
-import com.android.messaging.Factory;
-import com.android.messaging.R;
-import com.android.messaging.datamodel.data.ParticipantData;
-import com.android.messaging.util.Assert;
-import com.android.messaging.util.OsUtil;
-import com.android.messaging.util.PhoneUtils;
-import com.android.messaging.util.UiUtils;
+import com.android.messaging.md3.Factory;
+import com.android.messaging.md3.R;
+import com.android.messaging.md3.datamodel.data.ParticipantData;
+import com.android.messaging.md3.util.Assert;
+import com.android.messaging.md3.util.OsUtil;
+import com.android.messaging.md3.util.PhoneUtils;
+import com.android.messaging.md3.util.UiUtils;
 
 import java.lang.reflect.Method;
-import java.util.Properties;
 
 /**
  * Activity to check if the user has required permissions. If not, it will try to prompt the user

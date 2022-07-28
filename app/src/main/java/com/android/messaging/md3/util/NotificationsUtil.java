@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging.util;
+package com.android.messaging.md3.util;
 
 import android.app.NotificationChannel;
 import android.app.NotificationChannelGroup;

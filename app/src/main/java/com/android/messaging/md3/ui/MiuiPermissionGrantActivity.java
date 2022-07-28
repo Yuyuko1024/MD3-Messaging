@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging.ui;
+package com.android.messaging.md3.ui;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -26,11 +26,11 @@ import android.util.Log;
 
 import androidx.annotation.RequiresApi;
 
-import com.android.messaging.R;
-import com.android.messaging.datamodel.data.ParticipantData;
-import com.android.messaging.util.Assert;
-import com.android.messaging.util.PhoneUtils;
-import com.android.messaging.util.UiUtils;
+import com.android.messaging.md3.R;
+import com.android.messaging.md3.datamodel.data.ParticipantData;
+import com.android.messaging.md3.util.Assert;
+import com.android.messaging.md3.util.PhoneUtils;
+import com.android.messaging.md3.util.UiUtils;
 import com.google.android.material.button.MaterialButton;
 
 /**
