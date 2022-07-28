@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Captcha -->
+    <dimen name="captcha_list_padding_vertical">12dp</dimen>
+    <dimen name="captcha_list_padding_horizontal">25dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+
+</resources>

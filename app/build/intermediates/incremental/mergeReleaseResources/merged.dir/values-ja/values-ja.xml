@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="empty_subject_strings">
+    <item msgid="8900116186849071724">"件名なし"</item>
+    <item msgid="272485471009191934">"件名なし"</item>
+  </string-array>
+    <string-array name="notification_reply_choices">
+    <item msgid="1875991048685328264">"はい"</item>
+    <item msgid="6049132459802288033">"いいえ"</item>
+    <item msgid="3084376867445867895">"OK"</item>
+    <item msgid="3155097332660174689">"笑"</item>
+    <item msgid="2611328818571146775">"ありがとう"</item>
+    <item msgid="4881335087096496747">"賛成"</item>
+    <item msgid="2422296858597420738">"ナイス"</item>
+    <item msgid="4805581752819452687">"すぐに連絡します"</item>
+    <item msgid="4746700499431366214">"後で連絡します"</item>
+    <item msgid="4342041517788201970">":)"</item>
+    <item msgid="7439437911747961187">":("</item>
+  </string-array>
+    <plurals formatted="false" msgid="782438833843363189" name="add_invalid_contact_error">
+      <item quantity="other">連絡先が無効です</item>
+      <item quantity="one">連絡先が無効です</item>
+    </plurals>
+    <plurals formatted="false" msgid="5592871135747616108" name="attachment_changed_accessibility_announcement">
+      <item quantity="other"><ns1:g id="ATTACHMENT_COUNT">%d</ns1:g>個の添付ファイルを送信する準備ができました</item>
+      <item quantity="one">1個の添付ファイルを送信する準備ができました</item>
+    </plurals>
+    <plurals formatted="false" msgid="5631719319690969981" name="attachment_preview_close_content_description">
+      <item quantity="other">添付ファイルを破棄</item>
+      <item quantity="one">添付ファイルを破棄</item>
+    </plurals>
+    <plurals formatted="false" msgid="2068837227090109833" name="attachment_save_error">
+      <item quantity="other"><ns1:g id="QUANTITY_1">%d</ns1:g>個の添付ファイルを保存できませんでした</item>
+      <item quantity="one"><ns1:g id="QUANTITY_0">%d</ns1:g>個の添付ファイルを保存できませんでした</item>
+    </plurals>
+    <plurals formatted="false" msgid="6925000482183379648" name="attachments_saved">
+      <item quantity="other"><ns1:g id="QUANTITY_1">%d</ns1:g>個の添付ファイルを保存しました</item>
+      <item quantity="one"><ns1:g id="QUANTITY_0">%d</ns1:g>個の添付ファイルを保存しました</item>
+    </plurals>
+    <plurals formatted="false" msgid="8407480699515308929" name="attachments_saved_to_album">
+      <item quantity="other"><ns1:g id="QUANTITY_2">%d</ns1:g>個の添付ファイルを「<ns1:g id="ALBUMNAME_3">%s</ns1:g>」アルバムに保存しました</item>
+      <item quantity="one"><ns1:g id="QUANTITY_0">%d</ns1:g>個の添付ファイルを「<ns1:g id="ALBUMNAME_1">%s</ns1:g>」アルバムに保存しました</item>
+    </plurals>
+    <plurals formatted="false" msgid="1886864019411801995" name="attachments_saved_to_downloads">
+      <item quantity="other"><ns1:g id="QUANTITY_1">%d</ns1:g>個の添付ファイルを「ダウンロード」に保存しました</item>
+      <item quantity="one"><ns1:g id="QUANTITY_0">%d</ns1:g>個の添付ファイルを「ダウンロード」に保存しました</item>
+    </plurals>
+    <plurals formatted="false" msgid="1778518334602418000" name="compose_message_view_hint_text_attachments">
+      <item quantity="other">添付ファイルを送信します</item>
+      <item quantity="one">添付ファイルを送信します</item>
+    </plurals>
+    <plurals formatted="false" msgid="5934090345811195170" name="compose_message_view_hint_text_audio">
+      <item quantity="other">音声を送信します</item>
+      <item quantity="one">音声を送信します</item>
+    </plurals>
+    <plurals formatted="false" msgid="8937589900456604618" name="compose_message_view_hint_text_photo">
+      <item quantity="other">写真を送信します</item>
+      <item quantity="one">写真を送信します</item>
+    </plurals>
+    <plurals formatted="false" msgid="933064969858631242" name="compose_message_view_hint_text_vcard">
+      <item quantity="other">連絡先カードを送信します</item>
+      <item quantity="one">連絡先カードを送信します</item>
+    </plurals>
+    <plurals formatted="false" msgid="9188048653766960507" name="compose_message_view_hint_text_video">
+      <item quantity="other">動画を送信します</item>
+      <item quantity="one">動画を送信します</item>
+    </plurals>
+    <plurals formatted="false" msgid="2285567882353326800" name="delete_conversations_confirmation_dialog_title">
+      <item quantity="other">これらのスレッドを削除しますか？</item>
+      <item quantity="one">このスレッドを削除しますか？</item>
+    </plurals>
+    <plurals formatted="false" msgid="4858515363324110232" name="month_count">
+      <item quantity="other"><ns1:g id="COUNT">%d</ns1:g>か月</item>
+      <item quantity="one">1か月</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d 件の新しい通知</item>
+    <item quantity="other">%d 件の新しい通知</item>
+  </plurals>
+    <plurals formatted="false" msgid="5341490525457911398" name="notification_download_failures">
+      <item quantity="other"><ns1:g id="CONVERSATIONS">%d</ns1:g>件のスレッドのメッセージ<ns1:g id="MESSAGES_1">%d</ns1:g>件</item>
+      <item quantity="one">1件のスレッドのメッセージ<ns1:g id="MESSAGES_0">%d</ns1:g>件</item>
+    </plurals>
+    <plurals formatted="false" msgid="610594317958128842" name="notification_new_messages">
+      <item quantity="other"><ns1:g id="MESSAGES">%d</ns1:g>件の新しいメッセージ</item>
+      <item quantity="one">新しいメッセージ</item>
+    </plurals>
+    <plurals formatted="false" msgid="6938919932879650691" name="notification_send_failures">
+      <item quantity="other"><ns1:g id="CONVERSATIONS">%d</ns1:g>件のスレッドのメッセージ<ns1:g id="MESSAGES_1">%d</ns1:g>件</item>
+      <item quantity="one">1件のスレッドのメッセージ<ns1:g id="MESSAGES_0">%d</ns1:g>件</item>
+    </plurals>
+    <plurals formatted="false" msgid="8753803762044567843" name="num_days_ago">
+      <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g>日</item>
+      <item quantity="one"><ns1:g id="COUNT_0">%d</ns1:g>日</item>
+    </plurals>
+    <plurals formatted="false" msgid="8010868301590914325" name="num_hours_ago">
+      <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g>時間</item>
+      <item quantity="one"><ns1:g id="COUNT_0">%d</ns1:g>時間</item>
+    </plurals>
+    <plurals formatted="false" msgid="4085627474543076735" name="num_minutes_ago">
+      <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g>分</item>
+      <item quantity="one"><ns1:g id="COUNT_0">%d</ns1:g>分</item>
+    </plurals>
+    <plurals formatted="false" msgid="7529478299745446838" name="photos_saved_to_album">
+      <item quantity="other"><ns1:g id="QUANTITY_2">%d</ns1:g>枚の写真を「<ns1:g id="ALBUMNAME_3">%s</ns1:g>」アルバムに保存しました</item>
+      <item quantity="one"><ns1:g id="QUANTITY_0">%d</ns1:g>枚の写真を「<ns1:g id="ALBUMNAME_1">%s</ns1:g>」アルバムに保存しました</item>
+    </plurals>
+    <plurals formatted="false" msgid="2884224435488996028" name="vcard_multiple_display_name">
+      <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g>件の連絡先</item>
+      <item quantity="one"><ns1:g id="COUNT_0">%d</ns1:g>件の連絡先</item>
+    </plurals>
+    <plurals formatted="false" msgid="6821121808257576788" name="videos_saved_to_album">
+      <item quantity="other"><ns1:g id="QUANTITY_2">%d</ns1:g>本の動画を「<ns1:g id="ALBUMNAME_3">%s</ns1:g>」アルバムに保存しました</item>
+      <item quantity="one"><ns1:g id="QUANTITY_0">%d</ns1:g>本の動画を「<ns1:g id="ALBUMNAME_1">%s</ns1:g>」アルバムに保存しました</item>
+    </plurals>
+    <plurals formatted="false" msgid="3037889420270036143" name="wearable_participant_count">
+      <item quantity="other">参加者<ns1:g id="COUNT_1">%d</ns1:g>人</item>
+      <item quantity="one">参加者<ns1:g id="COUNT_0">%d</ns1:g>人</item>
+    </plurals>
+    <plurals formatted="false" msgid="1301973226125551953" name="week_count">
+      <item quantity="other"><ns1:g id="COUNT">%d</ns1:g>週間</item>
+      <item quantity="one">1週間</item>
+    </plurals>
+    <plurals formatted="false" msgid="4522546496183798317" name="year_count">
+      <item quantity="other"><ns1:g id="COUNT">%d</ns1:g>年</item>
+      <item quantity="one">1年</item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"ホームに戻る"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"前に戻る"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"完了"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"OFF"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ON"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"検索…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>と共有"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">"候補はありません"</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">"選択できる連絡先候補の数"</string>
+    <string msgid="8248615862739848672" name="action_add_contact">"連絡先を追加"</string>
+    <string msgid="5437034800324083170" name="action_archive">"アーカイブ"</string>
+    <string msgid="9032076625645190136" name="action_block">"ブロック"</string>
+    <string msgid="6596167921517350362" name="action_call">"発信"</string>
+    <string msgid="1840519376200478419" name="action_close">"閉じる"</string>
+    <string msgid="8283370294120913166" name="action_confirm_multiselect">"選択の確認"</string>
+    <string msgid="3787494008738625806" name="action_confirm_selection">"選択の確認"</string>
+    <string msgid="2440658410677323714" name="action_debug_options">"デバッグ"</string>
+    <string msgid="4076795795307486019" name="action_delete">"削除"</string>
+    <string msgid="2728883749416365507" name="action_delete_message">"削除"</string>
+    <string msgid="7786338136368564146" name="action_download">"ダウンロード"</string>
+    <string msgid="7172664623795021857" name="action_label">"Enter"</string>
+    <string msgid="1628518043533374868" name="action_menu_show_archived">"アーカイブ済み"</string>
+    <string msgid="1219683118692013380" name="action_multiselect">"複数の画像を選択"</string>
+    <string msgid="4823658797441716246" name="action_notification_off">"通知を無効化"</string>
+    <string msgid="8244389452685364211" name="action_notification_on">"通知を有効化"</string>
+    <string msgid="2748020184252106661" name="action_people_and_options">"ユーザーとオプション"</string>
+    <string msgid="377635240181672039" name="action_send">"送信"</string>
+    <string msgid="1329008122345201684" name="action_settings">"設定"</string>
+    <string msgid="2143483844803153871" name="action_share">"共有"</string>
+    <string msgid="139681611159869493" name="action_unarchive">"アーカイブ解除"</string>
+    <string msgid="2355153262520375529" name="activity_not_found_message">"適切なアプリが見つかりませんでした"</string>
+    <string msgid="1479380805406328264" name="add_contact_confirmation">"連絡先を追加"</string>
+    <string msgid="1898307408816625598" name="add_contact_confirmation_dialog_title">"連絡先に追加しますか？"</string>
+    <string msgid="12460574490350327" name="add_more_participants_button_content_description">"参加者を追加"</string>
+    <string msgid="6411454224069259687" name="advanced_category_pref_title">"詳細設定"</string>
+    <string msgid="5870459931510000742" name="advanced_settings">"詳細設定"</string>
+    <string msgid="7397017836928206201" name="advanced_settings_activity_title">"詳細設定"</string>
+    <string msgid="1197541953189716999" name="apn_apn">"APN"</string>
+    <string msgid="2134993966166435648" name="apn_edit">"アクセスポイントの編集"</string>
+    <string msgid="8102023058623950736" name="apn_mcc">"MCC"</string>
+    <string msgid="6181253508404620479" name="apn_mms_port">"MMSポート"</string>
+    <string msgid="4343743931563107100" name="apn_mms_proxy">"MMSプロキシ"</string>
+    <string msgid="2584154739440281747" name="apn_mmsc">"MMSC"</string>
+    <string msgid="1372437523197012866" name="apn_mnc">"MNC"</string>
+    <string msgid="1572691851070894985" name="apn_name">"名前"</string>
+    <string msgid="463728018542184151" name="apn_not_set">"未設定"</string>
+    <string msgid="3179955111000379490" name="apn_settings">"APN"</string>
+    <string msgid="5136389328322585717" name="apn_settings_not_available">"このユーザーはアクセスポイント名設定を利用できません"</string>
+    <string msgid="8409755622399386584" name="apn_type">"APNタイプ"</string>
+    <string msgid="3062916848713424329" name="app_name">"メッセージ"</string>
+    <string msgid="4738212324460451188" name="archived_activity_title">"アーカイブ済み"</string>
+    <string msgid="6109126963298874571" name="archived_conversation_list_empty_text">"アーカイブされたスレットがここに表示されます"</string>
+    <string msgid="8109348891515322512" name="archived_toast_message">"<ns1:g id="COUNT">%d</ns1:g>件をアーカイブしました"</string>
+    <string msgid="2758624209216276682" name="attachMediaButtonContentDescription">"添付ファイルを追加"</string>
+    <string msgid="4049093653421684774" name="attachment_chooser_activity_title">"添付ファイルの選択"</string>
+    <string msgid="3616821885478549778" name="attachment_chooser_selection">"<ns1:g id="COUNT">%d</ns1:g>件選択済み"</string>
+    <string msgid="3056972820372291694" name="attachment_file_description">"MMS添付ファイルを保存しました"</string>
+    <string msgid="2983376679583030373" name="attachment_limit_reached_dialog_message_when_composing">"添付ファイルを1つ以上削除してから、もう一度お試しください。"</string>
+    <string msgid="3917529855170816197" name="attachment_limit_reached_dialog_message_when_sending">"メッセージの送信を試すことはできますが、添付ファイルを1つ以上削除しないと配信されない可能性があります。"</string>
+    <string msgid="2348790618093735551" name="attachment_limit_reached_send_anyway">"このまま送信"</string>
+    <string msgid="4917927407363303333" name="attachment_load_failed_dialog_message">"SMSで添付ファイルを読み込めませんでした。"</string>
+    <string msgid="2861573099241369958" name="attachment_more_items">"+<ns1:g id="COUNT">%d</ns1:g>"</string>
+    <string msgid="499334244765270108" name="audio_attachment_content_description">"音声添付ファイル"</string>
+    <string msgid="7578169887065513701" name="audio_pause_content_description">"一時停止"</string>
+    <string msgid="6986250080467111491" name="audio_picker_hint_text">"長押し"</string>
+    <string msgid="4932509227281251607" name="audio_play_content_description">"音声添付ファイルの再生"</string>
+    <string msgid="29401157183728655" name="audio_record_view_content_description">"録音するには押し続けます"</string>
+    <string msgid="7762310055059024872" name="audio_recording_error">"音声を保存できませんでした。もう一度お試しください。"</string>
+    <string msgid="3585760856463273828" name="audio_recording_replay_failed">"音声を再生できません。もう一度お試しください。"</string>
+    <string msgid="4442450764642560851" name="audio_recording_start_failed">"音声を録音できません。もう一度お試しください。"</string>
+    <string msgid="7766679943833404968" name="auto_delete_oldest_messages">"<ns1:g id="DURATION">%s</ns1:g>より前のメッセージを自動削除"</string>
+    <string msgid="9071499976729145269" name="auto_delete_oldest_messages_confirmation">"<ns1:g id="DURATION">%s</ns1:g>より前のメッセージを削除し、自動削除をONにしますか？"</string>
+    <string msgid="2253902455786205335" name="auto_retrieve_mms_pref_summary">"MMSメッセージを自動的に取得する"</string>
+    <string msgid="1316094876978218980" name="auto_retrieve_mms_pref_title">"自動取得"</string>
+    <string msgid="7347177867673486983" name="auto_retrieve_mms_when_roaming_pref_summary">"ローミング時にMMSを自動取得"</string>
+    <string msgid="2918775628609759349" name="auto_retrieve_mms_when_roaming_pref_title">"ローミング時に自動取得"</string>
+    <string msgid="1477626055115561645" name="back">"戻る"</string>
+    <string msgid="185429978461824228" name="block_confirmation_message">"この番号からのメッセージは引き続き受信しますが、通知は表示されなくなります。このスレッドはアーカイブされます。"</string>
+    <string msgid="8288283455512985682" name="block_confirmation_title">"<ns1:g id="DESTINATION">%s</ns1:g>をブロックしますか？"</string>
+    <string msgid="6968382557194643329" name="block_contact_title">"<ns1:g id="DESTINATION">%s</ns1:g>さんをブロック"</string>
+    <string msgid="7709164518967312281" name="blocked_contacts_title">"ブロック中の連絡先"</string>
+    <string msgid="2560554234438548817" name="blocked_pref_title">"ブロック済み"</string>
+    <string msgid="7903364256385612569" name="blocked_toast_message">"連絡先がブロックされ、アーカイブされました"</string>
+    <string name="bottomsheet_action_expand_halfway">下半分を展開</string>
+    <string msgid="6431544304743145818" name="camera_cancel_recording">"動画の録画を停止"</string>
+    <string msgid="4894133709734862250" name="camera_error_failure_taking_picture">"写真を撮ることはできません"</string>
+    <string msgid="2739332294400420426" name="camera_error_opening">"カメラは利用できません"</string>
+    <string msgid="5536300789483863989" name="camera_error_storage_fail">"メディアを保存できません"</string>
+    <string msgid="4283956364220459608" name="camera_error_unknown">"カメラは利用できません"</string>
+    <string msgid="994632067015578879" name="camera_error_video_init_fail">"動画撮影は利用できません"</string>
+    <string msgid="6532763214546593687" name="camera_media_failure">"カメラ画像を読み込めませんでした"</string>
+    <string msgid="1736478301191221786" name="camera_start_recording">"動画の録画を開始"</string>
+    <string msgid="5331592576107271152" name="camera_stop_recording">"録画を停止し、動画を添付する"</string>
+    <string msgid="1566112129296559159" name="camera_switch_camera_facing">"前面カメラと背面カメラを切り替える"</string>
+    <string msgid="6156039742035097276" name="camera_switch_full_screen">"全画面カメラに切り替える"</string>
+    <string msgid="4419617715199157958" name="camera_switch_to_still_mode">"静止画を撮影"</string>
+    <string msgid="2926868205952641428" name="camera_switch_to_video_mode">"動画を撮影"</string>
+    <string msgid="2573317952200799489" name="camera_take_picture">"画像を撮影"</string>
+    <string msgid="4301887223941009907" name="cant_send_message_while_loading_attachments">"添付ファイルの読み込み中はメッセージを送信できません。"</string>
+    <string msgid="7130532514190813716" name="cant_send_message_without_active_subscription">"ネットワークの準備ができていません。もう一度お試しください。"</string>
+    <string msgid="3796492439123251453" name="carrier_send_error">"メッセージを送信できません（<ns1:g id="CARRIERNAME">%1$s</ns1:g>）、エラー<ns1:g id="ERRORCODE">%2$d</ns1:g>"</string>
+    <string msgid="1210665032244425938" name="carrier_send_error_unknown_carrier">"メッセージを送信できません（不明な携帯通信会社）、エラー<ns1:g id="ERRORCODE">%1$d</ns1:g>"</string>
+    <string name="character_counter_content_description">入力済み文字数: %1$d/%2$d</string>
+    <string name="character_counter_overflowed_content_description">文字数制限を超えています（%1$d/%2$d 文字）</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"キャンセル"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">"コピー"</string>
+    <string msgid="4655699207140895492" name="chips_delete_content_description">"宛先を削除"</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"連絡先の提案を許可"</string>
+    <string msgid="123760854728616068" name="chips_text_delete_button_content_description">"テキストを削除"</string>
+    <string msgid="4603850264073169854" name="class_0_message_activity">"クラス0メッセージ"</string>
+    <string name="clear_text_end_icon_content_description">テキストを消去</string>
+    <string msgid="1248663997452044787" name="color_picker_default_title">"色の選択"</string>
+    <string msgid="2883438431173736180" name="color_swatch_description">"色<ns1:g id="COLOR_INDEX">%1$d</ns1:g>"</string>
+    <string msgid="5020921249944943124" name="color_swatch_description_selected">"色<ns1:g id="COLOR_INDEX">%1$d</ns1:g>を選択しました"</string>
+    <string msgid="5214836453231753054" name="compose_message_view_hint_text">"メッセージの送信"</string>
+    <string msgid="2829154383848677160" name="compose_message_view_hint_text_multi_sim">"&lt;small><ns1:g id="SIM_NAME">%s</ns1:g>から&lt;/small>&amp;lt:br/>メッセージを送信"</string>
+    <string msgid="6076616675845705660" name="compose_message_view_subject_hint_text">"件名"</string>
+    <string msgid="7473740533133798616" name="confrim_participants_button_content_description">"参加者を確認"</string>
+    <string msgid="1036353827229041942" name="contact_list_empty_text">"新しいメッセージを開始するには連絡先の名前か電話番号を入力してください"</string>
+    <string msgid="3167455944684758290" name="contact_list_send_to_text">"<ns1:g id="DESTINATION">%s</ns1:g>に送信"</string>
+    <string msgid="1424746082040243161" name="contact_picker_all_contacts_tab_title">"すべての連絡先"</string>
+    <string msgid="7157326165824706883" name="contact_picker_frequents_tab_title">"よく使う連絡先"</string>
+    <string msgid="7078061834874737466" name="content_description_for_number_eight">"8"</string>
+    <string msgid="8078774905490022978" name="content_description_for_number_five">"5"</string>
+    <string msgid="7515917522043407213" name="content_description_for_number_four">"4"</string>
+    <string msgid="4276787959475295232" name="content_description_for_number_nine">"9"</string>
+    <string msgid="3886554185135150473" name="content_description_for_number_one">"1"</string>
+    <string msgid="5870011338757220060" name="content_description_for_number_seven">"7"</string>
+    <string msgid="9192012772645396654" name="content_description_for_number_six">"6"</string>
+    <string msgid="8471442614073144385" name="content_description_for_number_three">"3"</string>
+    <string msgid="1562486479385891146" name="content_description_for_number_two">"2"</string>
+    <string msgid="7992301592202897868" name="content_description_for_number_zero">"0"</string>
+    <string msgid="8597624563218724441" name="conversation_creation_failure">"スレッドを開始できませんでした"</string>
+    <string msgid="6088388615460305424" name="conversation_deleted">"スレッドを削除しました"</string>
+    <string msgid="7505706551294769667" name="conversation_list_empty_text">"新しいスレッドを開始すると、ここにリストが表示されます"</string>
+    <string msgid="3749751291444609993" name="conversation_list_first_sync_text">"スレッドを読み込んでいます…"</string>
+    <string msgid="3592923997082845035" name="conversation_list_item_view_draft_message">"下書き"</string>
+    <string msgid="9202622757034736175" name="conversation_list_item_view_sent_from_other_prefix">"<ns1:g id="FIRSTNAMEOFSENDER">%s</ns1:g>: "</string>
+    <string msgid="1735457801737604211" name="conversation_list_item_view_sent_from_you_prefix">"あなた: "</string>
+    <string msgid="7894183429890407387" name="conversation_list_snippet_audio_clip">"音声クリップ"</string>
+    <string msgid="5326960910088541826" name="conversation_list_snippet_picture">"画像"</string>
+    <string msgid="5004837959112452394" name="conversation_list_snippet_vcard">"連絡先カード"</string>
+    <string msgid="7101059507173671233" name="conversation_list_snippet_video">"動画"</string>
+    <string msgid="5634274498769555505" name="conversation_message_view_subject_text">"件名: "</string>
+    <string msgid="6083905920877235314" name="copy">"コピー"</string>
+    <string msgid="1084563757174121331" name="copy_email">"メールアドレスをコピー"</string>
+    <string msgid="8860802152973030914" name="copy_number">"電話番号をコピー"</string>
+    <string msgid="1977083934277981786" name="copy_to_clipboard">"コピー"</string>
+    <string msgid="494269163973708182" name="copy_to_clipboard_dialog_title">"クリップボードにコピーしますか？"</string>
+    <string msgid="8459265782521418031" name="db_full">"空き容量が少なくなっています。一部のデータが失われる可能性があります。"</string>
+    <string msgid="8765138968242505061" name="debug_category_pref_title">"デバッグ"</string>
+    <string msgid="5549693176734564386" name="delete_all_media">"メディア付きのメッセージをすべて削除"</string>
+    <string msgid="4601960420953525559" name="delete_all_media_confirmation">"メディア付きのメッセージをすべて削除しますか？"</string>
+    <string msgid="744574085809600863" name="delete_conversation_confirmation_button">"削除"</string>
+    <string msgid="5470021965641900456" name="delete_conversation_decline_button">"キャンセル"</string>
+    <string msgid="3888584614972573382" name="delete_message_confirmation_button">"削除"</string>
+    <string msgid="3952533622691031375" name="delete_message_confirmation_dialog_text">"この操作は元に戻せません。"</string>
+    <string msgid="4723834210275712001" name="delete_message_confirmation_dialog_title">"このメッセージを削除しますか？"</string>
+    <string msgid="9204277306804390707" name="delete_oldest_messages">"<ns1:g id="DURATION">%s</ns1:g>より前のメッセージを削除"</string>
+    <string msgid="6172297718425265784" name="delete_oldest_messages_confirmation">"<ns1:g id="DURATION">%s</ns1:g>より前のメッセージを削除しますか？"</string>
+    <string msgid="8910749398836396698" name="delete_subject_content_description">"件名を削除"</string>
+    <string msgid="3433965196058436991" name="delivered_status_content_description">"配信済み"</string>
+    <string msgid="4272502420621500421" name="delivery_reports_pref_summary">"送信するSMSの配信レポートを毎回リクエストする"</string>
+    <string msgid="5115727259825309087" name="delivery_reports_pref_title">"SMS受取確認通知"</string>
+    <string msgid="1016285369211000297" name="disable_group_mms">"SMSメッセージを全員に個別に送信し、返信があなただけに返されるようにします"</string>
+    <string msgid="8744588243554006189" name="dl_failure_notification">"件名「<ns1:g id="SUBJECT">%1$s</ns1:g>」、送信者「<ns1:g id="FROM">%2$s</ns1:g>」のメッセージをダウンロードできませんでした。"</string>
+    <string msgid="635370887537738004" name="download_message_failure">"メッセージをダウンロードできませんでした"</string>
+    <string msgid="6752478540984118382" name="download_message_failure_airplane_mode">"機内モードではメッセージをダウンロードできません"</string>
+    <string msgid="6830055949399088532" name="download_message_failure_no_data">"モバイルデータがOFFになっています。設定を確認してください。"</string>
+    <string msgid="3514921076616367225" name="download_message_success">"メッセージをダウンロードしました"</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">"宛先から<ns1:g id="CONTACT">%s</ns1:g>さんを削除します"</string>
+    <string msgid="7901698352188687659" name="dump_mms_pref_summary">"受信したMMS生データを外部ストレージファイルにダンプする"</string>
+    <string msgid="6699074152055891680" name="dump_mms_pref_title">"MMSのダンプ"</string>
+    <string msgid="3694039770323225329" name="dump_sms_pref_summary">"受信したSMS生データを外部ストレージファイルにダンプする"</string>
+    <string msgid="4057657151746557281" name="dump_sms_pref_title">"SMSのダンプ"</string>
+    <string msgid="4311733160940564593" name="enable_group_mms">"1つのMMSを全員に送信します"</string>
+    <string msgid="2778471831376319587" name="enable_permission_procedure">"許可の変更は、[設定]>[アプリ]>[SMS]>[許可]で行えます。"</string>
+    <string msgid="8672121020793945630" name="enable_permission_procedure_description">"許可の変更は、[設定]、[アプリ]、[SMS]、[許可]で行えます。"</string>
+    <string msgid="6242965213882272822" name="enter_phone_number_hint">"電話番号"</string>
+    <string msgid="4539767473801195966" name="enter_phone_number_text">"この1回の手順で、SMSはグループにメッセージを確実に配信します。"</string>
+    <string msgid="7263355879949248448" name="enter_phone_number_title">"電話番号の確認"</string>
+    <string msgid="7032804261692931808" name="enumeration_comma">"、 "</string>
+    <string msgid="6799644880052534839" name="error_apn_empty">"APNは必須です。"</string>
+    <string msgid="7770363665690646716" name="error_apn_name_empty">"[名前]欄は必須です。"</string>
+    <string name="error_icon_content_description">エラー</string>
+    <string msgid="3693788817630985838" name="error_mcc_not3">"MCC欄は3桁で指定してください。"</string>
+    <string msgid="3726130455168743554" name="error_mnc_not23">"MNC欄は2桁か3桁で指定してください。"</string>
+    <string msgid="1905187380359981199" name="exit">"終了"</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"詳細設定"</string>
+    <string name="exposed_dropdown_menu_content_description">プルダウン メニューを表示</string>
+    <string msgid="412233184776827353" name="fail_to_load_attachment">"添付ファイルを読み込めません。もう一度お試しください。"</string>
+    <string msgid="8338915262229269954" name="failed">"画像を読み込めませんでした"</string>
+    <string msgid="7711070643740368402" name="failed_loading_vcard">"連絡先カードを読み込めませんでした"</string>
+    <string msgid="7047161648867054936" name="failed_message_content_description">"失敗したメッセージ。再試行するにはタップしてください。"</string>
+    <string msgid="4689730643900226699" name="forward_message_activity_title">"メールを転送"</string>
+    <string msgid="1947831848146564875" name="from_label">"From: "</string>
+    <string msgid="2503122727700475428" name="gallery_checkbox_content_description">"この項目を選択する"</string>
+    <string msgid="5409336577057897710" name="general_settings">"全般"</string>
+    <string msgid="3012187932521771578" name="general_settings_activity_title">"全般設定"</string>
+    <string msgid="4465312111301728995" name="general_settings_title">"全般"</string>
+    <string msgid="2339270924401184182" name="group_conversation_description">"<ns1:g id="PARTICIPANTS">%s</ns1:g>とのスレッド"</string>
+    <string msgid="7085805237707481779" name="group_incoming_failed_message_prefix">"<ns1:g id="SENDER">%1$s</ns1:g>からのメッセージ「<ns1:g id="MESSAGE">%2$s</ns1:g>」を受信できませんでした（時間: <ns1:g id="TIME">%3$s</ns1:g>、<ns1:g id="GROUPINFO">%4$s</ns1:g>）。"</string>
+    <string msgid="7248506967059447054" name="group_incoming_successful_message_prefix">"<ns1:g id="SENDER">%1$s</ns1:g>からのメッセージ「<ns1:g id="MESSAGE">%2$s</ns1:g>」を受信しました（時間: <ns1:g id="TIME">%3$s</ns1:g>、<ns1:g id="GROUPINFO">%4$s</ns1:g>）。"</string>
+    <string msgid="3758710015912690629" name="group_mms_pref_summary">"宛先が複数ある場合にMMSを使用して1通のメッセージとして送信する"</string>
+    <string msgid="6553612309209383106" name="group_mms_pref_title">"グループメッセージング"</string>
+    <string msgid="1655013812805454648" name="group_outgoing_draft_message_prefix">"<ns1:g id="GROUP">%1$s</ns1:g>へのメッセージ「<ns1:g id="MESSAGE">%2$s</ns1:g>」が送信されていません（時間: <ns1:g id="TIME">%3$s</ns1:g>）。"</string>
+    <string msgid="5059983340377901592" name="group_outgoing_failed_message_prefix">"<ns1:g id="GROUP">%1$s</ns1:g>へのメッセージ「<ns1:g id="MESSAGE">%2$s</ns1:g>」を送信できませんでした（時間: <ns1:g id="TIME">%3$s</ns1:g>）。"</string>
+    <string msgid="7636874745414695556" name="group_outgoing_sending_message_prefix">"<ns1:g id="GROUP">%1$s</ns1:g>へのメッセージ「<ns1:g id="MESSAGE">%2$s</ns1:g>」を送信しています（時間: <ns1:g id="TIME">%3$s</ns1:g>）。"</string>
+    <string msgid="1593702642852987920" name="group_outgoing_successful_message_prefix">"<ns1:g id="GROUP">%1$s</ns1:g>へのメッセージ「<ns1:g id="MESSAGE">%2$s</ns1:g>」を送信しました（時間: <ns1:g id="TIME">%3$s</ns1:g>）。"</string>
+    <string msgid="8070710971014835182" name="help_and_feedback_activity_label">"ヘルプ"</string>
+    <string msgid="5054789216911282696" name="hidden_sender_address">"差出人アドレスは非表示"</string>
+    <string name="icon_content_description">ダイアログ アイコン</string>
+    <string msgid="7063392681130898793" name="ignore">"無視"</string>
+    <string msgid="7311780674392006753" name="in_conversation_notify_new_message_action">"表示"</string>
+    <string msgid="8207541514656839042" name="in_conversation_notify_new_message_text">"新しいメッセージ"</string>
+    <string msgid="6369259405539452011" name="incoming_message_announcement">"<ns1:g id="SENDER">%1$s</ns1:g>さんからのメッセージは「<ns1:g id="MESSAGE">%2$s</ns1:g>」です。"</string>
+    <string msgid="7512757244515303701" name="incoming_sender_content_description">"<ns1:g id="SENDER">%s</ns1:g>さんからのメッセージ"</string>
+    <string msgid="4244076415705614525" name="incoming_sim_name_text">"宛先: <ns1:g id="SIM_NAME">%s</ns1:g>"</string>
+    <string msgid="2481078288502342745" name="incoming_text_sender_content_description">"<ns1:g id="SENDER">%s</ns1:g>さんからのメッセージ"</string>
+    <string msgid="8214889988397524630" name="invalid_destination">"送信できません。受信者が無効です。"</string>
+    <string name="item_view_role_description">タブ</string>
+    <string msgid="8700344957248709584" name="link_display_format">"<ns1:g id="TEXT">%1$s</ns1:g>（<ns1:g id="URL">%2$s</ns1:g>）"</string>
+    <string msgid="2890879017729068514" name="loading_conversations">"スレッドを読み込んでいます"</string>
+    <string msgid="3894765818932489665" name="loading_messages">"メールを読み込んでいます"</string>
+    <string msgid="3961520941271265083" name="loading_vcard">"連絡先カードを読み込んでいます"</string>
+    <string msgid="5300743415198486619" name="low_memory">"メモリ不足のためデータベース操作を完了できませんでした"</string>
+    <string name="material_clock_toggle_content_description">午前または午後を選択</string>
+    <string name="material_hour_selection">時刻を選択してください</string>
+    <string name="material_hour_suffix">%1$s時</string>
+    <string name="material_minute_selection">分を選択</string>
+    <string name="material_minute_suffix">%1$s分</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">時刻を時計で入力するモードに切り替えます。</string>
+    <string name="material_timepicker_hour">時間</string>
+    <string name="material_timepicker_minute">分</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">時間を選択</string>
+    <string name="material_timepicker_text_input_mode_description">時刻をテキストで入力するモードに切り替えます。</string>
+    <string msgid="3660616501040372452" name="mediapicker_audioChooserDescription">"音声の録音"</string>
+    <string msgid="5455016591560739789" name="mediapicker_audio_title">"音声の録音"</string>
+    <string msgid="8498255650058981250" name="mediapicker_cameraChooserDescription">"写真や動画を撮影"</string>
+    <string msgid="1227741581156455777" name="mediapicker_galleryChooserDescription">"この端末から画像を選択"</string>
+    <string msgid="8812237405495409901" name="mediapicker_gallery_image_item_description">"画像<ns1:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</ns1:g>"</string>
+    <string msgid="8142175029053370662" name="mediapicker_gallery_image_item_description_no_date">"画像"</string>
+    <string msgid="2569545441879514283" name="mediapicker_gallery_item_selected_content_description">"メディアを選択しました。"</string>
+    <string msgid="40021674722525910" name="mediapicker_gallery_item_unselected_content_description">"メディアの選択を解除しました。"</string>
+    <string msgid="3169528536727885763" name="mediapicker_gallery_title">"写真を選択"</string>
+    <string msgid="3621616141966436510" name="mediapicker_gallery_title_selection">"<ns1:g id="COUNT">%d</ns1:g>件選択済み"</string>
+    <string msgid="4947391038600888284" name="menu_delete_apn">"APNを削除"</string>
+    <string msgid="310569150407968648" name="menu_discard_apn_change">"破棄"</string>
+    <string msgid="1157954180701135202" name="menu_license">"オープンソースライセンス"</string>
+    <string msgid="8286285392706532511" name="menu_new">"新しいAPN"</string>
+    <string msgid="1564461309350814037" name="menu_new_apn">"新しいAPN"</string>
+    <string msgid="6342935229867973523" name="menu_restore_default_apn">"デフォルトにリセット"</string>
+    <string msgid="5445335896951613691" name="menu_save_apn">"保存"</string>
+    <string msgid="479412726781330278" name="menu_send_feedback">"フィードバックを送信"</string>
+    <string msgid="6122616816253404821" name="menu_version_info">"バージョン情報"</string>
+    <string msgid="3792488955421628684" name="menu_view_in_store">"Google Playストアで表示"</string>
+    <string msgid="8241684826917957666" name="message_context_menu_copy_text">"テキストをコピー"</string>
+    <string msgid="4924354182554857475" name="message_context_menu_delete_message">"削除"</string>
+    <string msgid="4848326950037554575" name="message_context_menu_forward_message">"転送"</string>
+    <string msgid="5036023289586457642" name="message_context_menu_title">"メッセージオプション"</string>
+    <string msgid="2077089491219912840" name="message_context_menu_view_details">"詳細を表示"</string>
+    <string msgid="8451487656255395372" name="message_details_title">"メッセージの詳細"</string>
+    <string msgid="2144370964507743673" name="message_fwd">"Fwd: <ns1:g id="SUBJECT">%s</ns1:g>"</string>
+    <string msgid="621604138442762130" name="message_image_content_description">"画像"</string>
+    <string msgid="8840394477993741203" name="message_size_label">"サイズ: "</string>
+    <string msgid="6527275493954932656" name="message_status_download">"ダウンロードするにはタップしてください"</string>
+    <string msgid="285219832844160" name="message_status_download_action">"ダウンロードまたは削除"</string>
+    <string msgid="6957738686287397519" name="message_status_download_error">"メッセージが期限切れか参照できなくなっています"</string>
+    <string msgid="7298035414448355842" name="message_status_download_failed">"再試行するにはタップしてください"</string>
+    <string msgid="7159807805159805428" name="message_status_downloading">"ダウンロードしています…"</string>
+    <string msgid="8009695010381848311" name="message_status_failed">"失敗しました"</string>
+    <string msgid="7718458416521355708" name="message_status_resend">"再送信または削除"</string>
+    <string msgid="5443627648028194631" name="message_status_send_failed">"送信されていません。タップしてもう一度お試しください。"</string>
+    <string msgid="1738854184297159948" name="message_status_send_failed_emergency_number">"緊急通報には音声通話を使用してください。テキストメッセージを配信できませんでした。"</string>
+    <string msgid="650840088043267981" name="message_status_send_retrying">"送信されていません。もう一度送信しています…"</string>
+    <string msgid="3306260780518886107" name="message_status_sending">"送信しています…"</string>
+    <string msgid="3867223594671090459" name="message_title_download_failed">"ダウンロードできませんでした"</string>
+    <string msgid="6418481644146460124" name="message_title_downloading">"新しいMMSメッセージ"</string>
+    <string msgid="2761223322277801061" name="message_title_manual_download">"ダウンロードする新しいMMSメッセージ"</string>
+    <string msgid="6442873901113487978" name="message_type_label">"形式: "</string>
+    <string msgid="8303890455085643301" name="mms_attachment_limit_reached">"添付ファイルの上限に達しました"</string>
+    <string msgid="5697191348996648727" name="mms_attachment_load_failed">"添付ファイルを読み込めませんでした。"</string>
+    <string msgid="6212773250215580849" name="mms_failure_outgoing_address">"メッセージの送信失敗: 無効な宛先アドレスです"</string>
+    <string msgid="919220273446626565" name="mms_failure_outgoing_content">"メッセージの送信失敗: サポートされていないコンテンツです"</string>
+    <string msgid="6132734324976690436" name="mms_failure_outgoing_corrupt">"メッセージの送信失敗: 無効なメッセージです"</string>
+    <string msgid="4662217039143124592" name="mms_failure_outgoing_service">"メッセージの送信失敗: サービスがネットワークで有効になっていません"</string>
+    <string msgid="3917966922000717407" name="mms_failure_outgoing_too_large">"メッセージの送信失敗: 大きすぎます"</string>
+    <string msgid="2614377585077448979" name="mms_failure_outgoing_unsupported">"メッセージの送信失敗: サポートされていないメッセージです"</string>
+    <string msgid="3402311750134118165" name="mms_info">"サイズ: <ns1:g id="MESSAGESIZE">%1$s</ns1:g>、期限: <ns1:g id="MESSAGEEXPIRE">%2$s</ns1:g>"</string>
+    <string msgid="4816815152658525660" name="mms_messaging_category_pref_title">"MMS"</string>
+    <string msgid="5445275222817760638" name="mms_phone_number_pref_title">"電話番号"</string>
+    <string msgid="1528791558806015806" name="mms_text">"MMS"</string>
+    <string msgid="643992135011109762" name="more_string">"+<ns1:g id="COUNT">%1$d</ns1:g>"</string>
+    <string name="mtrl_badge_numberless_content_description">新しい通知</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s を削除します</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">%1$d 件以上の新しい通知</string>
+    <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
+    <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
+    <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">日付を選択してください</string>
+    <string name="mtrl_picker_date_header_unselected">選択した日付</string>
+    <string name="mtrl_picker_day_of_week_column_header">曜日の列: %1$s</string>
+    <string name="mtrl_picker_invalid_format">形式が無効です。</string>
+    <string name="mtrl_picker_invalid_format_example">例: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用: %1$s</string>
+    <string name="mtrl_picker_invalid_range">範囲が無効です。</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s 年に移動</string>
+    <string name="mtrl_picker_out_of_range">範囲外: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">開始日～%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s～終了日</string>
+    <string name="mtrl_picker_range_header_selected">%1$s～%2$s</string>
+    <string name="mtrl_picker_range_header_title">期間を選択してください</string>
+    <string name="mtrl_picker_range_header_unselected">開始日～終了日</string>
+    <string name="mtrl_picker_save">保存</string>
+    <string name="mtrl_picker_text_input_date_hint">日付</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">終了日</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">開始日</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">カレンダー入力モードに切り替え</string>
+    <string name="mtrl_picker_toggle_to_day_selection">タップすると、日の選択に切り替わります</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">テキスト入力モードに切り替え</string>
+    <string name="mtrl_picker_toggle_to_year_selection">タップすると、年の選択に切り替わります</string>
+    <string msgid="2199989099980111684" name="multimedia_message">"マルチメディアメッセージ"</string>
+    <string msgid="4496962051601713843" name="next">"次へ"</string>
+    <string msgid="2840729397885031655" name="next_with_arrow">"次へ >"</string>
+    <string msgid="8583927728936521140" name="no_preferred_sim_selected">"SMSメッセージ送信用の優先SIMが選択されていません"</string>
+    <string msgid="5587715902648568767" name="no_subject">"（無題）"</string>
+    <string msgid="6573031135582639649" name="not_set">"未設定"</string>
+    <string msgid="5926581589398218150" name="notification_audio">"音声クリップ"</string>
+    <string msgid="1697982467160426345" name="notification_download_failures_line1_plural">"SMSの一部のメッセージがダウンロードされていません"</string>
+    <string msgid="4424772073720626885" name="notification_download_failures_line1_singular">"メッセージがダウンロードされていません"</string>
+    <string msgid="6206807985355359528" name="notification_download_mms">"ダウンロード"</string>
+    <string msgid="6311715277789488996" name="notification_emergency_send_failure_line1">"<ns1:g id="NUMBER">%1$s</ns1:g>へのメッセージは送信されませんでした"</string>
+    <string msgid="6461481033351036996" name="notification_emergency_send_failure_line2">"緊急通報には音声通話を使用してください。<ns1:g id="NUMBER">%1$s</ns1:g>へのテキストメッセージを配信できませんでした。"</string>
+    <string msgid="5203458459139408265" name="notification_off_toast_message">"通知をオフにしました"</string>
+    <string msgid="1240626023754746310" name="notification_on_toast_message">"通知をオンにしました"</string>
+    <string msgid="1176665337098921822" name="notification_picture">"写真"</string>
+    <string msgid="1836023392294480241" name="notification_reply_prompt">"返信"</string>
+    <string msgid="6706012871186064035" name="notification_reply_via_mms">"MMSで返信"</string>
+    <string msgid="6990127304684161722" name="notification_reply_via_sms">"SMSで返信"</string>
+    <string msgid="7228944748028969272" name="notification_send_failures_line1_plural">"SMSの一部のメッセージが送信されていません"</string>
+    <string msgid="6783835440207655217" name="notification_send_failures_line1_singular">"メッセージが送信されていません"</string>
+    <string msgid="3472521786709813414" name="notification_separator">"  "</string>
+    <string msgid="3685506528957337849" name="notification_sound_pref_title">"通知音"</string>
+    <string msgid="9007689386066977972" name="notification_space_separator">"  "</string>
+    <string msgid="5229975483160300625" name="notification_subject">"<ns1:g id="SUBJECT_LABEL">%1$s</ns1:g><ns1:g id="MESSAGETEXT">%2$s</ns1:g>"</string>
+    <string msgid="2027929074008933906" name="notification_ticker_separator">": "</string>
+    <string msgid="7658061674440552878" name="notification_vcard">"連絡先カード"</string>
+    <string msgid="6668564570045187390" name="notification_vibrate_pref_title">"バイブレーション"</string>
+    <string msgid="4331423498662606204" name="notification_video">"動画"</string>
+    <string msgid="1492686092760478206" name="notifications_enabled_conversation_pref_title">"通知"</string>
+    <string msgid="4127288731844373795" name="notifications_enabled_pref_title">"通知"</string>
+    <string msgid="1403198418131594073" name="numeric_text_keyboard_toggle_button_content_description">"文字と数字の入力を切り替える"</string>
+    <string msgid="6985644411445605747" name="one_on_one_incoming_failed_message_prefix">"<ns1:g id="SENDER">%1$s</ns1:g>からのメッセージ「<ns1:g id="MESSAGE">%2$s</ns1:g>」を受信できませんでした（時間: <ns1:g id="TIME">%3$s</ns1:g>）。"</string>
+    <string msgid="6190814597935995703" name="one_on_one_incoming_successful_message_prefix">"<ns1:g id="SENDER">%1$s</ns1:g>からのメッセージ「<ns1:g id="MESSAGE">%2$s</ns1:g>」を受信しました（時間: <ns1:g id="TIME">%3$s</ns1:g>）。"</string>
+    <string msgid="8721053088385740646" name="one_on_one_outgoing_draft_message_prefix">"<ns1:g id="CONTACT">%1$s</ns1:g>へのメッセージ「<ns1:g id="MESSAGE">%2$s</ns1:g>」が送信されていません（時間: <ns1:g id="TIME">%3$s</ns1:g>）。"</string>
+    <string msgid="7194065651879454314" name="one_on_one_outgoing_failed_message_prefix">"<ns1:g id="CONTACT">%1$s</ns1:g>へのメッセージ「<ns1:g id="MESSAGE">%2$s</ns1:g>」を送信できませんでした（時間: <ns1:g id="TIME">%3$s</ns1:g>）。"</string>
+    <string msgid="3929653530203574220" name="one_on_one_outgoing_sending_message_prefix">"<ns1:g id="CONTACT">%1$s</ns1:g>へのメッセージ「<ns1:g id="MESSAGE">%2$s</ns1:g>」を送信しています（時間: <ns1:g id="TIME">%3$s</ns1:g>）。"</string>
+    <string msgid="7128492863867327814" name="one_on_one_outgoing_successful_message_prefix">"<ns1:g id="CONTACT">%1$s</ns1:g>へのメッセージ「<ns1:g id="MESSAGE">%2$s</ns1:g>」を送信しました（時間: <ns1:g id="TIME">%3$s</ns1:g>）。"</string>
+    <string msgid="5983163141994434778" name="outgoing_sender_content_description">"メッセージを送信しました"</string>
+    <string msgid="3492116976256510272" name="outgoing_text_sender_content_description">"メッセージ内容"</string>
+    <string msgid="8624855187574757110" name="participant_list_title">"このスレッドのユーザー"</string>
+    <string name="password_toggle_content_description">パスワードを表示</string>
+    <string msgid="5443749025829291736" name="people_and_options_activity_title">"ユーザーとオプション"</string>
+    <string msgid="6556006393051918135" name="photo_view_activity_title">"SMSの写真"</string>
+    <string msgid="3972196711827497300" name="photo_view_count">"<ns1:g id="CURRENT_POS">%1$d</ns1:g>/<ns1:g id="COUNT">%2$d</ns1:g>"</string>
+    <string msgid="132845956503874378" name="pick_image_from_document_library_content_description">"ドキュメントライブラリから画像を選択"</string>
+    <string msgid="8961547034116059566" name="plus_n">"、他%d人"</string>
+    <string msgid="9010288417554932581" name="plus_one">"、他1人"</string>
+    <string msgid="6632467048088811568" name="posted_just_now">"たった今"</string>
+    <string msgid="867560789350406701" name="posted_now">"今"</string>
+    <string msgid="6685851473431805375" name="preference_copied">"「<ns1:g id="SUMMARY">%1$s</ns1:g>」をクリップボードにコピーしました。"</string>
+    <string msgid="728836357310908368" name="priority_high">"高"</string>
+    <string msgid="5029073794896222902" name="priority_label">"優先度: "</string>
+    <string msgid="7398724779026801851" name="priority_low">"低"</string>
+    <string msgid="8918221917628753075" name="priority_normal">"標準"</string>
+    <string msgid="4442494712757995203" name="received_label">"受信: "</string>
+    <string msgid="1819710673158265515" name="recipient_hint">"宛先"</string>
+    <string msgid="7769636305626277844" name="recommend_set_default_sms_app">"メッセージを受信するには、SMSを既定のSMSアプリとして設定してください"</string>
+    <string msgid="2967630094609648609" name="reply_activity_title">"返信"</string>
+    <string msgid="3898014894175251590" name="required_permissions_promo">"SMSには、SMS、電話、連絡先に対する許可が必要です。"</string>
+    <string msgid="7477365167876194810" name="requires_default_sms_app">"SMSを既定のSMSアプリとして設定してください"</string>
+    <string msgid="171048611973157166" name="requires_default_sms_app_to_send">"送信するには、SMSを既定のSMSアプリとして設定してください"</string>
+    <string msgid="6717443481161057941" name="requires_default_sms_change_button">"変更"</string>
+    <string msgid="8601569832171759435" name="requires_sms_permissions_close_button">"OK"</string>
+    <string msgid="2179684358095980506" name="requires_sms_permissions_message">"このアプリは端末の所有者によって許可されていません。"</string>
+    <string msgid="7180447255249638396" name="restore_default_apn">"デフォルトのAPN設定を復元しています。"</string>
+    <string msgid="7421687541468349715" name="restore_default_apn_completed">"デフォルトのAPN設定にリセットしました。"</string>
+    <string msgid="3791698559547529232" name="retry">"再試行"</string>
+    <string msgid="5081141452059463572" name="save">"保存"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"検索"</string>
+    <string msgid="2386669280323553032" name="secondary_user_new_message_ticker">"新しいメッセージがあります。"</string>
+    <string msgid="201938947573987596" name="secondary_user_new_message_title">"新しいメッセージ"</string>
+    <string msgid="4504796674843354505" name="selected_sim_content_message">"<ns1:g id="SELECTED_SIM">%s</ns1:g>が選択されています"</string>
+    <string msgid="8422114979691093956" name="sendButtonContentDescription">"メッセージを送信"</string>
+    <string msgid="979624100711380593" name="send_button_long_click_description_no_sim_selector">"件名を編集"</string>
+    <string msgid="7670274457707760465" name="send_button_long_click_description_with_sim_selector">"SIMを選択するか件名を編集します"</string>
+    <string msgid="5273892629851390023" name="send_message_failure">"メッセージを送信できませんでした"</string>
+    <string msgid="3966519541237053840" name="send_message_failure_airplane_mode">"機内モードではメッセージを送信できません"</string>
+    <string msgid="7404080465234559802" name="send_message_failure_no_data">"モバイルデータがOFFになっています。設定を確認してください。"</string>
+    <string msgid="4088006261869323324" name="send_message_success">"メッセージを送信しました"</string>
+    <string msgid="6284747469983942370" name="send_sound_pref_title">"メッセージ送信音"</string>
+    <string msgid="6363584950085384929" name="sending_message">"メールを送信しています"</string>
+    <string msgid="5186286057597137301" name="sent_label">"送信: "</string>
+    <string msgid="8350935323904134751" name="service_message_not_found">"メッセージが期限切れか参照できなくなっています"</string>
+    <string msgid="3765738916704013318" name="service_network_problem">"ネットワークに問題があるため送信できませんでした"</string>
+    <string msgid="5512558652052977817" name="service_not_activated">"サービスがネットワークで有効になっていません"</string>
+    <string msgid="1045695083932447399" name="settings">"設定"</string>
+    <string msgid="3380813834835334258" name="settings_activity_title">"設定"</string>
+    <string msgid="8534633224579301342" name="settings_with_arrow">"設定 >"</string>
+    <string msgid="6666929391961668469" name="share_cancel">"キャンセル"</string>
+    <string msgid="2939454246983196756" name="share_intent_activity_label">"会話の選択"</string>
+    <string msgid="6920483598866144717" name="share_intent_label">"メッセージ"</string>
+    <string msgid="2135955613694195483" name="share_new_message">"新しいメッセージ"</string>
+    <string msgid="8073534180322059814" name="silent_ringtone">"マナーモード"</string>
+    <string msgid="2706003016582772108" name="sim_label">"SIM: "</string>
+    <string msgid="2407660715957787727" name="sim_selector_button_content_description">"SIMの切り替え"</string>
+    <string msgid="4042539046779910617" name="sim_selector_button_content_description_with_selection">"SIMの切り替え（<ns1:g id="SIM_0">%1$s</ns1:g>を選択済み）"</string>
+    <string msgid="1885996389432991383" name="sim_settings_unknown_number">"不明な番号"</string>
+    <string msgid="5934005977415016295" name="sim_slot_identifier">"SIM <ns1:g id="SIM_SLOT_NUMBER">%s</ns1:g>"</string>
+    <string msgid="948779178668552448" name="sim_specific_settings">"「<ns1:g id="SIM_NAME">%s</ns1:g>」SIM"</string>
+    <string msgid="7238879696319945853" name="skip">"スキップ"</string>
+    <string msgid="1351513141821300879" name="sms_apns_title">"アクセスポイント名"</string>
+    <string msgid="4988773371061820432" name="sms_disabled">"SMSは無効になっています"</string>
+    <string msgid="6352764741524717132" name="sms_disabled_pref_title">"既定のSMSアプリ"</string>
+    <string msgid="2961457081888153323" name="sms_enabled_pref_title">"既定のSMSアプリ"</string>
+    <string msgid="8836401937872068406" name="sms_storage_low_auto_delete_enabled_dialog_text">"端末の空き容量が少なくなっています。SMSでは空き容量を確保するため古いメッセージが自動的に削除されます。"</string>
+    <string msgid="2393739822170029830" name="sms_storage_low_notification_ticker">"SMSの空き容量が少なくなっています。メッセージの削除が必要な場合があります。"</string>
+    <string msgid="7036247475855447830" name="sms_storage_low_text">"端末上の空き容量が増えるまで、SMSでメッセージの送受信ができない場合があります。"</string>
+    <string msgid="7985379565293259177" name="sms_storage_low_title">"空き容量が少なくなっています"</string>
+    <string msgid="7140970704902570020" name="snack_bar_retry">"再試行"</string>
+    <string msgid="4523395751563700308" name="snack_bar_undo">"元に戻す"</string>
+    <string msgid="7984539515326392793" name="start_conversation">"開始"</string>
+    <string msgid="3924471215595992758" name="start_new_conversation">"新しいスレッドを開始"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="1887378451808609152" name="subject_label">"件名: "</string>
+    <string msgid="446082111129170749" name="subtitle_format_for_version_number">"バージョン%1$s"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>、<ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="7591682335533041774" name="tap_to_configure">"スレッドを削除しました。タップしてSMSの別のスレッドを表示します"</string>
+    <string msgid="1284284144816901647" name="tap_to_unblock_message">"ブロックを解除"</string>
+    <string msgid="7415419755252205721" name="text_message">"テキストメッセージ"</string>
+    <string msgid="3827868765772315200" name="titles">"<ns1:g id="TITLE_0">%1$s</ns1:g>（<ns1:g id="SUBTITLE">%2$s</ns1:g>）"</string>
+    <string msgid="1816631887533235762" name="to_address_label">"To: "</string>
+    <string msgid="2923745971897322476" name="toast_after_setting_default_sms_app">"SMSを既定のSMSアプリとして設定しました。"</string>
+    <string msgid="2767997591700713113" name="toast_after_setting_default_sms_app_for_message_send">"すべて設定されました。もう一度[送信]をタップしてください。"</string>
+    <string msgid="5857516461210932810" name="too_many_participants">"スレッドへの参加者が多すぎます"</string>
+    <string msgid="5010777423084203833" name="unarchived_toast_message">"<ns1:g id="COUNT">%d</ns1:g>件のアーカイブを解除しました"</string>
+    <string msgid="4719854710980066596" name="unblock_contact_title">"<ns1:g id="DESTINATION">%s</ns1:g>さんのブロックを解除"</string>
+    <string msgid="4927617874263586622" name="unblocked_toast_message">"連絡先をブロック解除し、アーカイブを解除しました"</string>
+    <string msgid="5191326096424554297" name="unknown_phone_number_pref_display_value">"不明"</string>
+    <string msgid="3186565052350548852" name="unknown_self_participant">"自分"</string>
+    <string msgid="504272434917395677" name="unknown_sender">"送信者不明"</string>
+    <string msgid="3110576506102839465" name="untitled_apn">"無題"</string>
+    <string msgid="4577227174205233981" name="update_destination_blocked">"ブロックしました"</string>
+    <string msgid="5369499874676600478" name="update_destination_unblocked">"ブロックを解除しました"</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"OFF"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"ON"</string>
+    <string msgid="591540798943754991" name="vcard_detail_activity_title">"連絡先カード"</string>
+    <string msgid="7196021537629120021" name="vcard_detail_birthday_label">"誕生日"</string>
+    <string msgid="6104179009509800126" name="vcard_detail_notes_label">"メモ"</string>
+    <string msgid="4940284329175200952" name="vcard_tap_hint">"連絡先カードを表示"</string>
+    <string msgid="8545536951461996462" name="video_attachment_limit_exceeded_when_sending">"送信できる動画は1件のメッセージにつき1本までです。追加した動画を削除してもう一度お試しください。"</string>
+    <string msgid="3506938388391260811" name="video_thumbnail_view_play_button_content_description">"動画を再生"</string>
+    <string msgid="7417596291306885403" name="view_blocked_contacts_title">"ブロック中の連絡先"</string>
+    <string msgid="2430542054023217740" name="view_more_conversations">"他のスレッドを見る"</string>
+    <string msgid="6463224009407336178" name="view_more_messages">"他のメールを見る"</string>
+    <string msgid="2857560951820802321" name="welcome">"ようこそ"</string>
+    <string msgid="4137121313374868821" name="widget_conversation_list_content_description">"スレッドリスト"</string>
+    <string msgid="4005037639000611925" name="widget_conversation_list_name">"SMSリスト"</string>
+    <string msgid="3900606239571892871" name="widget_conversation_name">"SMS"</string>
+    <string msgid="4214201569175733579" name="widget_new_conversation_content_description">"新しいスレッドを開始"</string>
+    <string msgid="2706347689522691188" name="widget_new_message_content_description">"新しいメッセージ"</string>
+    <string msgid="5802836840910466231" name="widget_title_content_description">"SMS"</string>
+    <string msgid="8218925605166939654" name="wireless_alerts_title">"無線警報"</string>
+</resources>

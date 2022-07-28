@@ -1,0 +1,21 @@
+Executable : D:\SDK\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HC:\Users\30337\Desktop\Messaging\framesequence\src\main\cpp
+-DCMAKE_FIND_ROOT_PATH=C:\Users\30337\Desktop\Messaging\framesequence\.cxx\cmake\release\prefab\armeabi-v7a\prefab
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_TOOLCHAIN_FILE=D:\SDK\ndk\24.0.8215888\build\cmake\android.toolchain.cmake
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_NDK=D:\SDK\ndk\24.0.8215888
+-DANDROID_PLATFORM=android-21
+-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a
+-DCMAKE_ANDROID_NDK=D:\SDK\ndk\24.0.8215888
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\30337\Desktop\Messaging\framesequence\build\intermediates\cmake\release\obj\armeabi-v7a
+-DCMAKE_MAKE_PROGRAM=D:\SDK\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=21
+-BC:\Users\30337\Desktop\Messaging\framesequence\.cxx\cmake\release\armeabi-v7a
+-GNinja
+jvmArgs : 
+
+Build command args:

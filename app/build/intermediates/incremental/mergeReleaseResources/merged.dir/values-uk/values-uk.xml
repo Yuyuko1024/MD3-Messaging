@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="empty_subject_strings">
+    <item msgid="8900116186849071724">"без теми"</item>
+    <item msgid="272485471009191934">"без теми"</item>
+  </string-array>
+    <string-array name="notification_reply_choices">
+    <item msgid="1875991048685328264">"Так"</item>
+    <item msgid="6049132459802288033">"Ні"</item>
+    <item msgid="3084376867445867895">"ОК"</item>
+    <item msgid="3155097332660174689">"Ха-ха-ха"</item>
+    <item msgid="2611328818571146775">"Дякую"</item>
+    <item msgid="4881335087096496747">"Погоджуюсь"</item>
+    <item msgid="2422296858597420738">"Чудово"</item>
+    <item msgid="4805581752819452687">"У дорозі"</item>
+    <item msgid="4746700499431366214">"Добре, я зателефоную пізніше"</item>
+    <item msgid="4342041517788201970">":)"</item>
+    <item msgid="7439437911747961187">":("</item>
+  </string-array>
+    <plurals formatted="false" msgid="782438833843363189" name="add_invalid_contact_error">
+      <item quantity="one">Недійсні контакти</item>
+      <item quantity="few">Недійсні контакти</item>
+      <item quantity="many">Недійсні контакти</item>
+      <item quantity="other">Недійсні контакти</item>
+    </plurals>
+    <plurals formatted="false" msgid="5592871135747616108" name="attachment_changed_accessibility_announcement">
+      <item quantity="one">Можна надсилати <ns1:g id="ATTACHMENT_COUNT">%d</ns1:g> вкладений файл</item>
+      <item quantity="few">Можна надсилати <ns1:g id="ATTACHMENT_COUNT">%d</ns1:g> вкладені файли</item>
+      <item quantity="many">Можна надсилати <ns1:g id="ATTACHMENT_COUNT">%d</ns1:g> вкладених файлів</item>
+      <item quantity="other">Можна надсилати <ns1:g id="ATTACHMENT_COUNT">%d</ns1:g> вкладеного файлу</item>
+    </plurals>
+    <plurals formatted="false" msgid="5631719319690969981" name="attachment_preview_close_content_description">
+      <item quantity="one">Видалити вкладені файли</item>
+      <item quantity="few">Видалити вкладені файли</item>
+      <item quantity="many">Видалити вкладені файли</item>
+      <item quantity="other">Видалити вкладені файли</item>
+    </plurals>
+    <plurals formatted="false" msgid="2068837227090109833" name="attachment_save_error">
+      <item quantity="one">Не вдалося зберегти <ns1:g id="QUANTITY_1">%d</ns1:g> вкладений файл</item>
+      <item quantity="few">Не вдалося зберегти <ns1:g id="QUANTITY_1">%d</ns1:g> вкладені файли</item>
+      <item quantity="many">Не вдалося зберегти <ns1:g id="QUANTITY_1">%d</ns1:g> вкладених файлів</item>
+      <item quantity="other">Не вдалося зберегти <ns1:g id="QUANTITY_1">%d</ns1:g> вкладеного файлу</item>
+    </plurals>
+    <plurals formatted="false" msgid="6925000482183379648" name="attachments_saved">
+      <item quantity="one">Збережено <ns1:g id="QUANTITY_1">%d</ns1:g> вкладений файл</item>
+      <item quantity="few">Збережено <ns1:g id="QUANTITY_1">%d</ns1:g> вкладені файли</item>
+      <item quantity="many">Збережено <ns1:g id="QUANTITY_1">%d</ns1:g> вкладених файлів</item>
+      <item quantity="other">Збережено <ns1:g id="QUANTITY_1">%d</ns1:g> вкладеного файлу</item>
+    </plurals>
+    <plurals formatted="false" msgid="8407480699515308929" name="attachments_saved_to_album">
+      <item quantity="one"><ns1:g id="QUANTITY_2">%d</ns1:g> вкладений файл збережено в альбом \"<ns1:g id="ALBUMNAME_3">%s</ns1:g>\"</item>
+      <item quantity="few"><ns1:g id="QUANTITY_2">%d</ns1:g> вкладені файли збережено в альбом \"<ns1:g id="ALBUMNAME_3">%s</ns1:g>\"</item>
+      <item quantity="many"><ns1:g id="QUANTITY_2">%d</ns1:g> вкладених файлів збережено в альбом \"<ns1:g id="ALBUMNAME_3">%s</ns1:g>\"</item>
+      <item quantity="other"><ns1:g id="QUANTITY_2">%d</ns1:g> вкладеного файлу збережено в альбом \"<ns1:g id="ALBUMNAME_3">%s</ns1:g>\"</item>
+    </plurals>
+    <plurals formatted="false" msgid="1886864019411801995" name="attachments_saved_to_downloads">
+      <item quantity="one"><ns1:g id="QUANTITY_1">%d</ns1:g> вкладений файл збережено в папку \"Завантаження\"</item>
+      <item quantity="few"><ns1:g id="QUANTITY_1">%d</ns1:g> вкладені файли збережено в папку \"Завантаження\"</item>
+      <item quantity="many"><ns1:g id="QUANTITY_1">%d</ns1:g> вкладених файлів збережено в папку \"Завантаження\"</item>
+      <item quantity="other"><ns1:g id="QUANTITY_1">%d</ns1:g> вкладеного файлу збережено в папку \"Завантаження\"</item>
+    </plurals>
+    <plurals formatted="false" msgid="1778518334602418000" name="compose_message_view_hint_text_attachments">
+      <item quantity="one">Надіслати вкладені файли</item>
+      <item quantity="few">Надіслати вкладені файли</item>
+      <item quantity="many">Надіслати вкладені файли</item>
+      <item quantity="other">Надіслати вкладені файли</item>
+    </plurals>
+    <plurals formatted="false" msgid="5934090345811195170" name="compose_message_view_hint_text_audio">
+      <item quantity="one">Надіслати аудіозаписи</item>
+      <item quantity="few">Надіслати аудіозаписи</item>
+      <item quantity="many">Надіслати аудіозаписи</item>
+      <item quantity="other">Надіслати аудіозаписи</item>
+    </plurals>
+    <plurals formatted="false" msgid="8937589900456604618" name="compose_message_view_hint_text_photo">
+      <item quantity="one">Надіслати фото</item>
+      <item quantity="few">Надіслати фото</item>
+      <item quantity="many">Надіслати фото</item>
+      <item quantity="other">Надіслати фото</item>
+    </plurals>
+    <plurals formatted="false" msgid="933064969858631242" name="compose_message_view_hint_text_vcard">
+      <item quantity="one">Надіслати картки контактів</item>
+      <item quantity="few">Надіслати картки контактів</item>
+      <item quantity="many">Надіслати картки контактів</item>
+      <item quantity="other">Надіслати картки контактів</item>
+    </plurals>
+    <plurals formatted="false" msgid="9188048653766960507" name="compose_message_view_hint_text_video">
+      <item quantity="one">Надіслати відео</item>
+      <item quantity="few">Надіслати відео</item>
+      <item quantity="many">Надіслати відео</item>
+      <item quantity="other">Надіслати відео</item>
+    </plurals>
+    <plurals formatted="false" msgid="2285567882353326800" name="delete_conversations_confirmation_dialog_title">
+      <item quantity="one">Видалити ці ланцюжки повідомлень?</item>
+      <item quantity="few">Видалити ці ланцюжки повідомлень?</item>
+      <item quantity="many">Видалити ці ланцюжки повідомлень?</item>
+      <item quantity="other">Видалити ці ланцюжки повідомлень?</item>
+    </plurals>
+    <plurals formatted="false" msgid="4858515363324110232" name="month_count">
+      <item quantity="one"><ns1:g id="COUNT">%d</ns1:g> місяць</item>
+      <item quantity="few"><ns1:g id="COUNT">%d</ns1:g> місяці</item>
+      <item quantity="many"><ns1:g id="COUNT">%d</ns1:g> місяців</item>
+      <item quantity="other"><ns1:g id="COUNT">%d</ns1:g> місяця</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d нове сповіщення</item>
+    <item quantity="few">%d нові сповіщення</item>
+    <item quantity="many">%d нових сповіщень</item>
+    <item quantity="other">%d нового сповіщення</item>
+  </plurals>
+    <plurals formatted="false" msgid="5341490525457911398" name="notification_download_failures">
+      <item quantity="one"><ns1:g id="MESSAGES_1">%d</ns1:g> повідомлення в ланцюжках (<ns1:g id="CONVERSATIONS">%d</ns1:g>)</item>
+      <item quantity="few"><ns1:g id="MESSAGES_1">%d</ns1:g> повідомлення в ланцюжках (<ns1:g id="CONVERSATIONS">%d</ns1:g>)</item>
+      <item quantity="many"><ns1:g id="MESSAGES_1">%d</ns1:g> повідомлень у ланцюжках (<ns1:g id="CONVERSATIONS">%d</ns1:g>)</item>
+      <item quantity="other"><ns1:g id="MESSAGES_1">%d</ns1:g> повідомлення в ланцюжках (<ns1:g id="CONVERSATIONS">%d</ns1:g>)</item>
+    </plurals>
+    <plurals formatted="false" msgid="610594317958128842" name="notification_new_messages">
+      <item quantity="one"><ns1:g id="MESSAGES">%d</ns1:g> нове повідомлення</item>
+      <item quantity="few"><ns1:g id="MESSAGES">%d</ns1:g> нові повідомлення</item>
+      <item quantity="many"><ns1:g id="MESSAGES">%d</ns1:g> нових повідомлень</item>
+      <item quantity="other"><ns1:g id="MESSAGES">%d</ns1:g> нового повідомлення</item>
+    </plurals>
+    <plurals formatted="false" msgid="6938919932879650691" name="notification_send_failures">
+      <item quantity="one"><ns1:g id="MESSAGES_1">%d</ns1:g> повідомлення в ланцюжках (<ns1:g id="CONVERSATIONS">%d</ns1:g>)</item>
+      <item quantity="few"><ns1:g id="MESSAGES_1">%d</ns1:g> повідомлення в ланцюжках (<ns1:g id="CONVERSATIONS">%d</ns1:g>)</item>
+      <item quantity="many"><ns1:g id="MESSAGES_1">%d</ns1:g> повідомлень у ланцюжках (<ns1:g id="CONVERSATIONS">%d</ns1:g>)</item>
+      <item quantity="other"><ns1:g id="MESSAGES_1">%d</ns1:g> повідомлення в ланцюжках (<ns1:g id="CONVERSATIONS">%d</ns1:g>)</item>
+    </plurals>
+    <plurals formatted="false" msgid="8753803762044567843" name="num_days_ago">
+      <item quantity="one"><ns1:g id="COUNT_1">%d</ns1:g> день</item>
+      <item quantity="few"><ns1:g id="COUNT_1">%d</ns1:g> дні</item>
+      <item quantity="many"><ns1:g id="COUNT_1">%d</ns1:g> днів</item>
+      <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g> дня</item>
+    </plurals>
+    <plurals formatted="false" msgid="8010868301590914325" name="num_hours_ago">
+      <item quantity="one"><ns1:g id="COUNT_1">%d</ns1:g> година</item>
+      <item quantity="few"><ns1:g id="COUNT_1">%d</ns1:g> години</item>
+      <item quantity="many"><ns1:g id="COUNT_1">%d</ns1:g> годин</item>
+      <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g> години</item>
+    </plurals>
+    <plurals formatted="false" msgid="4085627474543076735" name="num_minutes_ago">
+      <item quantity="one"><ns1:g id="COUNT_1">%d</ns1:g> хвилина</item>
+      <item quantity="few"><ns1:g id="COUNT_1">%d</ns1:g> хвилини</item>
+      <item quantity="many"><ns1:g id="COUNT_1">%d</ns1:g> хвилин</item>
+      <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g> хвилини</item>
+    </plurals>
+    <plurals formatted="false" msgid="7529478299745446838" name="photos_saved_to_album">
+      <item quantity="one"><ns1:g id="QUANTITY_2">%d</ns1:g> фотографію збережено в альбом \"<ns1:g id="ALBUMNAME_3">%s</ns1:g>\"</item>
+      <item quantity="few"><ns1:g id="QUANTITY_2">%d</ns1:g> фотографії збережено в альбом \"<ns1:g id="ALBUMNAME_3">%s</ns1:g>\"</item>
+      <item quantity="many"><ns1:g id="QUANTITY_2">%d</ns1:g> фотографій збережено в альбом \"<ns1:g id="ALBUMNAME_3">%s</ns1:g>\"</item>
+      <item quantity="other"><ns1:g id="QUANTITY_2">%d</ns1:g> фотографії збережено в альбом \"<ns1:g id="ALBUMNAME_3">%s</ns1:g>\"</item>
+    </plurals>
+    <plurals formatted="false" msgid="2884224435488996028" name="vcard_multiple_display_name">
+      <item quantity="one"><ns1:g id="COUNT_1">%d</ns1:g> контакт</item>
+      <item quantity="few"><ns1:g id="COUNT_1">%d</ns1:g> контакти</item>
+      <item quantity="many"><ns1:g id="COUNT_1">%d</ns1:g> контактів</item>
+      <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g> контакта</item>
+    </plurals>
+    <plurals formatted="false" msgid="6821121808257576788" name="videos_saved_to_album">
+      <item quantity="one"><ns1:g id="QUANTITY_2">%d</ns1:g> відео збережено в альбом \"<ns1:g id="ALBUMNAME_3">%s</ns1:g>\"</item>
+      <item quantity="few"><ns1:g id="QUANTITY_2">%d</ns1:g> відео збережено в альбом \"<ns1:g id="ALBUMNAME_3">%s</ns1:g>\"</item>
+      <item quantity="many"><ns1:g id="QUANTITY_2">%d</ns1:g> відео збережено в альбом \"<ns1:g id="ALBUMNAME_3">%s</ns1:g>\"</item>
+      <item quantity="other"><ns1:g id="QUANTITY_2">%d</ns1:g> відео збережено в альбом \"<ns1:g id="ALBUMNAME_3">%s</ns1:g>\"</item>
+    </plurals>
+    <plurals formatted="false" msgid="3037889420270036143" name="wearable_participant_count">
+      <item quantity="one"><ns1:g id="COUNT_1">%d</ns1:g> учасник</item>
+      <item quantity="few"><ns1:g id="COUNT_1">%d</ns1:g> учасники</item>
+      <item quantity="many"><ns1:g id="COUNT_1">%d</ns1:g> учасників</item>
+      <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g> учасника</item>
+    </plurals>
+    <plurals formatted="false" msgid="1301973226125551953" name="week_count">
+      <item quantity="one"><ns1:g id="COUNT">%d</ns1:g> тиждень</item>
+      <item quantity="few"><ns1:g id="COUNT">%d</ns1:g> тижні</item>
+      <item quantity="many"><ns1:g id="COUNT">%d</ns1:g> тижнів</item>
+      <item quantity="other"><ns1:g id="COUNT">%d</ns1:g> тижня</item>
+    </plurals>
+    <plurals formatted="false" msgid="4522546496183798317" name="year_count">
+      <item quantity="one"><ns1:g id="COUNT">%d</ns1:g> рік</item>
+      <item quantity="few"><ns1:g id="COUNT">%d</ns1:g> роки</item>
+      <item quantity="many"><ns1:g id="COUNT">%d</ns1:g> років</item>
+      <item quantity="other"><ns1:g id="COUNT">%d</ns1:g> року</item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Перейти на головну"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Перейти вгору"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Більше опцій"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Показати всі"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Вибрати програму"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ЗНИЖКА"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"УВІМК."</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"пробіл"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Введіть пошуковий запит…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Очистити запит"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Пошуковий запит"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Пошук"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Наіслати запит"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Голосовий пошук"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Поділитися:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Поділитися через додаток <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Згорнути"</string>
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">"Немає доступних пропозицій"</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">"Пропозиції контактів увімкнено"</string>
+    <string msgid="8248615862739848672" name="action_add_contact">"Додати контакт"</string>
+    <string msgid="5437034800324083170" name="action_archive">"Архів"</string>
+    <string msgid="9032076625645190136" name="action_block">"Заблокувати"</string>
+    <string msgid="6596167921517350362" name="action_call">"Телефонувати"</string>
+    <string msgid="1840519376200478419" name="action_close">"Закрити"</string>
+    <string msgid="8283370294120913166" name="action_confirm_multiselect">"Підтвердити вибір"</string>
+    <string msgid="3787494008738625806" name="action_confirm_selection">"Підтвердити вибір"</string>
+    <string msgid="2440658410677323714" name="action_debug_options">"Налагодження"</string>
+    <string msgid="4076795795307486019" name="action_delete">"Видалити"</string>
+    <string msgid="2728883749416365507" name="action_delete_message">"Видалити"</string>
+    <string msgid="7786338136368564146" name="action_download">"Завантажити"</string>
+    <string msgid="7172664623795021857" name="action_label">"Назад"</string>
+    <string msgid="1628518043533374868" name="action_menu_show_archived">"Архів"</string>
+    <string msgid="1219683118692013380" name="action_multiselect">"Вибрати кілька зображень"</string>
+    <string msgid="4823658797441716246" name="action_notification_off">"Вимкнути сповіщення"</string>
+    <string msgid="8244389452685364211" name="action_notification_on">"Увімкнути сповіщення"</string>
+    <string msgid="2748020184252106661" name="action_people_and_options">"Учасники й опції"</string>
+    <string msgid="377635240181672039" name="action_send">"Надіслати"</string>
+    <string msgid="1329008122345201684" name="action_settings">"Налаштування"</string>
+    <string msgid="2143483844803153871" name="action_share">"Поділитися"</string>
+    <string msgid="139681611159869493" name="action_unarchive">"Розархівувати"</string>
+    <string msgid="2355153262520375529" name="activity_not_found_message">"Не вдалося знайти відповідний додаток"</string>
+    <string msgid="1479380805406328264" name="add_contact_confirmation">"Додати контакт"</string>
+    <string msgid="1898307408816625598" name="add_contact_confirmation_dialog_title">"Додати в контакти?"</string>
+    <string msgid="12460574490350327" name="add_more_participants_button_content_description">"Додати більше учасників"</string>
+    <string msgid="6411454224069259687" name="advanced_category_pref_title">"Додатково"</string>
+    <string msgid="5870459931510000742" name="advanced_settings">"Розширені"</string>
+    <string msgid="7397017836928206201" name="advanced_settings_activity_title">"Додаткові налаштування"</string>
+    <string msgid="1197541953189716999" name="apn_apn">"Назва точки доступу"</string>
+    <string msgid="2134993966166435648" name="apn_edit">"Редагування точки доступу"</string>
+    <string msgid="8102023058623950736" name="apn_mcc">"MCC"</string>
+    <string msgid="6181253508404620479" name="apn_mms_port">"Порт MMS"</string>
+    <string msgid="4343743931563107100" name="apn_mms_proxy">"Проксі MMS"</string>
+    <string msgid="2584154739440281747" name="apn_mmsc">"MMSC"</string>
+    <string msgid="1372437523197012866" name="apn_mnc">"MNC"</string>
+    <string msgid="1572691851070894985" name="apn_name">"Назва"</string>
+    <string msgid="463728018542184151" name="apn_not_set">"Не вказано"</string>
+    <string msgid="3179955111000379490" name="apn_settings">"Назви точок доступу"</string>
+    <string msgid="5136389328322585717" name="apn_settings_not_available">"Цей користувач не може вказувати назву точки доступу"</string>
+    <string msgid="8409755622399386584" name="apn_type">"Тип назви точки доступу"</string>
+    <string msgid="3062916848713424329" name="app_name">"Повідомлення"</string>
+    <string msgid="4738212324460451188" name="archived_activity_title">"Архів"</string>
+    <string msgid="6109126963298874571" name="archived_conversation_list_empty_text">"Тут відображаються заархівовані бесіди"</string>
+    <string msgid="8109348891515322512" name="archived_toast_message">"Заархівовано: <ns1:g id="COUNT">%d</ns1:g>"</string>
+    <string msgid="2758624209216276682" name="attachMediaButtonContentDescription">"Вкласти файл"</string>
+    <string msgid="4049093653421684774" name="attachment_chooser_activity_title">"Вибрати вкладені файли"</string>
+    <string msgid="3616821885478549778" name="attachment_chooser_selection">"Вибрано <ns1:g id="COUNT">%d</ns1:g>"</string>
+    <string msgid="3056972820372291694" name="attachment_file_description">"Вкладення з MMS збережено"</string>
+    <string msgid="2983376679583030373" name="attachment_limit_reached_dialog_message_when_composing">"Видаліть один або декілька вкладених файлів і повторіть спробу."</string>
+    <string msgid="3917529855170816197" name="attachment_limit_reached_dialog_message_when_sending">"Спробуйте надіслати повідомлення, але адресат може його не отримати, якщо ви не видалите один або декілька вкладених файлів."</string>
+    <string msgid="2348790618093735551" name="attachment_limit_reached_send_anyway">"Усе одно надіслати"</string>
+    <string msgid="4917927407363303333" name="attachment_load_failed_dialog_message">"Не вдалося завантажити вкладенні файли."</string>
+    <string msgid="2861573099241369958" name="attachment_more_items">"+<ns1:g id="COUNT">%d</ns1:g>"</string>
+    <string msgid="499334244765270108" name="audio_attachment_content_description">"Вкладений аудіофайл"</string>
+    <string msgid="7578169887065513701" name="audio_pause_content_description">"Пауза"</string>
+    <string msgid="6986250080467111491" name="audio_picker_hint_text">"Натисніть і утримуйте"</string>
+    <string msgid="4932509227281251607" name="audio_play_content_description">"Відтворити аудіовкладення"</string>
+    <string msgid="29401157183728655" name="audio_record_view_content_description">"Торкніться й утримуйте, щоб записати аудіо"</string>
+    <string msgid="7762310055059024872" name="audio_recording_error">"Не вдалося зберегти аудіо. Повторіть спробу."</string>
+    <string msgid="3585760856463273828" name="audio_recording_replay_failed">"Не вдається відтворити аудіо. Повторіть спробу."</string>
+    <string msgid="4442450764642560851" name="audio_recording_start_failed">"Не вдається записати аудіо. Повторіть спробу."</string>
+    <string msgid="7766679943833404968" name="auto_delete_oldest_messages">"Автоматично видаляти повідомлення, отримані понад <ns1:g id="DURATION">%s</ns1:g> тому"</string>
+    <string msgid="9071499976729145269" name="auto_delete_oldest_messages_confirmation">"Видаляти повідомлення, отримані понад <ns1:g id="DURATION">%s</ns1:g> тому й увімкнути автоматичне видалення?"</string>
+    <string msgid="2253902455786205335" name="auto_retrieve_mms_pref_summary">"Автоматично отримувати MMS-повідомлення"</string>
+    <string msgid="1316094876978218980" name="auto_retrieve_mms_pref_title">"Автоматичне отримання"</string>
+    <string msgid="7347177867673486983" name="auto_retrieve_mms_when_roaming_pref_summary">"Автоматично отримувати MMS у роумінгу"</string>
+    <string msgid="2918775628609759349" name="auto_retrieve_mms_when_roaming_pref_title">"Автоотримання в роумінгу"</string>
+    <string msgid="1477626055115561645" name="back">"Назад"</string>
+    <string msgid="185429978461824228" name="block_confirmation_message">"Ви надалі отримуватимете повідомлення з цього номера, але не отримуватимете сповіщення. Цю бесіду буде заархівовано."</string>
+    <string msgid="8288283455512985682" name="block_confirmation_title">"Заблокувати номер <ns1:g id="DESTINATION">%s</ns1:g>?"</string>
+    <string msgid="6968382557194643329" name="block_contact_title">"Блокувати користувача <ns1:g id="DESTINATION">%s</ns1:g>"</string>
+    <string msgid="7709164518967312281" name="blocked_contacts_title">"Заблоковані контакти"</string>
+    <string msgid="2560554234438548817" name="blocked_pref_title">"Заблоковано"</string>
+    <string msgid="7903364256385612569" name="blocked_toast_message">"Користувача заблоковано та заархівовано"</string>
+    <string name="bottomsheet_action_expand_halfway">Розгорнути нижню половину</string>
+    <string msgid="6431544304743145818" name="camera_cancel_recording">"Зупинити запис відео"</string>
+    <string msgid="4894133709734862250" name="camera_error_failure_taking_picture">"Не вдається сфотографувати"</string>
+    <string msgid="2739332294400420426" name="camera_error_opening">"Камера недоступна"</string>
+    <string msgid="5536300789483863989" name="camera_error_storage_fail">"Не вдається зберегти медіафайли"</string>
+    <string msgid="4283956364220459608" name="camera_error_unknown">"Камера недоступна"</string>
+    <string msgid="994632067015578879" name="camera_error_video_init_fail">"Відеозйомка недоступна"</string>
+    <string msgid="6532763214546593687" name="camera_media_failure">"Не вдалося завантажити зображення з камери"</string>
+    <string msgid="1736478301191221786" name="camera_start_recording">"Почати запис відео"</string>
+    <string msgid="5331592576107271152" name="camera_stop_recording">"Зупинити запис і долучити відео"</string>
+    <string msgid="1566112129296559159" name="camera_switch_camera_facing">"Переключатися між камерами на передній і задній панелях"</string>
+    <string msgid="6156039742035097276" name="camera_switch_full_screen">"Показувати зображення з камери на весь екран"</string>
+    <string msgid="4419617715199157958" name="camera_switch_to_still_mode">"Зняти статичне зображення"</string>
+    <string msgid="2926868205952641428" name="camera_switch_to_video_mode">"Зняти відео"</string>
+    <string msgid="2573317952200799489" name="camera_take_picture">"Зробити знімок"</string>
+    <string msgid="4301887223941009907" name="cant_send_message_while_loading_attachments">"Неможливо надіслати повідомлення під час завантаження вкладених файлів."</string>
+    <string msgid="7130532514190813716" name="cant_send_message_without_active_subscription">"Мережа не готова. Повторіть спробу."</string>
+    <string msgid="3796492439123251453" name="carrier_send_error">"Не вдається надіслати повідомлення. Помилка <ns1:g id="ERRORCODE">%2$d</ns1:g>, оператор <ns1:g id="CARRIERNAME">%1$s</ns1:g>"</string>
+    <string msgid="1210665032244425938" name="carrier_send_error_unknown_carrier">"Не вдається надіслати повідомлення. Помилка <ns1:g id="ERRORCODE">%1$d</ns1:g>, невідомий оператор"</string>
+    <string name="character_counter_content_description">Введено символів: %1$d з %2$d</string>
+    <string name="character_counter_overflowed_content_description">Перевищено ліміт символів: %1$d з %2$d</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"Скасувати"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">"Копіювати"</string>
+    <string msgid="4655699207140895492" name="chips_delete_content_description">"Видалити отримувача"</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"Увімкнути пропозиції контактів"</string>
+    <string msgid="123760854728616068" name="chips_text_delete_button_content_description">"Видалити текст"</string>
+    <string msgid="4603850264073169854" name="class_0_message_activity">"Повідомлення класу 0"</string>
+    <string name="clear_text_end_icon_content_description">Видалити текст</string>
+    <string msgid="1248663997452044787" name="color_picker_default_title">"Вибрати колір"</string>
+    <string msgid="2883438431173736180" name="color_swatch_description">"Колір <ns1:g id="COLOR_INDEX">%1$d</ns1:g>"</string>
+    <string msgid="5020921249944943124" name="color_swatch_description_selected">"Вибрано колір: <ns1:g id="COLOR_INDEX">%1$d</ns1:g>"</string>
+    <string msgid="5214836453231753054" name="compose_message_view_hint_text">"Надіслати повідомлення"</string>
+    <string msgid="2829154383848677160" name="compose_message_view_hint_text_multi_sim">"Надіслати повідомлення&lt;br/>&lt;small>із SIM-карти <ns1:g id="SIM_NAME">%s</ns1:g>&lt;/small>"</string>
+    <string msgid="6076616675845705660" name="compose_message_view_subject_hint_text">"Тема"</string>
+    <string msgid="7473740533133798616" name="confrim_participants_button_content_description">"Підтвердити учасників"</string>
+    <string msgid="1036353827229041942" name="contact_list_empty_text">"Щоб створити нове повідомлення, введіть ім’я контакта або номер телефону"</string>
+    <string msgid="3167455944684758290" name="contact_list_send_to_text">"Надіслати на номер <ns1:g id="DESTINATION">%s</ns1:g>"</string>
+    <string msgid="1424746082040243161" name="contact_picker_all_contacts_tab_title">"Усі контакти"</string>
+    <string msgid="7157326165824706883" name="contact_picker_frequents_tab_title">"Найчастіше на зв’язку"</string>
+    <string msgid="7078061834874737466" name="content_description_for_number_eight">"Вісім"</string>
+    <string msgid="8078774905490022978" name="content_description_for_number_five">"П’ять"</string>
+    <string msgid="7515917522043407213" name="content_description_for_number_four">"Чотири"</string>
+    <string msgid="4276787959475295232" name="content_description_for_number_nine">"Дев’ять"</string>
+    <string msgid="3886554185135150473" name="content_description_for_number_one">"Один"</string>
+    <string msgid="5870011338757220060" name="content_description_for_number_seven">"Сім"</string>
+    <string msgid="9192012772645396654" name="content_description_for_number_six">"Шість"</string>
+    <string msgid="8471442614073144385" name="content_description_for_number_three">"Три"</string>
+    <string msgid="1562486479385891146" name="content_description_for_number_two">"Два"</string>
+    <string msgid="7992301592202897868" name="content_description_for_number_zero">"Нуль"</string>
+    <string msgid="8597624563218724441" name="conversation_creation_failure">"Не вдалося почати бесіду"</string>
+    <string msgid="6088388615460305424" name="conversation_deleted">"Бесіду видалено"</string>
+    <string msgid="7505706551294769667" name="conversation_list_empty_text">"Коли ви почнете переписку, вона з’явиться тут"</string>
+    <string msgid="3749751291444609993" name="conversation_list_first_sync_text">"Завантаження бесід…"</string>
+    <string msgid="3592923997082845035" name="conversation_list_item_view_draft_message">"Чернетка"</string>
+    <string msgid="9202622757034736175" name="conversation_list_item_view_sent_from_other_prefix">"<ns1:g id="FIRSTNAMEOFSENDER">%s</ns1:g>: "</string>
+    <string msgid="1735457801737604211" name="conversation_list_item_view_sent_from_you_prefix">"Ви: "</string>
+    <string msgid="7894183429890407387" name="conversation_list_snippet_audio_clip">"Аудіокліп"</string>
+    <string msgid="5326960910088541826" name="conversation_list_snippet_picture">"Зображення"</string>
+    <string msgid="5004837959112452394" name="conversation_list_snippet_vcard">"Картка контакта"</string>
+    <string msgid="7101059507173671233" name="conversation_list_snippet_video">"Відео"</string>
+    <string msgid="5634274498769555505" name="conversation_message_view_subject_text">"Тема: "</string>
+    <string msgid="6083905920877235314" name="copy">"Скопіювати"</string>
+    <string msgid="1084563757174121331" name="copy_email">"Копіювати електронну адресу"</string>
+    <string msgid="8860802152973030914" name="copy_number">"Копіювати номер телефону"</string>
+    <string msgid="1977083934277981786" name="copy_to_clipboard">"Копіювати"</string>
+    <string msgid="494269163973708182" name="copy_to_clipboard_dialog_title">"Копіювати в буфер обміну?"</string>
+    <string msgid="8459265782521418031" name="db_full">"Замало пам’яті. Деякі дані можуть не зберегтись."</string>
+    <string msgid="8765138968242505061" name="debug_category_pref_title">"Налагодження"</string>
+    <string msgid="5549693176734564386" name="delete_all_media">"Видалити всі повідомлення з медіафайлами"</string>
+    <string msgid="4601960420953525559" name="delete_all_media_confirmation">"Видалити всі повідомлення з медіафайлами?"</string>
+    <string msgid="744574085809600863" name="delete_conversation_confirmation_button">"Видалити"</string>
+    <string msgid="5470021965641900456" name="delete_conversation_decline_button">"Скасувати"</string>
+    <string msgid="3888584614972573382" name="delete_message_confirmation_button">"Видалити"</string>
+    <string msgid="3952533622691031375" name="delete_message_confirmation_dialog_text">"Цю дію не можна скасувати."</string>
+    <string msgid="4723834210275712001" name="delete_message_confirmation_dialog_title">"Видалити це повідомлення?"</string>
+    <string msgid="9204277306804390707" name="delete_oldest_messages">"Видалити повідомлення, отримані понад <ns1:g id="DURATION">%s</ns1:g> тому"</string>
+    <string msgid="6172297718425265784" name="delete_oldest_messages_confirmation">"Видалити повідомлення, отримані понад <ns1:g id="DURATION">%s</ns1:g> тому?"</string>
+    <string msgid="8910749398836396698" name="delete_subject_content_description">"Видалити тему"</string>
+    <string msgid="3433965196058436991" name="delivered_status_content_description">"Доставлено"</string>
+    <string msgid="4272502420621500421" name="delivery_reports_pref_summary">"Запитувати звіт про доставку для кожного надісланого SMS"</string>
+    <string msgid="5115727259825309087" name="delivery_reports_pref_title">"Звіти про доставку SMS"</string>
+    <string msgid="1016285369211000297" name="disable_group_mms">"Надсилати окремі SMS усім отримувачам. Відповіді надходитимуть лише вам"</string>
+    <string msgid="8744588243554006189" name="dl_failure_notification">"Не вдалося завантажити повідомлення з темою \"<ns1:g id="SUBJECT">%1$s</ns1:g>\" від користувача <ns1:g id="FROM">%2$s</ns1:g>."</string>
+    <string msgid="635370887537738004" name="download_message_failure">"Не вдалося завантажити повідомлення"</string>
+    <string msgid="6752478540984118382" name="download_message_failure_airplane_mode">"Неможливо завантажити повідомлення в режимі польоту"</string>
+    <string msgid="6830055949399088532" name="download_message_failure_no_data">"Мобільний Інтернет вимкнено. Перевірте налаштування."</string>
+    <string msgid="3514921076616367225" name="download_message_success">"Повідомлення завантажено"</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">"Видалити отримувача: <ns1:g id="CONTACT">%s</ns1:g>"</string>
+    <string msgid="7901698352188687659" name="dump_mms_pref_summary">"Записати отримані вихідні дані MMS у файл зовнішньої пам’яті"</string>
+    <string msgid="6699074152055891680" name="dump_mms_pref_title">"Записати дані MMS"</string>
+    <string msgid="3694039770323225329" name="dump_sms_pref_summary">"Записати отримані вихідні дані SMS у файл зовнішньої пам’яті"</string>
+    <string msgid="4057657151746557281" name="dump_sms_pref_title">"Записати дані SMS"</string>
+    <string msgid="4311733160940564593" name="enable_group_mms">"Надсилати одне MMS усім отримувачам"</string>
+    <string msgid="2778471831376319587" name="enable_permission_procedure">"Щоб змінити дозволи, виберіть \"Налаштування\" > \"Додатки\" > \"Повідомлення\" > \"Дозволи\"."</string>
+    <string msgid="8672121020793945630" name="enable_permission_procedure_description">"Щоб змінити дозволи, виберіть \"Налаштування\" > \"Додатки\" > \"Повідомлення\" > \"Дозволи\"."</string>
+    <string msgid="6242965213882272822" name="enter_phone_number_hint">"Номер телефону"</string>
+    <string msgid="4539767473801195966" name="enter_phone_number_text">"Номер потрібен, щоб надсилати групові повідомлення. Його потрібно ввести лише один раз."</string>
+    <string msgid="7263355879949248448" name="enter_phone_number_title">"Підтвердьте свій номер телефону"</string>
+    <string msgid="7032804261692931808" name="enumeration_comma">", "</string>
+    <string msgid="6799644880052534839" name="error_apn_empty">"Поле назви точки доступу не може бути порожнім."</string>
+    <string msgid="7770363665690646716" name="error_apn_name_empty">"Поле \"Назва\" не може бути порожнім."</string>
+    <string name="error_icon_content_description">Помилка</string>
+    <string msgid="3693788817630985838" name="error_mcc_not3">"Поле MCC має містити 3 цифри."</string>
+    <string msgid="3726130455168743554" name="error_mnc_not23">"Поле MNC має містити 2 або 3 цифри."</string>
+    <string msgid="1905187380359981199" name="exit">"Вийти"</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Додатково"</string>
+    <string name="exposed_dropdown_menu_content_description">Показати спадне меню</string>
+    <string msgid="412233184776827353" name="fail_to_load_attachment">"Не вдається завантажити вкладений файл. Повторіть спробу."</string>
+    <string msgid="8338915262229269954" name="failed">"Зображення не завантажено"</string>
+    <string msgid="7711070643740368402" name="failed_loading_vcard">"Не вдалося завантажити картку контакта"</string>
+    <string msgid="7047161648867054936" name="failed_message_content_description">"Не вдалося надіслати повідомлення. Торкніться, щоб повторити спробу."</string>
+    <string msgid="4689730643900226699" name="forward_message_activity_title">"Переслати повідомлення"</string>
+    <string msgid="1947831848146564875" name="from_label">"Від: "</string>
+    <string msgid="2503122727700475428" name="gallery_checkbox_content_description">"Вибрати цей елемент"</string>
+    <string msgid="5409336577057897710" name="general_settings">"Загальні"</string>
+    <string msgid="3012187932521771578" name="general_settings_activity_title">"Загальні налаштування"</string>
+    <string msgid="4465312111301728995" name="general_settings_title">"Загальні"</string>
+    <string msgid="2339270924401184182" name="group_conversation_description">"Учасники бесіди: <ns1:g id="PARTICIPANTS">%s</ns1:g>"</string>
+    <string msgid="7085805237707481779" name="group_incoming_failed_message_prefix">"Не вдалося надіслати повідомлення від користувача <ns1:g id="SENDER">%1$s</ns1:g>: <ns1:g id="MESSAGE">%2$s</ns1:g>. Час: <ns1:g id="TIME">%3$s</ns1:g>. <ns1:g id="GROUPINFO">%4$s</ns1:g>."</string>
+    <string msgid="7248506967059447054" name="group_incoming_successful_message_prefix">"Повідомлення від користувача <ns1:g id="SENDER">%1$s</ns1:g>: <ns1:g id="MESSAGE">%2$s</ns1:g>. Час: <ns1:g id="TIME">%3$s</ns1:g>. <ns1:g id="GROUPINFO">%4$s</ns1:g>."</string>
+    <string msgid="3758710015912690629" name="group_mms_pref_summary">"Використовуйте опцію MMS, щоб надсилати одне повідомлення декільком одержувачам"</string>
+    <string msgid="6553612309209383106" name="group_mms_pref_title">"Групові повідомлення"</string>
+    <string msgid="1655013812805454648" name="group_outgoing_draft_message_prefix">"Ненадіслане повідомлення групі <ns1:g id="GROUP">%1$s</ns1:g>: <ns1:g id="MESSAGE">%2$s</ns1:g>. Час: <ns1:g id="TIME">%3$s</ns1:g>."</string>
+    <string msgid="5059983340377901592" name="group_outgoing_failed_message_prefix">"Не вдалося надіслати повідомлення групі <ns1:g id="GROUP">%1$s</ns1:g>: <ns1:g id="MESSAGE">%2$s</ns1:g>. Час: <ns1:g id="TIME">%3$s</ns1:g>."</string>
+    <string msgid="7636874745414695556" name="group_outgoing_sending_message_prefix">"Надсилається повідомлення групі <ns1:g id="GROUP">%1$s</ns1:g>: <ns1:g id="MESSAGE">%2$s</ns1:g>. Час: <ns1:g id="TIME">%3$s</ns1:g>."</string>
+    <string msgid="1593702642852987920" name="group_outgoing_successful_message_prefix">"Повідомлення групі <ns1:g id="GROUP">%1$s</ns1:g>: <ns1:g id="MESSAGE">%2$s</ns1:g>. Час: <ns1:g id="TIME">%3$s</ns1:g>."</string>
+    <string msgid="8070710971014835182" name="help_and_feedback_activity_label">"Довідка"</string>
+    <string msgid="5054789216911282696" name="hidden_sender_address">"Прихована адреса відправника"</string>
+    <string name="icon_content_description">Значок вікна</string>
+    <string msgid="7063392681130898793" name="ignore">"Ігнорувати"</string>
+    <string msgid="7311780674392006753" name="in_conversation_notify_new_message_action">"Переглянути"</string>
+    <string msgid="8207541514656839042" name="in_conversation_notify_new_message_text">"Нове повідомлення"</string>
+    <string msgid="6369259405539452011" name="incoming_message_announcement">"Повідомлення від користувача <ns1:g id="SENDER">%1$s</ns1:g>: <ns1:g id="MESSAGE">%2$s</ns1:g>."</string>
+    <string msgid="7512757244515303701" name="incoming_sender_content_description">"Повідомлення від користувача <ns1:g id="SENDER">%s</ns1:g>"</string>
+    <string msgid="4244076415705614525" name="incoming_sim_name_text">"на SIM-карту <ns1:g id="SIM_NAME">%s</ns1:g>"</string>
+    <string msgid="2481078288502342745" name="incoming_text_sender_content_description">"Повідомлення від користувача <ns1:g id="SENDER">%s</ns1:g>"</string>
+    <string msgid="8214889988397524630" name="invalid_destination">"Не вдається надіслати. Недійсний отримувач."</string>
+    <string name="item_view_role_description">Вкладка</string>
+    <string msgid="8700344957248709584" name="link_display_format">"<ns1:g id="TEXT">%1$s</ns1:g> (<ns1:g id="URL">%2$s</ns1:g>)"</string>
+    <string msgid="2890879017729068514" name="loading_conversations">"Завантаження бесід"</string>
+    <string msgid="3894765818932489665" name="loading_messages">"Завантаження повідомлень"</string>
+    <string msgid="3961520941271265083" name="loading_vcard">"Завантаження картки контакта"</string>
+    <string msgid="5300743415198486619" name="low_memory">"Не вдалося завершити дію з базою даних. Недостатньо пам’яті"</string>
+    <string name="material_clock_toggle_content_description">Виберіть ДП чи ПП</string>
+    <string name="material_hour_selection">Вибрати годину</string>
+    <string name="material_hour_suffix">%1$s год</string>
+    <string name="material_minute_selection">Виберіть хвилини</string>
+    <string name="material_minute_suffix">%1$s хв</string>
+    <string name="material_timepicker_am">дп</string>
+    <string name="material_timepicker_clock_mode_description">Перейти в режим годинника, щоб ввести час.</string>
+    <string name="material_timepicker_hour">Година</string>
+    <string name="material_timepicker_minute">Хвилина</string>
+    <string name="material_timepicker_pm">пп</string>
+    <string name="material_timepicker_select_time">Виберіть час</string>
+    <string name="material_timepicker_text_input_mode_description">Перейти в текстовий режим, щоб ввести час.</string>
+    <string msgid="3660616501040372452" name="mediapicker_audioChooserDescription">"Записати аудіо"</string>
+    <string msgid="5455016591560739789" name="mediapicker_audio_title">"Записати аудіо"</string>
+    <string msgid="8498255650058981250" name="mediapicker_cameraChooserDescription">"Зняти фото або відео"</string>
+    <string msgid="1227741581156455777" name="mediapicker_galleryChooserDescription">"Вибрати зображення на цьому пристрої"</string>
+    <string msgid="8812237405495409901" name="mediapicker_gallery_image_item_description">"зображення: <ns1:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</ns1:g>"</string>
+    <string msgid="8142175029053370662" name="mediapicker_gallery_image_item_description_no_date">"зображення"</string>
+    <string msgid="2569545441879514283" name="mediapicker_gallery_item_selected_content_description">"Медіафайл вибрано."</string>
+    <string msgid="40021674722525910" name="mediapicker_gallery_item_unselected_content_description">"Медіафайл не вибрано."</string>
+    <string msgid="3169528536727885763" name="mediapicker_gallery_title">"Вибрати фотографію"</string>
+    <string msgid="3621616141966436510" name="mediapicker_gallery_title_selection">"Вибрано <ns1:g id="COUNT">%d</ns1:g>"</string>
+    <string msgid="4947391038600888284" name="menu_delete_apn">"Видалити назву точки доступу"</string>
+    <string msgid="310569150407968648" name="menu_discard_apn_change">"Відхилити"</string>
+    <string msgid="1157954180701135202" name="menu_license">"Ліцензії відкритого коду"</string>
+    <string msgid="8286285392706532511" name="menu_new">"Нова назва точки доступу"</string>
+    <string msgid="1564461309350814037" name="menu_new_apn">"Нова назва точки доступу"</string>
+    <string msgid="6342935229867973523" name="menu_restore_default_apn">"Відновити налаштування за умовчанням"</string>
+    <string msgid="5445335896951613691" name="menu_save_apn">"Зберегти"</string>
+    <string msgid="479412726781330278" name="menu_send_feedback">"Надіслати відгук"</string>
+    <string msgid="6122616816253404821" name="menu_version_info">"Інформація про версію"</string>
+    <string msgid="3792488955421628684" name="menu_view_in_store">"Переглянути в магазині Google Play"</string>
+    <string msgid="8241684826917957666" name="message_context_menu_copy_text">"Копіювати текст"</string>
+    <string msgid="4924354182554857475" name="message_context_menu_delete_message">"Видалити"</string>
+    <string msgid="4848326950037554575" name="message_context_menu_forward_message">"Переслати"</string>
+    <string msgid="5036023289586457642" name="message_context_menu_title">"Параметри повідомлення"</string>
+    <string msgid="2077089491219912840" name="message_context_menu_view_details">"Переглянути деталі"</string>
+    <string msgid="8451487656255395372" name="message_details_title">"Деталі повідомлення"</string>
+    <string msgid="2144370964507743673" name="message_fwd">"Пересилання: <ns1:g id="SUBJECT">%s</ns1:g>"</string>
+    <string msgid="621604138442762130" name="message_image_content_description">"Зображення"</string>
+    <string msgid="8840394477993741203" name="message_size_label">"Розмір: "</string>
+    <string msgid="6527275493954932656" name="message_status_download">"Торкніться, щоб завантажити"</string>
+    <string msgid="285219832844160" name="message_status_download_action">"Завантажити або видалити"</string>
+    <string msgid="6957738686287397519" name="message_status_download_error">"Повідомлення прострочене або недоступне"</string>
+    <string msgid="7298035414448355842" name="message_status_download_failed">"Торкніться, щоб повторити спробу"</string>
+    <string msgid="7159807805159805428" name="message_status_downloading">"Завантаження…"</string>
+    <string msgid="8009695010381848311" name="message_status_failed">"Помилка"</string>
+    <string msgid="7718458416521355708" name="message_status_resend">"Надіслати повторно або видалити"</string>
+    <string msgid="5443627648028194631" name="message_status_send_failed">"Не надіслано. Торкніться, щоб повторити спробу."</string>
+    <string msgid="1738854184297159948" name="message_status_send_failed_emergency_number">"Не вдалося надіслати текстове повідомлення в екстрену службу. Спробуйте зателефонувати."</string>
+    <string msgid="650840088043267981" name="message_status_send_retrying">"Не надіслано. Повторна спроба…"</string>
+    <string msgid="3306260780518886107" name="message_status_sending">"Надсилання…"</string>
+    <string msgid="3867223594671090459" name="message_title_download_failed">"Не вдалося завантажити"</string>
+    <string msgid="6418481644146460124" name="message_title_downloading">"Нове MMS-повідомлення"</string>
+    <string msgid="2761223322277801061" name="message_title_manual_download">"Доступне нове MMS-повідомлення"</string>
+    <string msgid="6442873901113487978" name="message_type_label">"Тип: "</string>
+    <string msgid="8303890455085643301" name="mms_attachment_limit_reached">"Ви вклали максимальну кількість файлів"</string>
+    <string msgid="5697191348996648727" name="mms_attachment_load_failed">"Не вдалося завантажити вкладений файл."</string>
+    <string msgid="6212773250215580849" name="mms_failure_outgoing_address">"Повідомлення не надіслано. Недійсна адреса одержувача"</string>
+    <string msgid="919220273446626565" name="mms_failure_outgoing_content">"Повідомлення не надіслано. Вміст не підтримується"</string>
+    <string msgid="6132734324976690436" name="mms_failure_outgoing_corrupt">"Повідомлення не надіслано. Повідомлення недійсне"</string>
+    <string msgid="4662217039143124592" name="mms_failure_outgoing_service">"Повідомлення не надіслано: послугу не активовано в мережі"</string>
+    <string msgid="3917966922000717407" name="mms_failure_outgoing_too_large">"Повідомлення не надіслано: текст задовгий"</string>
+    <string msgid="2614377585077448979" name="mms_failure_outgoing_unsupported">"Повідомлення не надіслано. Повідомлення не підтримується"</string>
+    <string msgid="3402311750134118165" name="mms_info">"розмір: <ns1:g id="MESSAGESIZE">%1$s</ns1:g>, дійсне до: <ns1:g id="MESSAGEEXPIRE">%2$s</ns1:g>"</string>
+    <string msgid="4816815152658525660" name="mms_messaging_category_pref_title">"MMS"</string>
+    <string msgid="5445275222817760638" name="mms_phone_number_pref_title">"Ваш номер телефону"</string>
+    <string msgid="1528791558806015806" name="mms_text">"MMS"</string>
+    <string msgid="643992135011109762" name="more_string">"+<ns1:g id="COUNT">%1$d</ns1:g>"</string>
+    <string name="mtrl_badge_numberless_content_description">Нове сповіщення</string>
+    <string name="mtrl_chip_close_icon_content_description">Видалити %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Нових сповіщень більше ніж %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Перейти до наступного місяця</string>
+    <string name="mtrl_picker_a11y_prev_month">Перейти до попереднього місяця</string>
+    <string name="mtrl_picker_announce_current_selection">Поточний вибір: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Виберіть дату</string>
+    <string name="mtrl_picker_date_header_unselected">Вибрана дата</string>
+    <string name="mtrl_picker_day_of_week_column_header">Стовпець із днями: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Недійсний формат.</string>
+    <string name="mtrl_picker_invalid_format_example">Приклад: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Використовувати: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Недійсний діапазон.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Перейти до %1$s року</string>
+    <string name="mtrl_picker_out_of_range">За межами діапазону: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Дата початку – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – дата завершення</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Виберіть діапазон дат</string>
+    <string name="mtrl_picker_range_header_unselected">Дата початку – дата завершення</string>
+    <string name="mtrl_picker_save">Зберегти</string>
+    <string name="mtrl_picker_text_input_date_hint">Дата</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Дата завершення</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Дата початку</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">р</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Перейти в режим введення в календарі</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Натисніть, щоб вибрати день</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Перейти в режим введення тексту</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Натисніть, щоб вибрати рік</string>
+    <string msgid="2199989099980111684" name="multimedia_message">"Мультимедійне повідомлення"</string>
+    <string msgid="4496962051601713843" name="next">"Далі"</string>
+    <string msgid="2840729397885031655" name="next_with_arrow">"Далі >"</string>
+    <string msgid="8583927728936521140" name="no_preferred_sim_selected">"Не вибрано основної SIM-карти для надсилання SMS-повідомлень"</string>
+    <string msgid="5587715902648568767" name="no_subject">"(Без теми)"</string>
+    <string msgid="6573031135582639649" name="not_set">"Не налаштовано"</string>
+    <string msgid="5926581589398218150" name="notification_audio">"Аудіокліп"</string>
+    <string msgid="1697982467160426345" name="notification_download_failures_line1_plural">"Деякі повідомлення не завантажено"</string>
+    <string msgid="4424772073720626885" name="notification_download_failures_line1_singular">"Повідомлення не завантажено"</string>
+    <string msgid="6206807985355359528" name="notification_download_mms">"Завантажити"</string>
+    <string msgid="6311715277789488996" name="notification_emergency_send_failure_line1">"Повідомлення на номер <ns1:g id="NUMBER">%1$s</ns1:g> не надіслано"</string>
+    <string msgid="6461481033351036996" name="notification_emergency_send_failure_line2">"Не вдалося надіслати текстове повідомлення на номер екстреної служби <ns1:g id="NUMBER">%1$s</ns1:g>. Спробуйте зателефонувати."</string>
+    <string msgid="5203458459139408265" name="notification_off_toast_message">"Сповіщення вимкнено"</string>
+    <string msgid="1240626023754746310" name="notification_on_toast_message">"Сповіщення ввімкнено"</string>
+    <string msgid="1176665337098921822" name="notification_picture">"Зображення"</string>
+    <string msgid="1836023392294480241" name="notification_reply_prompt">"Відповісти"</string>
+    <string msgid="6706012871186064035" name="notification_reply_via_mms">"Надіслати MMS"</string>
+    <string msgid="6990127304684161722" name="notification_reply_via_sms">"Відповісти за допомогою SMS"</string>
+    <string msgid="7228944748028969272" name="notification_send_failures_line1_plural">"Деякі повідомлення не надіслано"</string>
+    <string msgid="6783835440207655217" name="notification_send_failures_line1_singular">"Повідомлення не надіслано"</string>
+    <string msgid="3472521786709813414" name="notification_separator">"  "</string>
+    <string msgid="3685506528957337849" name="notification_sound_pref_title">"Сигнал"</string>
+    <string msgid="9007689386066977972" name="notification_space_separator">"  "</string>
+    <string msgid="5229975483160300625" name="notification_subject">"<ns1:g id="SUBJECT_LABEL">%1$s</ns1:g>. <ns1:g id="MESSAGETEXT">%2$s</ns1:g>"</string>
+    <string msgid="2027929074008933906" name="notification_ticker_separator">": "</string>
+    <string msgid="7658061674440552878" name="notification_vcard">"Картка контакта"</string>
+    <string msgid="6668564570045187390" name="notification_vibrate_pref_title">"Вібросигнал"</string>
+    <string msgid="4331423498662606204" name="notification_video">"Відео"</string>
+    <string msgid="1492686092760478206" name="notifications_enabled_conversation_pref_title">"Сповіщення"</string>
+    <string msgid="4127288731844373795" name="notifications_enabled_pref_title">"Сповіщення"</string>
+    <string msgid="1403198418131594073" name="numeric_text_keyboard_toggle_button_content_description">"Переключення між введенням тексту та числами"</string>
+    <string msgid="6985644411445605747" name="one_on_one_incoming_failed_message_prefix">"Не вдалося надіслати повідомлення від користувача <ns1:g id="SENDER">%1$s</ns1:g>: <ns1:g id="MESSAGE">%2$s</ns1:g>. Час: <ns1:g id="TIME">%3$s</ns1:g>."</string>
+    <string msgid="6190814597935995703" name="one_on_one_incoming_successful_message_prefix">"Повідомлення від користувача <ns1:g id="SENDER">%1$s</ns1:g>: <ns1:g id="MESSAGE">%2$s</ns1:g>. Час: <ns1:g id="TIME">%3$s</ns1:g>."</string>
+    <string msgid="8721053088385740646" name="one_on_one_outgoing_draft_message_prefix">"Ненадіслане повідомлення групі <ns1:g id="CONTACT">%1$s</ns1:g>: <ns1:g id="MESSAGE">%2$s</ns1:g>. Час: <ns1:g id="TIME">%3$s</ns1:g>."</string>
+    <string msgid="7194065651879454314" name="one_on_one_outgoing_failed_message_prefix">"Не вдалося надіслати повідомлення групі <ns1:g id="CONTACT">%1$s</ns1:g>: <ns1:g id="MESSAGE">%2$s</ns1:g>. Час: <ns1:g id="TIME">%3$s</ns1:g>."</string>
+    <string msgid="3929653530203574220" name="one_on_one_outgoing_sending_message_prefix">"Надсилається повідомлення групі <ns1:g id="CONTACT">%1$s</ns1:g>: <ns1:g id="MESSAGE">%2$s</ns1:g>. Час: <ns1:g id="TIME">%3$s</ns1:g>."</string>
+    <string msgid="7128492863867327814" name="one_on_one_outgoing_successful_message_prefix">"Повідомлення групі <ns1:g id="CONTACT">%1$s</ns1:g>: <ns1:g id="MESSAGE">%2$s</ns1:g>. Час: <ns1:g id="TIME">%3$s</ns1:g>."</string>
+    <string msgid="5983163141994434778" name="outgoing_sender_content_description">"Ви надіслали повідомлення"</string>
+    <string msgid="3492116976256510272" name="outgoing_text_sender_content_description">"Ваше повідомлення"</string>
+    <string msgid="8624855187574757110" name="participant_list_title">"Учасники цієї бесіди"</string>
+    <string name="password_toggle_content_description">Показувати пароль</string>
+    <string msgid="5443749025829291736" name="people_and_options_activity_title">"Учасники й опції"</string>
+    <string msgid="6556006393051918135" name="photo_view_activity_title">"Фото з повідомлень"</string>
+    <string msgid="3972196711827497300" name="photo_view_count">"<ns1:g id="CURRENT_POS">%1$d</ns1:g> з <ns1:g id="COUNT">%2$d</ns1:g>"</string>
+    <string msgid="132845956503874378" name="pick_image_from_document_library_content_description">"Вибрати зображення з бібліотеки документів"</string>
+    <string msgid="8961547034116059566" name="plus_n">"+%d"</string>
+    <string msgid="9010288417554932581" name="plus_one">"+1"</string>
+    <string msgid="6632467048088811568" name="posted_just_now">"Щойно"</string>
+    <string msgid="867560789350406701" name="posted_now">"Зараз"</string>
+    <string msgid="6685851473431805375" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\": скопійовано в буфер обміну."</string>
+    <string msgid="728836357310908368" name="priority_high">"Високий"</string>
+    <string msgid="5029073794896222902" name="priority_label">"Пріоритет: "</string>
+    <string msgid="7398724779026801851" name="priority_low">"Низький"</string>
+    <string msgid="8918221917628753075" name="priority_normal">"Звичайний"</string>
+    <string msgid="4442494712757995203" name="received_label">"Отримано: "</string>
+    <string msgid="1819710673158265515" name="recipient_hint">"Кому:"</string>
+    <string msgid="7769636305626277844" name="recommend_set_default_sms_app">"Щоб отримувати повідомлення, зробіть Повідомлення додатком для SMS за умовчанням"</string>
+    <string msgid="2967630094609648609" name="reply_activity_title">"Відповісти"</string>
+    <string msgid="3898014894175251590" name="required_permissions_promo">"Додатку Повідомлення потрібен доступ до SMS, телефона й контактів."</string>
+    <string msgid="7477365167876194810" name="requires_default_sms_app">"Зробіть Повідомлення додатком для SMS за умовчанням"</string>
+    <string msgid="171048611973157166" name="requires_default_sms_app_to_send">"Щоб надсилати SMS, зробіть Повідомлення додатком для SMS за умовчанням"</string>
+    <string msgid="6717443481161057941" name="requires_default_sms_change_button">"Змінити"</string>
+    <string msgid="8601569832171759435" name="requires_sms_permissions_close_button">"ОК"</string>
+    <string msgid="2179684358095980506" name="requires_sms_permissions_message">"Власник пристрою не надав дозволів для цього додатка."</string>
+    <string msgid="7180447255249638396" name="restore_default_apn">"Відновлення налаштувань назви точки доступу за умовчанням."</string>
+    <string msgid="7421687541468349715" name="restore_default_apn_completed">"Налаштування назви точки доступу за умовчанням відновлено."</string>
+    <string msgid="3791698559547529232" name="retry">"Повторити"</string>
+    <string msgid="5081141452059463572" name="save">"Зберегти"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Пошук"</string>
+    <string msgid="2386669280323553032" name="secondary_user_new_message_ticker">"Нове повідомлення."</string>
+    <string msgid="201938947573987596" name="secondary_user_new_message_title">"Нове повідомлення"</string>
+    <string msgid="4504796674843354505" name="selected_sim_content_message">"Вибрано <ns1:g id="SELECTED_SIM">%s</ns1:g>"</string>
+    <string msgid="8422114979691093956" name="sendButtonContentDescription">"Надіслати повідомлення"</string>
+    <string msgid="979624100711380593" name="send_button_long_click_description_no_sim_selector">"Змінити тему"</string>
+    <string msgid="7670274457707760465" name="send_button_long_click_description_with_sim_selector">"Вибрати SIM-карту або змінити тему"</string>
+    <string msgid="5273892629851390023" name="send_message_failure">"Не вдалося надіслати повідомлення"</string>
+    <string msgid="3966519541237053840" name="send_message_failure_airplane_mode">"Не вдається надіслати повідомлення в режимі польоту"</string>
+    <string msgid="7404080465234559802" name="send_message_failure_no_data">"Мобільне передавання даних вимкнено. Перевірте налаштування."</string>
+    <string msgid="4088006261869323324" name="send_message_success">"Повідомлення надіслано"</string>
+    <string msgid="6284747469983942370" name="send_sound_pref_title">"Сигнали для вихідних повідомлень"</string>
+    <string msgid="6363584950085384929" name="sending_message">"Повідомлення надсилається"</string>
+    <string msgid="5186286057597137301" name="sent_label">"Надіслано: "</string>
+    <string msgid="8350935323904134751" name="service_message_not_found">"Повідомлення прострочене або недоступне"</string>
+    <string msgid="3765738916704013318" name="service_network_problem">"Не вдалося надіслати через проблему з мережею"</string>
+    <string msgid="5512558652052977817" name="service_not_activated">"Послугу не активовано в мережі"</string>
+    <string msgid="1045695083932447399" name="settings">"Налаштування"</string>
+    <string msgid="3380813834835334258" name="settings_activity_title">"Налаштування"</string>
+    <string msgid="8534633224579301342" name="settings_with_arrow">"Налаштування >"</string>
+    <string msgid="6666929391961668469" name="share_cancel">"Скасувати"</string>
+    <string msgid="2939454246983196756" name="share_intent_activity_label">"Виберіть ланцюжок повідомлень"</string>
+    <string msgid="6920483598866144717" name="share_intent_label">"Повідомлення"</string>
+    <string msgid="2135955613694195483" name="share_new_message">"Нове повідомлення"</string>
+    <string msgid="8073534180322059814" name="silent_ringtone">"Без звуку"</string>
+    <string msgid="2706003016582772108" name="sim_label">"SIM-карта: "</string>
+    <string msgid="2407660715957787727" name="sim_selector_button_content_description">"Вибір SIM-карти"</string>
+    <string msgid="4042539046779910617" name="sim_selector_button_content_description_with_selection">"Вибір SIM-карти: вибрано <ns1:g id="SIM_0">%1$s</ns1:g>"</string>
+    <string msgid="1885996389432991383" name="sim_settings_unknown_number">"Невідомий номер"</string>
+    <string msgid="5934005977415016295" name="sim_slot_identifier">"SIM-карта <ns1:g id="SIM_SLOT_NUMBER">%s</ns1:g>"</string>
+    <string msgid="948779178668552448" name="sim_specific_settings">"SIM-карта \"<ns1:g id="SIM_NAME">%s</ns1:g>\""</string>
+    <string msgid="7238879696319945853" name="skip">"Пропустити"</string>
+    <string msgid="1351513141821300879" name="sms_apns_title">"Назви точок доступу"</string>
+    <string msgid="4988773371061820432" name="sms_disabled">"SMS вимкнено"</string>
+    <string msgid="6352764741524717132" name="sms_disabled_pref_title">"Додаток для SMS за умовчанням"</string>
+    <string msgid="2961457081888153323" name="sms_enabled_pref_title">"Додаток для SMS за умовчанням"</string>
+    <string msgid="8836401937872068406" name="sms_storage_low_auto_delete_enabled_dialog_text">"На пристрої замало місця. З додатка Повідомлення буде автоматично видалено старіші SMS, щоб звільнити місце."</string>
+    <string msgid="2393739822170029830" name="sms_storage_low_notification_ticker">"Недостатньо місця для SMS. Видаліть старі повідомлення."</string>
+    <string msgid="7036247475855447830" name="sms_storage_low_text">"Додаток Повідомлення не зможе надсилати й отримувати SMS, доки не звільниться місце на пристрої."</string>
+    <string msgid="7985379565293259177" name="sms_storage_low_title">"Закінчується пам’ять"</string>
+    <string msgid="7140970704902570020" name="snack_bar_retry">"Повторити"</string>
+    <string msgid="4523395751563700308" name="snack_bar_undo">"Скасувати"</string>
+    <string msgid="7984539515326392793" name="start_conversation">"Почати"</string>
+    <string msgid="3924471215595992758" name="start_new_conversation">"Почати нову бесіду"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="1887378451808609152" name="subject_label">"Тема: "</string>
+    <string msgid="446082111129170749" name="subtitle_format_for_version_number">"Версія %1$s"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="7591682335533041774" name="tap_to_configure">"Бесіду видалено. Торкніться, щоб переглянути іншу бесіду в додатку Повідомлення"</string>
+    <string msgid="1284284144816901647" name="tap_to_unblock_message">"РОЗБЛОКУВАТИ"</string>
+    <string msgid="7415419755252205721" name="text_message">"SMS"</string>
+    <string msgid="3827868765772315200" name="titles">"<ns1:g id="TITLE_0">%1$s</ns1:g>, <ns1:g id="SUBTITLE">%2$s</ns1:g>"</string>
+    <string msgid="1816631887533235762" name="to_address_label">"Кому: "</string>
+    <string msgid="2923745971897322476" name="toast_after_setting_default_sms_app">"Повідомлення тепер є додатком для SMS за умовчанням."</string>
+    <string msgid="2767997591700713113" name="toast_after_setting_default_sms_app_for_message_send">"Готово. Торкніться опції \"Надіслати\" знову."</string>
+    <string msgid="5857516461210932810" name="too_many_participants">"Забагато учасників у бесіді"</string>
+    <string msgid="5010777423084203833" name="unarchived_toast_message">"Розархівовано: <ns1:g id="COUNT">%d</ns1:g>"</string>
+    <string msgid="4719854710980066596" name="unblock_contact_title">"Розблокувати користувача <ns1:g id="DESTINATION">%s</ns1:g>"</string>
+    <string msgid="4927617874263586622" name="unblocked_toast_message">"Контакт розблоковано та розархівовано"</string>
+    <string msgid="5191326096424554297" name="unknown_phone_number_pref_display_value">"Невідомий"</string>
+    <string msgid="3186565052350548852" name="unknown_self_participant">"Я"</string>
+    <string msgid="504272434917395677" name="unknown_sender">"Невідомий відправник"</string>
+    <string msgid="3110576506102839465" name="untitled_apn">"Без назви"</string>
+    <string msgid="4577227174205233981" name="update_destination_blocked">"Заблоковано"</string>
+    <string msgid="5369499874676600478" name="update_destination_unblocked">"Розблоковано"</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"ВИМКНЕНО"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"УВІМКНЕНО"</string>
+    <string msgid="591540798943754991" name="vcard_detail_activity_title">"Картки контактів"</string>
+    <string msgid="7196021537629120021" name="vcard_detail_birthday_label">"День народження"</string>
+    <string msgid="6104179009509800126" name="vcard_detail_notes_label">"Нотатки"</string>
+    <string msgid="4940284329175200952" name="vcard_tap_hint">"Переглянути картку контакта"</string>
+    <string msgid="8545536951461996462" name="video_attachment_limit_exceeded_when_sending">"У повідомленні можна надіслати лише одне відео. Видаліть зайві відео та спробуйте знову."</string>
+    <string msgid="3506938388391260811" name="video_thumbnail_view_play_button_content_description">"Відтворити відео"</string>
+    <string msgid="7417596291306885403" name="view_blocked_contacts_title">"Заблоковані контакти"</string>
+    <string msgid="2430542054023217740" name="view_more_conversations">"Переглянути інші бесіди"</string>
+    <string msgid="6463224009407336178" name="view_more_messages">"Переглянути більше повідомлень"</string>
+    <string msgid="2857560951820802321" name="welcome">"Вітаємо"</string>
+    <string msgid="4137121313374868821" name="widget_conversation_list_content_description">"Список бесід"</string>
+    <string msgid="4005037639000611925" name="widget_conversation_list_name">"Список у додатку Повідомлення"</string>
+    <string msgid="3900606239571892871" name="widget_conversation_name">"Повідомлення"</string>
+    <string msgid="4214201569175733579" name="widget_new_conversation_content_description">"Почати нову бесіду"</string>
+    <string msgid="2706347689522691188" name="widget_new_message_content_description">"Нове повідомлення"</string>
+    <string msgid="5802836840910466231" name="widget_title_content_description">"Повідомлення"</string>
+    <string msgid="8218925605166939654" name="wireless_alerts_title">"Сповіщення через бездротові мережі"</string>
+</resources>

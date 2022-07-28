@@ -1,0 +1,29 @@
+{
+  "buildFiles": [
+    "D:\\SDK\\ndk\\24.0.8215888\\build\\cmake\\android-legacy.toolchain.cmake",
+    "D:\\SDK\\ndk\\24.0.8215888\\build\\cmake\\compiler_id.cmake",
+    "C:\\Users\\30337\\Desktop\\Messaging\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "D:\\SDK\\ndk\\24.0.8215888\\build\\cmake\\android.toolchain.cmake",
+    "D:\\SDK\\ndk\\24.0.8215888\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\30337\\Desktop\\Messaging\\app\\.cxx\\cmake\\release\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\30337\\Desktop\\Messaging\\app\\.cxx\\cmake\\release\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "gif-Release-armeabi-v7a": {
+      "artifactName": "gif",
+      "buildCommand": "D:\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\30337\\Desktop\\Messaging\\app\\.cxx\\cmake\\release\\armeabi-v7a\" gif",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\30337\\Desktop\\Messaging\\app\\.cxx\\cmake\\release\\armeabi-v7a\\libgif.a",
+      "runtimeFiles": []
+    },
+    "giftranscode-Release-armeabi-v7a": {
+      "artifactName": "giftranscode",
+      "buildCommand": "D:\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\30337\\Desktop\\Messaging\\app\\.cxx\\cmake\\release\\armeabi-v7a\" giftranscode",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\30337\\Desktop\\Messaging\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libgiftranscode.so",
+      "runtimeFiles": []
+    }
+  }
+}

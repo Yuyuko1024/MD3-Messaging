@@ -1,0 +1,1552 @@
+com/android/messaging/md3/datamodel/BugleRecipientEntry.java
+ com.android.messaging.md3.datamodel.BugleRecipientEntry
+com/android/messaging/md3/datamodel/action/GetOrCreateConversationAction.java
+ com.android.messaging.md3.datamodel.action.GetOrCreateConversationAction
+ com.android.messaging.md3.datamodel.action.GetOrCreateConversationAction$1
+ com.android.messaging.md3.datamodel.action.GetOrCreateConversationAction$GetOrCreateConversationActionListener
+ com.android.messaging.md3.datamodel.action.GetOrCreateConversationAction$GetOrCreateConversationActionMonitor
+com/android/messaging/md3/mmslib/pdu/CharacterSets.java
+ com.android.messaging.md3.mmslib.pdu.CharacterSets
+com/android/messaging/md3/widget/BaseWidgetProvider.java
+ com.android.messaging.md3.widget.BaseWidgetProvider
+com/android/messaging/md3/widget/WidgetConversationService.java
+ com.android.messaging.md3.widget.WidgetConversationService
+ com.android.messaging.md3.widget.WidgetConversationService$WidgetConversationFactory
+com/android/messaging/md3/datamodel/action/UpdateConversationArchiveStatusAction.java
+ com.android.messaging.md3.datamodel.action.UpdateConversationArchiveStatusAction
+ com.android.messaging.md3.datamodel.action.UpdateConversationArchiveStatusAction$1
+com/android/messaging/md3/ui/conversationlist/ShareIntentActivity.java
+ com.android.messaging.md3.ui.conversationlist.ShareIntentActivity
+com/android/messaging/md3/datamodel/BugleDatabaseOperations.java
+ com.android.messaging.md3.datamodel.BugleDatabaseOperations
+com/android/messaging/md3/datamodel/media/AvatarGroupRequestDescriptor.java
+ com.android.messaging.md3.datamodel.media.AvatarGroupRequestDescriptor
+com/android/messaging/md3/datamodel/media/ImageResource.java
+ com.android.messaging.md3.datamodel.media.ImageResource
+com/android/messaging/md3/ui/MultiAttachmentLayout.java
+ com.android.messaging.md3.ui.MultiAttachmentLayout
+ com.android.messaging.md3.ui.MultiAttachmentLayout$Layout
+ com.android.messaging.md3.ui.MultiAttachmentLayout$OnAttachmentClickListener
+ com.android.messaging.md3.ui.MultiAttachmentLayout$Tile
+ com.android.messaging.md3.ui.MultiAttachmentLayout$ViewWrapper
+com/android/messaging/md3/datamodel/media/ImageRequest.java
+ com.android.messaging.md3.datamodel.media.ImageRequest
+androidx/appcompat/mms/pdu/SendConf.java
+ androidx.appcompat.mms.pdu.SendConf
+com/android/messaging/md3/sms/SmsException.java
+ com.android.messaging.md3.sms.SmsException
+com/android/messaging/md3/util/exif/ExifInvalidFormatException.java
+ com.android.messaging.md3.util.exif.ExifInvalidFormatException
+com/android/messaging/md3/datamodel/action/BugleActionToasts.java
+ com.android.messaging.md3.datamodel.action.BugleActionToasts
+ com.android.messaging.md3.datamodel.action.BugleActionToasts$1
+ com.android.messaging.md3.datamodel.action.BugleActionToasts$2
+ com.android.messaging.md3.datamodel.action.BugleActionToasts$UpdateDestinationBlockedActionToast
+com/android/messaging/md3/datamodel/action/DumpDatabaseAction.java
+ com.android.messaging.md3.datamodel.action.DumpDatabaseAction
+ com.android.messaging.md3.datamodel.action.DumpDatabaseAction$1
+com/android/messaging/md3/util/Assert.java
+ com.android.messaging.md3.util.Assert
+ com.android.messaging.md3.util.Assert$1
+ com.android.messaging.md3.util.Assert$DoesNotRunOnMainThread
+ com.android.messaging.md3.util.Assert$RunsOnAnyThread
+ com.android.messaging.md3.util.Assert$RunsOnMainThread
+androidx/appcompat/mms/MmsManager.java
+ androidx.appcompat.mms.MmsManager
+com/android/messaging/md3/datamodel/action/ActionMonitor.java
+ com.android.messaging.md3.datamodel.action.ActionMonitor
+ com.android.messaging.md3.datamodel.action.ActionMonitor$1
+ com.android.messaging.md3.datamodel.action.ActionMonitor$2
+ com.android.messaging.md3.datamodel.action.ActionMonitor$ActionCompletedListener
+ com.android.messaging.md3.datamodel.action.ActionMonitor$ActionExecutedListener
+ com.android.messaging.md3.datamodel.action.ActionMonitor$ActionStateChangedListener
+com/android/messaging/md3/ui/conversation/ConversationMessageView.java
+ com.android.messaging.md3.ui.conversation.ConversationMessageView
+ com.android.messaging.md3.ui.conversation.ConversationMessageView$1
+ com.android.messaging.md3.ui.conversation.ConversationMessageView$2
+ com.android.messaging.md3.ui.conversation.ConversationMessageView$3
+ com.android.messaging.md3.ui.conversation.ConversationMessageView$4
+ com.android.messaging.md3.ui.conversation.ConversationMessageView$5
+ com.android.messaging.md3.ui.conversation.ConversationMessageView$6
+ com.android.messaging.md3.ui.conversation.ConversationMessageView$7
+ com.android.messaging.md3.ui.conversation.ConversationMessageView$8
+ com.android.messaging.md3.ui.conversation.ConversationMessageView$9
+ com.android.messaging.md3.ui.conversation.ConversationMessageView$AttachmentViewBinder
+ com.android.messaging.md3.ui.conversation.ConversationMessageView$ConversationMessageViewHost
+ com.android.messaging.md3.ui.conversation.ConversationMessageView$IgnoreLinkLongClickHelper
+com/android/messaging/md3/sms/MmsSender.java
+ com.android.messaging.md3.sms.MmsSender
+com/android/messaging/md3/datamodel/DataModel.java
+ com.android.messaging.md3.datamodel.DataModel
+com/android/messaging/md3/util/TintDrawableWrapper.java
+ com.android.messaging.md3.util.TintDrawableWrapper
+com/android/messaging/md3/util/BuglePrefsImpl.java
+ com.android.messaging.md3.util.BuglePrefsImpl
+com/android/messaging/md3/datamodel/action/ProcessDeliveryReportAction.java
+ com.android.messaging.md3.datamodel.action.ProcessDeliveryReportAction
+ com.android.messaging.md3.datamodel.action.ProcessDeliveryReportAction$1
+com/android/messaging/md3/mmslib/pdu/PduComposer.java
+ com.android.messaging.md3.mmslib.pdu.PduComposer
+ com.android.messaging.md3.mmslib.pdu.PduComposer$1
+ com.android.messaging.md3.mmslib.pdu.PduComposer$BufferStack
+ com.android.messaging.md3.mmslib.pdu.PduComposer$LengthRecordNode
+ com.android.messaging.md3.mmslib.pdu.PduComposer$PositionMarker
+com/android/messaging/md3/util/BugleApplicationPrefs.java
+ com.android.messaging.md3.util.BugleApplicationPrefs
+com/android/messaging/md3/datamodel/media/CustomVCardEntry.java
+ com.android.messaging.md3.datamodel.media.CustomVCardEntry
+com/android/messaging/md3/util/BugleWidgetPrefs.java
+ com.android.messaging.md3.util.BugleWidgetPrefs
+androidx/appcompat/mms/pdu/EncodedStringValue.java
+ androidx.appcompat.mms.pdu.EncodedStringValue
+com/android/messaging/md3/ui/RemoteInputEntrypointActivity.java
+ com.android.messaging.md3.ui.RemoteInputEntrypointActivity
+com/android/messaging/md3/datamodel/NoConfirmationSmsSendService.java
+ com.android.messaging.md3.datamodel.NoConfirmationSmsSendService
+androidx/appcompat/mms/pdu/PduPart.java
+ androidx.appcompat.mms.pdu.PduPart
+androidx/appcompat/mms/DefaultCarrierConfigValuesLoader.java
+ androidx.appcompat.mms.DefaultCarrierConfigValuesLoader
+ androidx.appcompat.mms.DefaultCarrierConfigValuesLoader$1
+com/android/messaging/md3/FactoryImpl.java
+ com.android.messaging.md3.FactoryImpl
+ com.android.messaging.md3.FactoryImpl$1
+androidx/appcompat/mms/ApnSettingsLoader.java
+ androidx.appcompat.mms.ApnSettingsLoader
+ androidx.appcompat.mms.ApnSettingsLoader$Apn
+com/android/messaging/md3/mmslib/pdu/SendConf.java
+ com.android.messaging.md3.mmslib.pdu.SendConf
+androidx/appcompat/mms/pdu/ContentType.java
+ androidx.appcompat.mms.pdu.ContentType
+com/android/messaging/md3/ui/photoviewer/BuglePhotoViewController.java
+ com.android.messaging.md3.ui.photoviewer.BuglePhotoViewController
+com/android/messaging/md3/ui/BlockedParticipantsActivity.java
+ com.android.messaging.md3.ui.BlockedParticipantsActivity
+com/android/messaging/md3/widget/BaseWidgetFactory.java
+ com.android.messaging.md3.widget.BaseWidgetFactory
+com/android/messaging/md3/datamodel/binding/BindableData.java
+ com.android.messaging.md3.datamodel.binding.BindableData
+androidx/appcompat/mms/ApnException.java
+ androidx.appcompat.mms.ApnException
+com/android/messaging/md3/ui/appsettings/PerSubscriptionSettingsActivity.java
+ com.android.messaging.md3.ui.appsettings.PerSubscriptionSettingsActivity
+ com.android.messaging.md3.ui.appsettings.PerSubscriptionSettingsActivity$PerSubscriptionSettingsFragment
+androidx/appcompat/mms/MmsNetworkManager.java
+ androidx.appcompat.mms.MmsNetworkManager
+ androidx.appcompat.mms.MmsNetworkManager$1
+ androidx.appcompat.mms.MmsNetworkManager$2
+com/android/messaging/md3/ui/appsettings/CaptchaKeywordsSettingsActivity.java
+ com.android.messaging.md3.ui.appsettings.CaptchaKeywordsSettingsActivity
+ com.android.messaging.md3.ui.appsettings.CaptchaKeywordsSettingsActivity$CaptchaKeywordsSettingsFragment
+ com.android.messaging.md3.ui.appsettings.CaptchaKeywordsSettingsActivity$CaptchaKeywordsSettingsFragment$KeywordsRVAdapter
+ com.android.messaging.md3.ui.appsettings.CaptchaKeywordsSettingsActivity$CaptchaKeywordsSettingsFragment$KeywordsRVAdapter$KeywordsVH
+com/android/messaging/md3/datamodel/media/VideoThumbnailRequest.java
+ com.android.messaging.md3.datamodel.media.VideoThumbnailRequest
+com/android/messaging/md3/datamodel/media/GifImageResource.java
+ com.android.messaging.md3.datamodel.media.GifImageResource
+com/android/messaging/md3/ui/conversation/SimSelectorView.java
+ com.android.messaging.md3.ui.conversation.SimSelectorView
+ com.android.messaging.md3.ui.conversation.SimSelectorView$1
+ com.android.messaging.md3.ui.conversation.SimSelectorView$2
+ com.android.messaging.md3.ui.conversation.SimSelectorView$SimSelectorAdapter
+ com.android.messaging.md3.ui.conversation.SimSelectorView$SimSelectorViewListener
+com/android/messaging/md3/datamodel/data/SettingsData.java
+ com.android.messaging.md3.datamodel.data.SettingsData
+ com.android.messaging.md3.datamodel.data.SettingsData$SettingsDataListener
+ com.android.messaging.md3.datamodel.data.SettingsData$SettingsItem
+com/android/messaging/md3/datamodel/action/SyncMessagesAction.java
+ com.android.messaging.md3.datamodel.action.SyncMessagesAction
+ com.android.messaging.md3.datamodel.action.SyncMessagesAction$1
+com/android/messaging/md3/datamodel/media/RefCountedMediaResource.java
+ com.android.messaging.md3.datamodel.media.RefCountedMediaResource
+com/android/messaging/md3/util/VersionUtil.java
+ com.android.messaging.md3.util.VersionUtil
+com/android/messaging/md3/datamodel/action/FixupMessageStatusOnStartupAction.java
+ com.android.messaging.md3.datamodel.action.FixupMessageStatusOnStartupAction
+ com.android.messaging.md3.datamodel.action.FixupMessageStatusOnStartupAction$1
+com/android/messaging/md3/ui/contact/FrequentContactsListViewHolder.java
+ com.android.messaging.md3.ui.contact.FrequentContactsListViewHolder
+com/android/messaging/md3/ui/BugleAnimationTags.java
+ com.android.messaging.md3.ui.BugleAnimationTags
+com/android/messaging/md3/datamodel/media/MediaRequestDescriptor.java
+ com.android.messaging.md3.datamodel.media.MediaRequestDescriptor
+androidx/appcompat/mms/pdu/MultimediaMessagePdu.java
+ androidx.appcompat.mms.pdu.MultimediaMessagePdu
+com/android/messaging/md3/datamodel/BitmapPool.java
+ com.android.messaging.md3.datamodel.BitmapPool
+ com.android.messaging.md3.datamodel.BitmapPool$SingleSizePool
+com/android/messaging/md3/util/exif/ExifModifier.java
+ com.android.messaging.md3.util.exif.ExifModifier
+ com.android.messaging.md3.util.exif.ExifModifier$TagOffset
+com/android/messaging/md3/datamodel/data/SubscriptionListData.java
+ com.android.messaging.md3.datamodel.data.SubscriptionListData
+ com.android.messaging.md3.datamodel.data.SubscriptionListData$SubscriptionListEntry
+com/android/messaging/md3/util/exif/ExifParser.java
+ com.android.messaging.md3.util.exif.ExifParser
+ com.android.messaging.md3.util.exif.ExifParser$ExifTagEvent
+ com.android.messaging.md3.util.exif.ExifParser$IfdEvent
+ com.android.messaging.md3.util.exif.ExifParser$ImageEvent
+com/android/messaging/md3/ui/CustomHeaderViewPager.java
+ com.android.messaging.md3.ui.CustomHeaderViewPager
+ com.android.messaging.md3.ui.CustomHeaderViewPager$1
+com/android/messaging/md3/sms/MmsUtils.java
+ com.android.messaging.md3.sms.MmsUtils
+ com.android.messaging.md3.sms.MmsUtils$AttachmentInfo
+ com.android.messaging.md3.sms.MmsUtils$MmsInfo
+ com.android.messaging.md3.sms.MmsUtils$SendReqResp
+ com.android.messaging.md3.sms.MmsUtils$StatusPlusUri
+com/android/messaging/md3/ui/PagerViewHolder.java
+ com.android.messaging.md3.ui.PagerViewHolder
+com/android/messaging/md3/datamodel/media/VideoThumbnailRequestDescriptor.java
+ com.android.messaging.md3.datamodel.media.VideoThumbnailRequestDescriptor
+com/android/messaging/md3/ui/contact/ContactSectionIndexer.java
+ com.android.messaging.md3.ui.contact.ContactSectionIndexer
+com/android/messaging/md3/datamodel/BoundCursorLoader.java
+ com.android.messaging.md3.datamodel.BoundCursorLoader
+androidx/appcompat/mms/CarrierConfigValuesLoader.java
+ androidx.appcompat.mms.CarrierConfigValuesLoader
+com/android/messaging/md3/mmslib/pdu/ReadOrigInd.java
+ com.android.messaging.md3.mmslib.pdu.ReadOrigInd
+com/android/messaging/md3/util/Trace.java
+ com.android.messaging.md3.util.Trace
+ com.android.messaging.md3.util.Trace$1
+ com.android.messaging.md3.util.Trace$AbstractTrace
+ com.android.messaging.md3.util.Trace$TraceJBMR2
+ com.android.messaging.md3.util.Trace$TraceShim
+com/android/messaging/md3/ui/appsettings/ApplicationSettingsActivity.java
+ com.android.messaging.md3.ui.appsettings.ApplicationSettingsActivity
+ com.android.messaging.md3.ui.appsettings.ApplicationSettingsActivity$ApplicationSettingsFragment
+com/android/messaging/md3/receiver/BootAndPackageReplacedReceiver.java
+ com.android.messaging.md3.receiver.BootAndPackageReplacedReceiver
+com/android/messaging/md3/ui/mediapicker/HardwareCameraPreview.java
+ com.android.messaging.md3.ui.mediapicker.HardwareCameraPreview
+ com.android.messaging.md3.ui.mediapicker.HardwareCameraPreview$1
+com/android/messaging/md3/datamodel/action/ActionServiceImpl.java
+ com.android.messaging.md3.datamodel.action.ActionServiceImpl
+ com.android.messaging.md3.datamodel.action.ActionServiceImpl$PendingActionReceiver
+androidx/appcompat/mms/pdu/MmsException.java
+ androidx.appcompat.mms.pdu.MmsException
+com/android/messaging/md3/ui/mediapicker/SoftwareCameraPreview.java
+ com.android.messaging.md3.ui.mediapicker.SoftwareCameraPreview
+ com.android.messaging.md3.ui.mediapicker.SoftwareCameraPreview$1
+com/android/messaging/md3/datamodel/data/LaunchConversationData.java
+ com.android.messaging.md3.datamodel.data.LaunchConversationData
+ com.android.messaging.md3.datamodel.data.LaunchConversationData$LaunchConversationDataListener
+com/android/messaging/md3/ui/mediapicker/DocumentImagePicker.java
+ com.android.messaging.md3.ui.mediapicker.DocumentImagePicker
+ com.android.messaging.md3.ui.mediapicker.DocumentImagePicker$1
+ com.android.messaging.md3.ui.mediapicker.DocumentImagePicker$SelectionListener
+com/android/messaging/md3/datamodel/media/VCardResource.java
+ com.android.messaging.md3.datamodel.media.VCardResource
+com/android/messaging/md3/receiver/AbortSmsReceiver.java
+ com.android.messaging.md3.receiver.AbortSmsReceiver
+com/android/messaging/md3/util/NotificationPlayer.java
+ com.android.messaging.md3.util.NotificationPlayer
+ com.android.messaging.md3.util.NotificationPlayer$1
+ com.android.messaging.md3.util.NotificationPlayer$CmdThread
+ com.android.messaging.md3.util.NotificationPlayer$Command
+ com.android.messaging.md3.util.NotificationPlayer$CreationAndCompletionThread
+com/android/messaging/md3/datamodel/DataModelException.java
+ com.android.messaging.md3.datamodel.DataModelException
+com/android/messaging/md3/ui/ViewPagerTabs.java
+ com.android.messaging.md3.ui.ViewPagerTabs
+ com.android.messaging.md3.ui.ViewPagerTabs$1
+ com.android.messaging.md3.ui.ViewPagerTabs$OnTabLongClickListener
+com/android/messaging/md3/datamodel/data/SelfParticipantsData.java
+ com.android.messaging.md3.datamodel.data.SelfParticipantsData
+ com.android.messaging.md3.datamodel.data.SelfParticipantsData$1
+com/android/messaging/md3/ui/debug/DebugMmsConfigFragment.java
+ com.android.messaging.md3.ui.debug.DebugMmsConfigFragment
+ com.android.messaging.md3.ui.debug.DebugMmsConfigFragment$1
+ com.android.messaging.md3.ui.debug.DebugMmsConfigFragment$MmsConfigAdapter
+com/android/messaging/md3/ui/AudioPlaybackProgressBar.java
+ com.android.messaging.md3.ui.AudioPlaybackProgressBar
+ com.android.messaging.md3.ui.AudioPlaybackProgressBar$1
+com/android/messaging/md3/ui/appsettings/GroupMmsSettingDialog.java
+ com.android.messaging.md3.ui.appsettings.GroupMmsSettingDialog
+ com.android.messaging.md3.ui.appsettings.GroupMmsSettingDialog$1
+ com.android.messaging.md3.ui.appsettings.GroupMmsSettingDialog$2
+com/android/messaging/md3/datamodel/data/ConversationMessageData.java
+ com.android.messaging.md3.datamodel.data.ConversationMessageData
+ com.android.messaging.md3.datamodel.data.ConversationMessageData$ConversationMessageViewColumns
+com/android/messaging/md3/ui/PlaceholderInsetDrawable.java
+ com.android.messaging.md3.ui.PlaceholderInsetDrawable
+com/android/messaging/md3/util/exif/ExifData.java
+ com.android.messaging.md3.util.exif.ExifData
+com/android/messaging/md3/datamodel/data/ContactListItemData.java
+ com.android.messaging.md3.datamodel.data.ContactListItemData
+com/android/messaging/md3/util/FallbackStrategies.java
+ com.android.messaging.md3.util.FallbackStrategies
+ com.android.messaging.md3.util.FallbackStrategies$Strategy
+com/android/messaging/md3/ui/contact/ContactRecipientPhotoManager.java
+ com.android.messaging.md3.ui.contact.ContactRecipientPhotoManager
+ com.android.messaging.md3.ui.contact.ContactRecipientPhotoManager$1
+ com.android.messaging.md3.ui.contact.ContactRecipientPhotoManager$1$1
+com/android/messaging/md3/datamodel/media/MediaRequest.java
+ com.android.messaging.md3.datamodel.media.MediaRequest
+com/android/messaging/md3/datamodel/action/ProcessSentMessageAction.java
+ com.android.messaging.md3.datamodel.action.ProcessSentMessageAction
+ com.android.messaging.md3.datamodel.action.ProcessSentMessageAction$1
+com/android/messaging/md3/ui/conversationlist/ConversationListActivity.java
+ com.android.messaging.md3.ui.conversationlist.ConversationListActivity
+com/android/messaging/md3/ui/contact/ContactListAdapter.java
+ com.android.messaging.md3.ui.contact.ContactListAdapter
+com/android/messaging/md3/util/ImageUtils.java
+ com.android.messaging.md3.util.ImageUtils
+ com.android.messaging.md3.util.ImageUtils$ImageResizer
+com/android/messaging/md3/ui/mediapicker/MediaChooser.java
+ com.android.messaging.md3.ui.mediapicker.MediaChooser
+ com.android.messaging.md3.ui.mediapicker.MediaChooser$1
+com/android/messaging/md3/mmslib/pdu/MultimediaMessagePdu.java
+ com.android.messaging.md3.mmslib.pdu.MultimediaMessagePdu
+com/android/messaging/md3/datamodel/ParticipantRefresh.java
+ com.android.messaging.md3.datamodel.ParticipantRefresh
+ com.android.messaging.md3.datamodel.ParticipantRefresh$1
+ com.android.messaging.md3.datamodel.ParticipantRefresh$2
+ com.android.messaging.md3.datamodel.ParticipantRefresh$ContactContentObserver
+ com.android.messaging.md3.datamodel.ParticipantRefresh$ConversationParticipantsQuery
+androidx/appcompat/mms/pdu/GenericPdu.java
+ androidx.appcompat.mms.pdu.GenericPdu
+com/android/messaging/md3/ui/mediapicker/camerafocus/PieItem.java
+ com.android.messaging.md3.ui.mediapicker.camerafocus.PieItem
+ com.android.messaging.md3.ui.mediapicker.camerafocus.PieItem$OnClickListener
+com/android/messaging/md3/datamodel/media/PoolableImageCache.java
+ com.android.messaging.md3.datamodel.media.PoolableImageCache
+ com.android.messaging.md3.datamodel.media.PoolableImageCache$ReusableImageResourcePool
+androidx/appcompat/mms/pdu/InvalidHeaderValueException.java
+ androidx.appcompat.mms.pdu.InvalidHeaderValueException
+com/android/messaging/md3/ui/conversationlist/MultiSelectActionModeCallback.java
+ com.android.messaging.md3.ui.conversationlist.MultiSelectActionModeCallback
+ com.android.messaging.md3.ui.conversationlist.MultiSelectActionModeCallback$Listener
+ com.android.messaging.md3.ui.conversationlist.MultiSelectActionModeCallback$SelectedConversation
+com/android/messaging/md3/sms/SmsStorageStatusManager.java
+ com.android.messaging.md3.sms.SmsStorageStatusManager
+com/android/messaging/md3/ui/photoviewer/BuglePhotoPageAdapter.java
+ com.android.messaging.md3.ui.photoviewer.BuglePhotoPageAdapter
+androidx/appcompat/mms/pdu/PduContentTypes.java
+ androidx.appcompat.mms.pdu.PduContentTypes
+com/android/messaging/md3/util/UiUtils.java
+ com.android.messaging.md3.util.UiUtils
+ com.android.messaging.md3.util.UiUtils$1
+ com.android.messaging.md3.util.UiUtils$2
+com/android/messaging/md3/util/exif/IfdData.java
+ com.android.messaging.md3.util.exif.IfdData
+com/android/messaging/md3/ui/contact/ContactListItemView.java
+ com.android.messaging.md3.ui.contact.ContactListItemView
+ com.android.messaging.md3.ui.contact.ContactListItemView$HostInterface
+com/android/messaging/md3/mmslib/pdu/SendReq.java
+ com.android.messaging.md3.mmslib.pdu.SendReq
+com/android/messaging/md3/mmslib/pdu/PduBody.java
+ com.android.messaging.md3.mmslib.pdu.PduBody
+com/android/messaging/md3/ui/mediapicker/MediaPickerPanel.java
+ com.android.messaging.md3.ui.mediapicker.MediaPickerPanel
+ com.android.messaging.md3.ui.mediapicker.MediaPickerPanel$1
+ com.android.messaging.md3.ui.mediapicker.MediaPickerPanel$2
+ com.android.messaging.md3.ui.mediapicker.MediaPickerPanel$3
+ com.android.messaging.md3.ui.mediapicker.MediaPickerPanel$TouchHandler
+com/android/messaging/md3/receiver/NotificationReceiver.java
+ com.android.messaging.md3.receiver.NotificationReceiver
+com/android/messaging/md3/receiver/MmsWapPushDeliverReceiver.java
+ com.android.messaging.md3.receiver.MmsWapPushDeliverReceiver
+com/android/messaging/md3/util/CubicBezierInterpolator.java
+ com.android.messaging.md3.util.CubicBezierInterpolator
+com/android/messaging/md3/datamodel/DatabaseHelper.java
+ com.android.messaging.md3.datamodel.DatabaseHelper
+ com.android.messaging.md3.datamodel.DatabaseHelper$ConversationColumns
+ com.android.messaging.md3.datamodel.DatabaseHelper$ConversationParticipantsColumns
+ com.android.messaging.md3.datamodel.DatabaseHelper$MessageColumns
+ com.android.messaging.md3.datamodel.DatabaseHelper$PartColumns
+ com.android.messaging.md3.datamodel.DatabaseHelper$ParticipantColumns
+com/android/messaging/md3/ui/conversationlist/ShareIntentAdapter.java
+ com.android.messaging.md3.ui.conversationlist.ShareIntentAdapter
+ com.android.messaging.md3.ui.conversationlist.ShareIntentAdapter$HostInterface
+ com.android.messaging.md3.ui.conversationlist.ShareIntentAdapter$ShareIntentViewHolder
+ com.android.messaging.md3.ui.conversationlist.ShareIntentAdapter$ShareIntentViewHolder$1
+com/android/messaging/md3/receiver/SmsReceiver.java
+ com.android.messaging.md3.receiver.SmsReceiver
+ com.android.messaging.md3.receiver.SmsReceiver$SecondaryUserNotificationState
+com/android/messaging/md3/datamodel/media/UriImageRequest.java
+ com.android.messaging.md3.datamodel.media.UriImageRequest
+com/android/messaging/md3/datamodel/data/ConversationData.java
+ com.android.messaging.md3.datamodel.data.ConversationData
+ com.android.messaging.md3.datamodel.data.ConversationData$1
+ com.android.messaging.md3.datamodel.data.ConversationData$ConversationDataEventDispatcher
+ com.android.messaging.md3.datamodel.data.ConversationData$ConversationDataListener
+ com.android.messaging.md3.datamodel.data.ConversationData$MessagesLoaderCallbacks
+ com.android.messaging.md3.datamodel.data.ConversationData$MetadataLoaderCallbacks
+ com.android.messaging.md3.datamodel.data.ConversationData$ParticipantLoaderCallbacks
+ com.android.messaging.md3.datamodel.data.ConversationData$ReversedCursor
+ com.android.messaging.md3.datamodel.data.ConversationData$SelfParticipantLoaderCallbacks
+ com.android.messaging.md3.datamodel.data.ConversationData$SimpleConversationDataListener
+com/android/messaging/md3/util/exif/JpegHeader.java
+ com.android.messaging.md3.util.exif.JpegHeader
+com/android/messaging/md3/ui/mediapicker/camerafocus/RenderOverlay.java
+ com.android.messaging.md3.ui.mediapicker.camerafocus.RenderOverlay
+ com.android.messaging.md3.ui.mediapicker.camerafocus.RenderOverlay$RenderView
+ com.android.messaging.md3.ui.mediapicker.camerafocus.RenderOverlay$Renderer
+com/android/messaging/md3/ui/conversationlist/AbstractConversationListActivity.java
+ com.android.messaging.md3.ui.conversationlist.AbstractConversationListActivity
+ com.android.messaging.md3.ui.conversationlist.AbstractConversationListActivity$1
+ com.android.messaging.md3.ui.conversationlist.AbstractConversationListActivity$2
+ com.android.messaging.md3.ui.conversationlist.AbstractConversationListActivity$3
+ com.android.messaging.md3.ui.conversationlist.AbstractConversationListActivity$4
+ com.android.messaging.md3.ui.conversationlist.AbstractConversationListActivity$4$1
+ com.android.messaging.md3.ui.conversationlist.AbstractConversationListActivity$UpdateDestinationBlockedActionSnackBar
+com/android/messaging/md3/ui/FixedViewPagerAdapter.java
+ com.android.messaging.md3.ui.FixedViewPagerAdapter
+com/android/messaging/md3/datamodel/binding/ImmutableBindingRef.java
+ com.android.messaging.md3.datamodel.binding.ImmutableBindingRef
+com/android/messaging/md3/ui/mediapicker/camerafocus/FocusOverlayManager.java
+ com.android.messaging.md3.ui.mediapicker.camerafocus.FocusOverlayManager
+ com.android.messaging.md3.ui.mediapicker.camerafocus.FocusOverlayManager$Listener
+ com.android.messaging.md3.ui.mediapicker.camerafocus.FocusOverlayManager$MainHandler
+com/android/messaging/md3/mmslib/pdu/NotificationInd.java
+ com.android.messaging.md3.mmslib.pdu.NotificationInd
+com/android/messaging/md3/ui/photoviewer/BuglePhotoViewActivity.java
+ com.android.messaging.md3.ui.photoviewer.BuglePhotoViewActivity
+com/android/messaging/md3/util/ChangeDefaultSmsAppHelper.java
+ com.android.messaging.md3.util.ChangeDefaultSmsAppHelper
+ com.android.messaging.md3.util.ChangeDefaultSmsAppHelper$ChangeSmsAppSettingRunnable
+com/android/messaging/md3/ui/contact/ContactRecipientAutoCompleteView.java
+ com.android.messaging.md3.ui.contact.ContactRecipientAutoCompleteView
+ com.android.messaging.md3.ui.contact.ContactRecipientAutoCompleteView$1
+ com.android.messaging.md3.ui.contact.ContactRecipientAutoCompleteView$AsyncContactChipSanitizeTask
+ com.android.messaging.md3.ui.contact.ContactRecipientAutoCompleteView$ChipReplacementTuple
+ com.android.messaging.md3.ui.contact.ContactRecipientAutoCompleteView$ContactChipsChangeListener
+ com.android.messaging.md3.ui.contact.ContactRecipientAutoCompleteView$ContactChipsWatcher
+com/android/messaging/md3/util/AccessibilityUtil.java
+ com.android.messaging.md3.util.AccessibilityUtil
+com/android/messaging/md3/ui/conversation/MessageDetailsDialog.java
+ com.android.messaging.md3.ui.conversation.MessageDetailsDialog
+ com.android.messaging.md3.ui.conversation.MessageDetailsDialog$1
+com/android/messaging/md3/ui/debug/DebugMmsConfigItemView.java
+ com.android.messaging.md3.ui.debug.DebugMmsConfigItemView
+ com.android.messaging.md3.ui.debug.DebugMmsConfigItemView$1
+ com.android.messaging.md3.ui.debug.DebugMmsConfigItemView$MmsConfigItemListener
+com/android/messaging/md3/ui/conversationsettings/PeopleAndOptionsFragment.java
+ com.android.messaging.md3.ui.conversationsettings.PeopleAndOptionsFragment
+ com.android.messaging.md3.ui.conversationsettings.PeopleAndOptionsFragment$1
+ com.android.messaging.md3.ui.conversationsettings.PeopleAndOptionsFragment$OptionsListAdapter
+ com.android.messaging.md3.ui.conversationsettings.PeopleAndOptionsFragment$PeopleAndOptionsPartition
+ com.android.messaging.md3.ui.conversationsettings.PeopleAndOptionsFragment$PeopleListAdapter
+ com.android.messaging.md3.ui.conversationsettings.PeopleAndOptionsFragment$PeopleListAdapter$1
+com/android/messaging/md3/ui/mediapicker/PausableChronometer.java
+ com.android.messaging.md3.ui.mediapicker.PausableChronometer
+com/android/messaging/md3/ui/appsettings/ApnEditorActivity.java
+ com.android.messaging.md3.ui.appsettings.ApnEditorActivity
+ com.android.messaging.md3.ui.appsettings.ApnEditorActivity$ApnEditorFragment
+ com.android.messaging.md3.ui.appsettings.ApnEditorActivity$ApnEditorFragment$1
+ com.android.messaging.md3.ui.appsettings.ApnEditorActivity$ApnEditorFragment$2
+ com.android.messaging.md3.ui.appsettings.ApnEditorActivity$ApnEditorFragment$3
+com/android/messaging/md3/util/EmailAddress.java
+ com.android.messaging.md3.util.EmailAddress
+com/android/messaging/md3/ui/conversationsettings/CopyContactDetailDialog.java
+ com.android.messaging.md3.ui.conversationsettings.CopyContactDetailDialog
+com/android/messaging/md3/ui/attachmentchooser/AttachmentChooserActivity.java
+ com.android.messaging.md3.ui.attachmentchooser.AttachmentChooserActivity
+com/android/messaging/md3/receiver/AbortMmsWapPushReceiver.java
+ com.android.messaging.md3.receiver.AbortMmsWapPushReceiver
+com/android/messaging/md3/datamodel/action/MarkAsReadAction.java
+ com.android.messaging.md3.datamodel.action.MarkAsReadAction
+ com.android.messaging.md3.datamodel.action.MarkAsReadAction$1
+androidx/appcompat/mms/pdu/Base64.java
+ androidx.appcompat.mms.pdu.Base64
+com/android/messaging/md3/ui/PagingAwareViewPager.java
+ com.android.messaging.md3.ui.PagingAwareViewPager
+com/android/messaging/md3/util/LogSaver.java
+ com.android.messaging.md3.util.LogSaver
+ com.android.messaging.md3.util.LogSaver$1
+ com.android.messaging.md3.util.LogSaver$DiskLogSaver
+ com.android.messaging.md3.util.LogSaver$DiskLogSaver$1
+ com.android.messaging.md3.util.LogSaver$MemoryLogSaver
+ com.android.messaging.md3.util.LogSaver$MemoryLogSaver$LogRecord
+androidx/appcompat/mms/pdu/PduHeaders.java
+ androidx.appcompat.mms.pdu.PduHeaders
+com/android/messaging/md3/ui/mediapicker/ContactMediaChooser.java
+ com.android.messaging.md3.ui.mediapicker.ContactMediaChooser
+ com.android.messaging.md3.ui.mediapicker.ContactMediaChooser$1
+ com.android.messaging.md3.ui.mediapicker.ContactMediaChooser$2
+com/android/messaging/md3/ui/mediapicker/AudioMediaChooser.java
+ com.android.messaging.md3.ui.mediapicker.AudioMediaChooser
+com/android/messaging/md3/mmslib/util/DrmConvertSession.java
+ com.android.messaging.md3.mmslib.util.DrmConvertSession
+com/android/messaging/md3/datamodel/MediaScratchFileProvider.java
+ com.android.messaging.md3.datamodel.MediaScratchFileProvider
+com/android/messaging/md3/datamodel/GalleryBoundCursorLoader.java
+ com.android.messaging.md3.datamodel.GalleryBoundCursorLoader
+com/android/messaging/md3/ui/WidgetPickConversationActivity.java
+ com.android.messaging.md3.ui.WidgetPickConversationActivity
+com/android/messaging/md3/datamodel/NotificationState.java
+ com.android.messaging.md3.datamodel.NotificationState
+ com.android.messaging.md3.datamodel.NotificationState$FailedMessageQuery
+com/android/messaging/md3/ui/appsettings/ApnPreference.java
+ com.android.messaging.md3.ui.appsettings.ApnPreference
+com/android/messaging/md3/util/LogUtil.java
+ com.android.messaging.md3.util.LogUtil
+ com.android.messaging.md3.util.LogUtil$1
+com/android/messaging/md3/ui/conversationlist/ShareIntentFragment.java
+ com.android.messaging.md3.ui.conversationlist.ShareIntentFragment
+ com.android.messaging.md3.ui.conversationlist.ShareIntentFragment$1
+ com.android.messaging.md3.ui.conversationlist.ShareIntentFragment$2
+ com.android.messaging.md3.ui.conversationlist.ShareIntentFragment$HostInterface
+com/android/messaging/md3/receiver/SendStatusReceiver.java
+ com.android.messaging.md3.receiver.SendStatusReceiver
+androidx/appcompat/mms/MmsNetworkException.java
+ androidx.appcompat.mms.MmsNetworkException
+com/android/messaging/md3/ui/PersonItemView.java
+ com.android.messaging.md3.ui.PersonItemView
+ com.android.messaging.md3.ui.PersonItemView$1
+ com.android.messaging.md3.ui.PersonItemView$2
+ com.android.messaging.md3.ui.PersonItemView$PersonItemViewListener
+com/android/messaging/md3/ui/attachmentchooser/AttachmentGridItemView.java
+ com.android.messaging.md3.ui.attachmentchooser.AttachmentGridItemView
+ com.android.messaging.md3.ui.attachmentchooser.AttachmentGridItemView$1
+ com.android.messaging.md3.ui.attachmentchooser.AttachmentGridItemView$2
+ com.android.messaging.md3.ui.attachmentchooser.AttachmentGridItemView$3
+ com.android.messaging.md3.ui.attachmentchooser.AttachmentGridItemView$HostInterface
+com/android/messaging/md3/mmslib/pdu/NotifyRespInd.java
+ com.android.messaging.md3.mmslib.pdu.NotifyRespInd
+com/android/messaging/md3/ui/conversation/ConversationActivity.java
+ com.android.messaging.md3.ui.conversation.ConversationActivity
+com/android/messaging/md3/datamodel/action/LogTelephonyDatabaseAction.java
+ com.android.messaging.md3.datamodel.action.LogTelephonyDatabaseAction
+ com.android.messaging.md3.datamodel.action.LogTelephonyDatabaseAction$1
+com/android/messaging/md3/datamodel/data/ContactPickerData.java
+ com.android.messaging.md3.datamodel.data.ContactPickerData
+ com.android.messaging.md3.datamodel.data.ContactPickerData$ContactPickerDataListener
+com/android/messaging/md3/annotation/VisibleForAnimation.java
+ com.android.messaging.md3.annotation.VisibleForAnimation
+com/android/messaging/md3/ui/mediapicker/CameraMediaChooser.java
+ com.android.messaging.md3.ui.mediapicker.CameraMediaChooser
+ com.android.messaging.md3.ui.mediapicker.CameraMediaChooser$1
+ com.android.messaging.md3.ui.mediapicker.CameraMediaChooser$2
+ com.android.messaging.md3.ui.mediapicker.CameraMediaChooser$3
+ com.android.messaging.md3.ui.mediapicker.CameraMediaChooser$4
+ com.android.messaging.md3.ui.mediapicker.CameraMediaChooser$4$1
+ com.android.messaging.md3.ui.mediapicker.CameraMediaChooser$5
+ com.android.messaging.md3.ui.mediapicker.CameraMediaChooser$6
+ com.android.messaging.md3.ui.mediapicker.CameraMediaChooser$7
+com/android/messaging/md3/util/CaptchaUtil.java
+ com.android.messaging.md3.util.CaptchaUtil
+com/android/messaging/md3/ui/mediapicker/SoundLevels.java
+ com.android.messaging.md3.ui.mediapicker.SoundLevels
+ com.android.messaging.md3.ui.mediapicker.SoundLevels$1
+com/android/messaging/md3/util/ThreadUtil.java
+ com.android.messaging.md3.util.ThreadUtil
+com/android/messaging/md3/util/ImeUtil.java
+ com.android.messaging.md3.util.ImeUtil
+ com.android.messaging.md3.util.ImeUtil$ImeStateHost
+ com.android.messaging.md3.util.ImeUtil$ImeStateObserver
+com/android/messaging/md3/receiver/DefaultSmsSubscriptionChangeReceiver.java
+ com.android.messaging.md3.receiver.DefaultSmsSubscriptionChangeReceiver
+com/android/messaging/md3/mmslib/pdu/QuotedPrintable.java
+ com.android.messaging.md3.mmslib.pdu.QuotedPrintable
+com/android/messaging/md3/datamodel/action/UpdateMessagePartSizeAction.java
+ com.android.messaging.md3.datamodel.action.UpdateMessagePartSizeAction
+ com.android.messaging.md3.datamodel.action.UpdateMessagePartSizeAction$1
+androidx/appcompat/mms/pdu/DeliveryInd.java
+ androidx.appcompat.mms.pdu.DeliveryInd
+com/android/messaging/md3/sms/MmsSmsUtils.java
+ com.android.messaging.md3.sms.MmsSmsUtils
+ com.android.messaging.md3.sms.MmsSmsUtils$Threads
+com/android/messaging/md3/sms/SystemProperties.java
+ com.android.messaging.md3.sms.SystemProperties
+com/android/messaging/md3/mmslib/pdu/AcknowledgeInd.java
+ com.android.messaging.md3.mmslib.pdu.AcknowledgeInd
+com/android/messaging/md3/ui/conversation/ConversationInputManager.java
+ com.android.messaging.md3.ui.conversation.ConversationInputManager
+ com.android.messaging.md3.ui.conversation.ConversationInputManager$1
+ com.android.messaging.md3.ui.conversation.ConversationInputManager$2
+ com.android.messaging.md3.ui.conversation.ConversationInputManager$ConversationImeKeyboard
+ com.android.messaging.md3.ui.conversation.ConversationInputManager$ConversationInputHost
+ com.android.messaging.md3.ui.conversation.ConversationInputManager$ConversationInputSink
+ com.android.messaging.md3.ui.conversation.ConversationInputManager$ConversationMediaPicker
+ com.android.messaging.md3.ui.conversation.ConversationInputManager$ConversationMediaPicker$1
+ com.android.messaging.md3.ui.conversation.ConversationInputManager$SimSelector
+com/android/messaging/md3/BuildConfig.java
+ com.android.messaging.md3.BuildConfig
+com/android/messaging/md3/util/DebugUtils.java
+ com.android.messaging.md3.util.DebugUtils
+ com.android.messaging.md3.util.DebugUtils$1
+ com.android.messaging.md3.util.DebugUtils$10
+ com.android.messaging.md3.util.DebugUtils$11
+ com.android.messaging.md3.util.DebugUtils$2
+ com.android.messaging.md3.util.DebugUtils$3
+ com.android.messaging.md3.util.DebugUtils$4
+ com.android.messaging.md3.util.DebugUtils$5
+ com.android.messaging.md3.util.DebugUtils$6
+ com.android.messaging.md3.util.DebugUtils$7
+ com.android.messaging.md3.util.DebugUtils$8
+ com.android.messaging.md3.util.DebugUtils$9
+ com.android.messaging.md3.util.DebugUtils$DebugAction
+ com.android.messaging.md3.util.DebugUtils$DebugSmsMmsDumpTask
+ com.android.messaging.md3.util.DebugUtils$DebugSmsMmsDumpTask$1
+com/android/messaging/md3/mmslib/util/PduCacheEntry.java
+ com.android.messaging.md3.mmslib.util.PduCacheEntry
+com/android/messaging/md3/datamodel/action/ProcessPendingMessagesAction.java
+ com.android.messaging.md3.datamodel.action.ProcessPendingMessagesAction
+ com.android.messaging.md3.datamodel.action.ProcessPendingMessagesAction$1
+ com.android.messaging.md3.datamodel.action.ProcessPendingMessagesAction$2
+ com.android.messaging.md3.datamodel.action.ProcessPendingMessagesAction$3
+com/android/messaging/md3/datamodel/action/BackgroundWorker.java
+ com.android.messaging.md3.datamodel.action.BackgroundWorker
+com/android/messaging/md3/mmslib/pdu/EncodedStringValue.java
+ com.android.messaging.md3.mmslib.pdu.EncodedStringValue
+com/android/messaging/md3/datamodel/action/ProcessDownloadedMmsAction.java
+ com.android.messaging.md3.datamodel.action.ProcessDownloadedMmsAction
+ com.android.messaging.md3.datamodel.action.ProcessDownloadedMmsAction$1
+com/android/messaging/md3/util/UriUtil.java
+ com.android.messaging.md3.util.UriUtil
+com/android/messaging/md3/ui/CompositeAdapter.java
+ com.android.messaging.md3.ui.CompositeAdapter
+ com.android.messaging.md3.ui.CompositeAdapter$1
+ com.android.messaging.md3.ui.CompositeAdapter$Observer
+ com.android.messaging.md3.ui.CompositeAdapter$Partition
+com/android/messaging/md3/ui/VCardDetailFragment.java
+ com.android.messaging.md3.ui.VCardDetailFragment
+ com.android.messaging.md3.ui.VCardDetailFragment$1
+ com.android.messaging.md3.ui.VCardDetailFragment$2
+ com.android.messaging.md3.ui.VCardDetailFragment$3
+com/android/messaging/md3/ui/conversation/EnterSelfPhoneNumberDialog.java
+ com.android.messaging.md3.ui.conversation.EnterSelfPhoneNumberDialog
+ com.android.messaging.md3.ui.conversation.EnterSelfPhoneNumberDialog$1
+ com.android.messaging.md3.ui.conversation.EnterSelfPhoneNumberDialog$2
+com/android/messaging/md3/mmslib/util/DownloadDrmHelper.java
+ com.android.messaging.md3.mmslib.util.DownloadDrmHelper
+com/android/messaging/md3/util/GifTranscoder.java
+ com.android.messaging.md3.util.GifTranscoder
+com/android/messaging/md3/datamodel/MessageNotificationState.java
+ com.android.messaging.md3.datamodel.MessageNotificationState
+ com.android.messaging.md3.datamodel.MessageNotificationState$BundledMessageNotificationState
+ com.android.messaging.md3.datamodel.MessageNotificationState$ConversationInfoList
+ com.android.messaging.md3.datamodel.MessageNotificationState$ConversationLineInfo
+ com.android.messaging.md3.datamodel.MessageNotificationState$MessageLineInfo
+ com.android.messaging.md3.datamodel.MessageNotificationState$MultiConversationNotificationState
+ com.android.messaging.md3.datamodel.MessageNotificationState$MultiMessageNotificationState
+ com.android.messaging.md3.datamodel.MessageNotificationState$NotificationLineInfo
+com/android/messaging/md3/widget/BugleWidgetProvider.java
+ com.android.messaging.md3.widget.BugleWidgetProvider
+ com.android.messaging.md3.widget.BugleWidgetProvider$1
+com/android/messaging/md3/datamodel/media/AvatarRequestDescriptor.java
+ com.android.messaging.md3.datamodel.media.AvatarRequestDescriptor
+com/android/messaging/md3/sms/SmsSender.java
+ com.android.messaging.md3.sms.SmsSender
+ com.android.messaging.md3.sms.SmsSender$SendResult
+com/android/messaging/md3/datamodel/media/VCardRequestDescriptor.java
+ com.android.messaging.md3.datamodel.media.VCardRequestDescriptor
+com/android/messaging/md3/datamodel/media/BugleMediaCacheManager.java
+ com.android.messaging.md3.datamodel.media.BugleMediaCacheManager
+com/android/messaging/md3/datamodel/MessagingContentProvider.java
+ com.android.messaging.md3.datamodel.MessagingContentProvider
+ com.android.messaging.md3.datamodel.MessagingContentProvider$ConversationParticipantsQueryColumns
+androidx/appcompat/mms/pdu/AcknowledgeInd.java
+ androidx.appcompat.mms.pdu.AcknowledgeInd
+com/android/messaging/md3/util/FileUtil.java
+ com.android.messaging.md3.util.FileUtil
+com/android/messaging/md3/datamodel/data/MediaPickerData.java
+ com.android.messaging.md3.datamodel.data.MediaPickerData
+ com.android.messaging.md3.datamodel.data.MediaPickerData$1
+ com.android.messaging.md3.datamodel.data.MediaPickerData$GalleryLoaderCallbacks
+ com.android.messaging.md3.datamodel.data.MediaPickerData$MediaPickerDataListener
+androidx/appcompat/mms/SendRequest.java
+ androidx.appcompat.mms.SendRequest
+ androidx.appcompat.mms.SendRequest$1
+ androidx.appcompat.mms.SendRequest$2
+androidx/appcompat/mms/pdu/NotifyRespInd.java
+ androidx.appcompat.mms.pdu.NotifyRespInd
+com/android/messaging/md3/datamodel/data/MessagePartData.java
+ com.android.messaging.md3.datamodel.data.MessagePartData
+ com.android.messaging.md3.datamodel.data.MessagePartData$1
+ com.android.messaging.md3.datamodel.data.MessagePartData$2
+androidx/appcompat/mms/MmsHttpClient.java
+ androidx.appcompat.mms.MmsHttpClient
+com/android/messaging/md3/util/BugleActivityUtil.java
+ com.android.messaging.md3.util.BugleActivityUtil
+ com.android.messaging.md3.util.BugleActivityUtil$1
+com/android/messaging/md3/mmslib/pdu/GenericPdu.java
+ com.android.messaging.md3.mmslib.pdu.GenericPdu
+com/android/messaging/md3/util/CaptchaKeywordsUtils.java
+ com.android.messaging.md3.util.CaptchaKeywordsUtils
+com/android/messaging/md3/ui/PermissionCheckActivity.java
+ com.android.messaging.md3.ui.PermissionCheckActivity
+ com.android.messaging.md3.ui.PermissionCheckActivity$1
+com/android/messaging/md3/ui/BasePagerViewHolder.java
+ com.android.messaging.md3.ui.BasePagerViewHolder
+androidx/appcompat/mms/pdu/SendReq.java
+ androidx.appcompat.mms.pdu.SendReq
+com/android/messaging/md3/sms/SmsReleaseStorage.java
+ com.android.messaging.md3.sms.SmsReleaseStorage
+ com.android.messaging.md3.sms.SmsReleaseStorage$Duration
+com/android/messaging/md3/datamodel/media/AvatarRequest.java
+ com.android.messaging.md3.datamodel.media.AvatarRequest
+com/android/messaging/md3/datamodel/action/ActionService.java
+ com.android.messaging.md3.datamodel.action.ActionService
+com/android/messaging/md3/mmslib/pdu/PduHeaders.java
+ com.android.messaging.md3.mmslib.pdu.PduHeaders
+com/android/messaging/md3/datamodel/data/PeopleAndOptionsData.java
+ com.android.messaging.md3.datamodel.data.PeopleAndOptionsData
+ com.android.messaging.md3.datamodel.data.PeopleAndOptionsData$PeopleAndOptionsDataListener
+com/android/messaging/md3/ui/UIIntents.java
+ com.android.messaging.md3.ui.UIIntents
+androidx/appcompat/mms/MmsHttpException.java
+ androidx.appcompat.mms.MmsHttpException
+com/android/messaging/md3/datamodel/action/ReceiveSmsMessageAction.java
+ com.android.messaging.md3.datamodel.action.ReceiveSmsMessageAction
+ com.android.messaging.md3.datamodel.action.ReceiveSmsMessageAction$1
+com/android/messaging/md3/ui/AudioAttachmentPlayPauseButton.java
+ com.android.messaging.md3.ui.AudioAttachmentPlayPauseButton
+androidx/appcompat/mms/pdu/PduParser.java
+ androidx.appcompat.mms.pdu.PduParser
+com/android/messaging/md3/sms/BugleCarrierConfigValuesLoader.java
+ com.android.messaging.md3.sms.BugleCarrierConfigValuesLoader
+ com.android.messaging.md3.sms.BugleCarrierConfigValuesLoader$1
+com/android/messaging/md3/ui/attachmentchooser/AttachmentChooserFragment.java
+ com.android.messaging.md3.ui.attachmentchooser.AttachmentChooserFragment
+ com.android.messaging.md3.ui.attachmentchooser.AttachmentChooserFragment$AttachmentChooserFragmentHost
+ com.android.messaging.md3.ui.attachmentchooser.AttachmentChooserFragment$AttachmentGridAdapter
+com/android/messaging/md3/ui/conversation/LaunchConversationActivity.java
+ com.android.messaging.md3.ui.conversation.LaunchConversationActivity
+com/android/messaging/md3/datamodel/data/PeopleOptionsItemData.java
+ com.android.messaging.md3.datamodel.data.PeopleOptionsItemData
+androidx/appcompat/mms/pdu/NotificationInd.java
+ androidx.appcompat.mms.pdu.NotificationInd
+com/android/messaging/md3/datamodel/media/BindableMediaRequest.java
+ com.android.messaging.md3.datamodel.media.BindableMediaRequest
+androidx/appcompat/mms/pdu/PduBody.java
+ androidx.appcompat.mms.pdu.PduBody
+com/android/messaging/md3/util/CircularArray.java
+ com.android.messaging.md3.util.CircularArray
+com/android/messaging/md3/datamodel/media/MediaBytes.java
+ com.android.messaging.md3.datamodel.media.MediaBytes
+com/android/messaging/md3/widget/WidgetConversationListService.java
+ com.android.messaging.md3.widget.WidgetConversationListService
+ com.android.messaging.md3.widget.WidgetConversationListService$WidgetConversationListFactory
+com/android/messaging/md3/ui/conversation/ConversationMessageBubbleView.java
+ com.android.messaging.md3.ui.conversation.ConversationMessageBubbleView
+ com.android.messaging.md3.ui.conversation.ConversationMessageBubbleView$1
+com/android/messaging/md3/ui/CustomHeaderPagerViewHolder.java
+ com.android.messaging.md3.ui.CustomHeaderPagerViewHolder
+com/android/messaging/md3/ui/mediapicker/AudioLevelSource.java
+ com.android.messaging.md3.ui.mediapicker.AudioLevelSource
+ com.android.messaging.md3.ui.mediapicker.AudioLevelSource$Listener
+com/android/messaging/md3/ui/conversation/ConversationFragment.java
+ com.android.messaging.md3.ui.conversation.ConversationFragment
+ com.android.messaging.md3.ui.conversation.ConversationFragment$1
+ com.android.messaging.md3.ui.conversation.ConversationFragment$10
+ com.android.messaging.md3.ui.conversation.ConversationFragment$11
+ com.android.messaging.md3.ui.conversation.ConversationFragment$12
+ com.android.messaging.md3.ui.conversation.ConversationFragment$13
+ com.android.messaging.md3.ui.conversation.ConversationFragment$14
+ com.android.messaging.md3.ui.conversation.ConversationFragment$15
+ com.android.messaging.md3.ui.conversation.ConversationFragment$2
+ com.android.messaging.md3.ui.conversation.ConversationFragment$3
+ com.android.messaging.md3.ui.conversation.ConversationFragment$4
+ com.android.messaging.md3.ui.conversation.ConversationFragment$5
+ com.android.messaging.md3.ui.conversation.ConversationFragment$6
+ com.android.messaging.md3.ui.conversation.ConversationFragment$6$1
+ com.android.messaging.md3.ui.conversation.ConversationFragment$6$2
+ com.android.messaging.md3.ui.conversation.ConversationFragment$7
+ com.android.messaging.md3.ui.conversation.ConversationFragment$8
+ com.android.messaging.md3.ui.conversation.ConversationFragment$9
+ com.android.messaging.md3.ui.conversation.ConversationFragment$AttachmentToSave
+ com.android.messaging.md3.ui.conversation.ConversationFragment$ConversationFragmentHost
+ com.android.messaging.md3.ui.conversation.ConversationFragment$SaveAttachmentTask
+com/android/messaging/md3/util/BugleGservicesKeys.java
+ com.android.messaging.md3.util.BugleGservicesKeys
+com/android/messaging/md3/ui/conversation/ConversationActivityUiState.java
+ com.android.messaging.md3.ui.conversation.ConversationActivityUiState
+ com.android.messaging.md3.ui.conversation.ConversationActivityUiState$1
+ com.android.messaging.md3.ui.conversation.ConversationActivityUiState$ConversationActivityUiStateHost
+androidx/appcompat/mms/Utils.java
+ androidx.appcompat.mms.Utils
+com/android/messaging/md3/datamodel/MemoryCacheManager.java
+ com.android.messaging.md3.datamodel.MemoryCacheManager
+ com.android.messaging.md3.datamodel.MemoryCacheManager$MemoryCache
+com/android/messaging/md3/datamodel/data/ConversationListData.java
+ com.android.messaging.md3.datamodel.data.ConversationListData
+ com.android.messaging.md3.datamodel.data.ConversationListData$ConversationListDataListener
+androidx/appcompat/mms/PhoneNumberHelper.java
+ androidx.appcompat.mms.PhoneNumberHelper
+com/android/messaging/md3/receiver/StorageStatusReceiver.java
+ com.android.messaging.md3.receiver.StorageStatusReceiver
+com/android/messaging/md3/util/ConnectivityUtil.java
+ com.android.messaging.md3.util.ConnectivityUtil
+ com.android.messaging.md3.util.ConnectivityUtil$1
+ com.android.messaging.md3.util.ConnectivityUtil$ConnectivityListener
+com/android/messaging/md3/ui/conversation/ConversationMessageAdapter.java
+ com.android.messaging.md3.ui.conversation.ConversationMessageAdapter
+ com.android.messaging.md3.ui.conversation.ConversationMessageAdapter$ConversationMessageViewHolder
+com/android/messaging/md3/util/ContentType.java
+ com.android.messaging.md3.util.ContentType
+com/android/messaging/md3/ui/OrientedBitmapDrawable.java
+ com.android.messaging.md3.ui.OrientedBitmapDrawable
+androidx/appcompat/mms/ApnsXmlParser.java
+ androidx.appcompat.mms.ApnsXmlParser
+ androidx.appcompat.mms.ApnsXmlParser$ApnProcessor
+com/android/messaging/md3/datamodel/action/DeleteMessageAction.java
+ com.android.messaging.md3.datamodel.action.DeleteMessageAction
+ com.android.messaging.md3.datamodel.action.DeleteMessageAction$1
+com/android/messaging/md3/mmslib/pdu/PduPart.java
+ com.android.messaging.md3.mmslib.pdu.PduPart
+com/android/messaging/md3/ui/debug/DebugSmsMmsFromDumpFileDialogFragment.java
+ com.android.messaging.md3.ui.debug.DebugSmsMmsFromDumpFileDialogFragment
+ com.android.messaging.md3.ui.debug.DebugSmsMmsFromDumpFileDialogFragment$DumpFileListAdapter
+ com.android.messaging.md3.ui.debug.DebugSmsMmsFromDumpFileDialogFragment$DumpFileListAdapter$1
+com/android/messaging/md3/datamodel/action/DeleteConversationAction.java
+ com.android.messaging.md3.datamodel.action.DeleteConversationAction
+ com.android.messaging.md3.datamodel.action.DeleteConversationAction$1
+com/android/messaging/md3/ui/UIIntentsImpl.java
+ com.android.messaging.md3.ui.UIIntentsImpl
+com/android/messaging/md3/datamodel/binding/Binding.java
+ com.android.messaging.md3.datamodel.binding.Binding
+com/android/messaging/md3/ui/mediapicker/CameraManager.java
+ com.android.messaging.md3.ui.mediapicker.CameraManager
+ com.android.messaging.md3.ui.mediapicker.CameraManager$1
+ com.android.messaging.md3.ui.mediapicker.CameraManager$2
+ com.android.messaging.md3.ui.mediapicker.CameraManager$3
+ com.android.messaging.md3.ui.mediapicker.CameraManager$4
+ com.android.messaging.md3.ui.mediapicker.CameraManager$5
+ com.android.messaging.md3.ui.mediapicker.CameraManager$6
+ com.android.messaging.md3.ui.mediapicker.CameraManager$7
+ com.android.messaging.md3.ui.mediapicker.CameraManager$8
+ com.android.messaging.md3.ui.mediapicker.CameraManager$9
+ com.android.messaging.md3.ui.mediapicker.CameraManager$CameraManagerListener
+ com.android.messaging.md3.ui.mediapicker.CameraManager$CameraWrapper
+ com.android.messaging.md3.ui.mediapicker.CameraManager$MediaCallback
+ com.android.messaging.md3.ui.mediapicker.CameraManager$OrientationHandler
+ com.android.messaging.md3.ui.mediapicker.CameraManager$SizeComparator
+com/android/messaging/md3/util/MediaMetadataRetrieverWrapper.java
+ com.android.messaging.md3.util.MediaMetadataRetrieverWrapper
+com/android/messaging/md3/datamodel/action/RedownloadMmsAction.java
+ com.android.messaging.md3.datamodel.action.RedownloadMmsAction
+ com.android.messaging.md3.datamodel.action.RedownloadMmsAction$1
+com/android/messaging/md3/datamodel/action/DownloadMmsAction.java
+ com.android.messaging.md3.datamodel.action.DownloadMmsAction
+ com.android.messaging.md3.datamodel.action.DownloadMmsAction$1
+ com.android.messaging.md3.datamodel.action.DownloadMmsAction$DownloadMmsActionListener
+com/android/messaging/md3/mmslib/pdu/PduContentTypes.java
+ com.android.messaging.md3.mmslib.pdu.PduContentTypes
+com/android/messaging/md3/datamodel/media/NetworkUriImageRequest.java
+ com.android.messaging.md3.datamodel.media.NetworkUriImageRequest
+com/android/messaging/md3/mmslib/SqliteWrapper.java
+ com.android.messaging.md3.mmslib.SqliteWrapper
+com/android/messaging/md3/ui/VideoThumbnailView.java
+ com.android.messaging.md3.ui.VideoThumbnailView
+ com.android.messaging.md3.ui.VideoThumbnailView$1
+ com.android.messaging.md3.ui.VideoThumbnailView$2
+ com.android.messaging.md3.ui.VideoThumbnailView$3
+ com.android.messaging.md3.ui.VideoThumbnailView$4
+ com.android.messaging.md3.ui.VideoThumbnailView$5
+com/android/messaging/md3/ui/mediapicker/GalleryGridAdapter.java
+ com.android.messaging.md3.ui.mediapicker.GalleryGridAdapter
+com/android/messaging/md3/mmslib/util/PduCache.java
+ com.android.messaging.md3.mmslib.util.PduCache
+com/android/messaging/md3/util/BugleSubscriptionPrefs.java
+ com.android.messaging.md3.util.BugleSubscriptionPrefs
+com/android/messaging/md3/util/exif/ExifInterface.java
+ com.android.messaging.md3.util.exif.ExifInterface
+ com.android.messaging.md3.util.exif.ExifInterface$ColorSpace
+ com.android.messaging.md3.util.exif.ExifInterface$ComponentsConfiguration
+ com.android.messaging.md3.util.exif.ExifInterface$Compression
+ com.android.messaging.md3.util.exif.ExifInterface$Contrast
+ com.android.messaging.md3.util.exif.ExifInterface$ExposureMode
+ com.android.messaging.md3.util.exif.ExifInterface$ExposureProgram
+ com.android.messaging.md3.util.exif.ExifInterface$FileSource
+ com.android.messaging.md3.util.exif.ExifInterface$Flash
+ com.android.messaging.md3.util.exif.ExifInterface$GainControl
+ com.android.messaging.md3.util.exif.ExifInterface$GpsAltitudeRef
+ com.android.messaging.md3.util.exif.ExifInterface$GpsDifferential
+ com.android.messaging.md3.util.exif.ExifInterface$GpsLatitudeRef
+ com.android.messaging.md3.util.exif.ExifInterface$GpsLongitudeRef
+ com.android.messaging.md3.util.exif.ExifInterface$GpsMeasureMode
+ com.android.messaging.md3.util.exif.ExifInterface$GpsSpeedRef
+ com.android.messaging.md3.util.exif.ExifInterface$GpsStatus
+ com.android.messaging.md3.util.exif.ExifInterface$GpsTrackRef
+ com.android.messaging.md3.util.exif.ExifInterface$LightSource
+ com.android.messaging.md3.util.exif.ExifInterface$MeteringMode
+ com.android.messaging.md3.util.exif.ExifInterface$Orientation
+ com.android.messaging.md3.util.exif.ExifInterface$OrientationParams
+ com.android.messaging.md3.util.exif.ExifInterface$PhotometricInterpretation
+ com.android.messaging.md3.util.exif.ExifInterface$PlanarConfiguration
+ com.android.messaging.md3.util.exif.ExifInterface$ResolutionUnit
+ com.android.messaging.md3.util.exif.ExifInterface$Saturation
+ com.android.messaging.md3.util.exif.ExifInterface$SceneCapture
+ com.android.messaging.md3.util.exif.ExifInterface$SceneType
+ com.android.messaging.md3.util.exif.ExifInterface$SensingMethod
+ com.android.messaging.md3.util.exif.ExifInterface$Sharpness
+ com.android.messaging.md3.util.exif.ExifInterface$SubjectDistance
+ com.android.messaging.md3.util.exif.ExifInterface$WhiteBalance
+ com.android.messaging.md3.util.exif.ExifInterface$YCbCrPositioning
+com/android/messaging/md3/ui/conversationlist/ArchivedConversationListActivity.java
+ com.android.messaging.md3.ui.conversationlist.ArchivedConversationListActivity
+com/android/messaging/md3/datamodel/MmsFileProvider.java
+ com.android.messaging.md3.datamodel.MmsFileProvider
+com/android/messaging/md3/util/exif/IfdId.java
+ com.android.messaging.md3.util.exif.IfdId
+com/android/messaging/md3/ui/conversationlist/ForwardMessageActivity.java
+ com.android.messaging.md3.ui.conversationlist.ForwardMessageActivity
+com/android/messaging/md3/ui/mediapicker/GalleryGridView.java
+ com.android.messaging.md3.ui.mediapicker.GalleryGridView
+ com.android.messaging.md3.ui.mediapicker.GalleryGridView$1
+ com.android.messaging.md3.ui.mediapicker.GalleryGridView$GalleryGridViewListener
+ com.android.messaging.md3.ui.mediapicker.GalleryGridView$SavedState
+ com.android.messaging.md3.ui.mediapicker.GalleryGridView$SavedState$1
+com/android/messaging/md3/sms/ApnDatabase.java
+ com.android.messaging.md3.sms.ApnDatabase
+ com.android.messaging.md3.sms.ApnDatabase$1
+com/android/messaging/md3/datamodel/FrequentContactsCursorQueryData.java
+ com.android.messaging.md3.datamodel.FrequentContactsCursorQueryData
+ com.android.messaging.md3.datamodel.FrequentContactsCursorQueryData$1
+ com.android.messaging.md3.datamodel.FrequentContactsCursorQueryData$FrequentContactsCursorLoader
+ com.android.messaging.md3.datamodel.FrequentContactsCursorQueryData$FrequentContactsCursorLoader$FrequentOnlyContactsQueryStrategy
+ com.android.messaging.md3.datamodel.FrequentContactsCursorQueryData$FrequentContactsCursorLoader$PhoneOnlyStrequentContactsQueryStrategy
+ com.android.messaging.md3.datamodel.FrequentContactsCursorQueryData$FrequentContactsCursorLoader$PrimaryStrequentContactsQueryStrategy
+ com.android.messaging.md3.datamodel.FrequentContactsCursorQueryData$FrequentContactsCursorLoader$StrequentContactsQueryStrategy
+androidx/appcompat/mms/pdu/ReadOrigInd.java
+ androidx.appcompat.mms.pdu.ReadOrigInd
+com/android/messaging/md3/datamodel/action/MarkAsSeenAction.java
+ com.android.messaging.md3.datamodel.action.MarkAsSeenAction
+ com.android.messaging.md3.datamodel.action.MarkAsSeenAction$1
+com/android/messaging/md3/ui/appsettings/ApnSettingsActivity.java
+ com.android.messaging.md3.ui.appsettings.ApnSettingsActivity
+ com.android.messaging.md3.ui.appsettings.ApnSettingsActivity$1
+ com.android.messaging.md3.ui.appsettings.ApnSettingsActivity$ApnSettingsFragment
+ com.android.messaging.md3.ui.appsettings.ApnSettingsActivity$ApnSettingsFragment$1
+ com.android.messaging.md3.ui.appsettings.ApnSettingsActivity$ApnSettingsFragment$2
+ com.android.messaging.md3.ui.appsettings.ApnSettingsActivity$ApnSettingsFragment$RestoreApnProcessHandler
+ com.android.messaging.md3.ui.appsettings.ApnSettingsActivity$ApnSettingsFragment$RestoreApnUiHandler
+com/android/messaging/md3/ui/conversationsettings/PeopleAndOptionsActivity.java
+ com.android.messaging.md3.ui.conversationsettings.PeopleAndOptionsActivity
+com/android/messaging/md3/mmslib/InvalidHeaderValueException.java
+ com.android.messaging.md3.mmslib.InvalidHeaderValueException
+com/android/messaging/md3/datamodel/action/SyncCursorPair.java
+ com.android.messaging.md3.datamodel.action.SyncCursorPair
+ com.android.messaging.md3.datamodel.action.SyncCursorPair$CursorIterator
+ com.android.messaging.md3.datamodel.action.SyncCursorPair$LocalCursorIterator
+ com.android.messaging.md3.datamodel.action.SyncCursorPair$LocalMessageQuery
+ com.android.messaging.md3.datamodel.action.SyncCursorPair$RemoteCursorsIterator
+com/android/messaging/md3/ui/LineWrapLayout.java
+ com.android.messaging.md3.ui.LineWrapLayout
+ com.android.messaging.md3.ui.LineWrapLayout$LayoutParams
+com/android/messaging/md3/mmslib/pdu/Base64.java
+ com.android.messaging.md3.mmslib.pdu.Base64
+com/android/messaging/md3/datamodel/media/UriImageRequestDescriptor.java
+ com.android.messaging.md3.datamodel.media.UriImageRequestDescriptor
+com/android/messaging/md3/datamodel/binding/DetachableBinding.java
+ com.android.messaging.md3.datamodel.binding.DetachableBinding
+com/android/messaging/md3/ui/VCardDetailActivity.java
+ com.android.messaging.md3.ui.VCardDetailActivity
+com/android/messaging/md3/sms/BugleApnSettingsLoader.java
+ com.android.messaging.md3.sms.BugleApnSettingsLoader
+ com.android.messaging.md3.sms.BugleApnSettingsLoader$BaseApn
+ com.android.messaging.md3.sms.BugleApnSettingsLoader$DatabaseApn
+com/android/messaging/md3/ui/contact/ContactRecipientAdapter.java
+ com.android.messaging.md3.ui.contact.ContactRecipientAdapter
+ com.android.messaging.md3.ui.contact.ContactRecipientAdapter$ContactFilter
+ com.android.messaging.md3.ui.contact.ContactRecipientAdapter$ContactFilter$ContactReceipientFilterResult
+ com.android.messaging.md3.ui.contact.ContactRecipientAdapter$ContactFilter$CursorResult
+ com.android.messaging.md3.ui.contact.ContactRecipientAdapter$ContactFilter$RecipientEntryComparator
+com/android/messaging/md3/ui/debug/DebugMmsConfigActivity.java
+ com.android.messaging.md3.ui.debug.DebugMmsConfigActivity
+androidx/appcompat/mms/MmsService.java
+ androidx.appcompat.mms.MmsService
+ androidx.appcompat.mms.MmsService$1
+ androidx.appcompat.mms.MmsService$2
+com/android/messaging/md3/datamodel/media/VCardRequest.java
+ com.android.messaging.md3.datamodel.media.VCardRequest
+ com.android.messaging.md3.datamodel.media.VCardRequest$ContactVCardEntryHandler
+androidx/appcompat/mms/DefaultUserAgentInfoLoader.java
+ androidx.appcompat.mms.DefaultUserAgentInfoLoader
+com/android/messaging/md3/ui/conversation/ConversationInput.java
+ com.android.messaging.md3.ui.conversation.ConversationInput
+ com.android.messaging.md3.ui.conversation.ConversationInput$ConversationInputBase
+com/android/messaging/md3/datamodel/data/MediaPickerMessagePartData.java
+ com.android.messaging.md3.datamodel.data.MediaPickerMessagePartData
+com/android/messaging/md3/ui/conversation/SimIconView.java
+ com.android.messaging.md3.ui.conversation.SimIconView
+ com.android.messaging.md3.ui.conversation.SimIconView$1
+com/android/messaging/md3/mmslib/pdu/PduPersister.java
+ com.android.messaging.md3.mmslib.pdu.PduPersister
+com/android/messaging/md3/util/SafeAsyncTask.java
+ com.android.messaging.md3.util.SafeAsyncTask
+ com.android.messaging.md3.util.SafeAsyncTask$1
+ com.android.messaging.md3.util.SafeAsyncTask$2
+com/android/messaging/md3/datamodel/data/GalleryGridItemData.java
+ com.android.messaging.md3.datamodel.data.GalleryGridItemData
+androidx/appcompat/mms/pdu/CharacterSets.java
+ androidx.appcompat.mms.pdu.CharacterSets
+com/android/messaging/md3/datamodel/ConversationImagePartsView.java
+ com.android.messaging.md3.datamodel.ConversationImagePartsView
+ com.android.messaging.md3.datamodel.ConversationImagePartsView$Columns
+ com.android.messaging.md3.datamodel.ConversationImagePartsView$PhotoViewQuery
+com/android/messaging/md3/datamodel/action/UpdateMessageNotificationAction.java
+ com.android.messaging.md3.datamodel.action.UpdateMessageNotificationAction
+ com.android.messaging.md3.datamodel.action.UpdateMessageNotificationAction$1
+com/android/messaging/md3/datamodel/data/BlockedParticipantsData.java
+ com.android.messaging.md3.datamodel.data.BlockedParticipantsData
+ com.android.messaging.md3.datamodel.data.BlockedParticipantsData$BlockedParticipantsDataListener
+com/android/messaging/md3/util/exif/ExifReader.java
+ com.android.messaging.md3.util.exif.ExifReader
+com/android/messaging/md3/datamodel/action/ReceiveMmsMessageAction.java
+ com.android.messaging.md3.datamodel.action.ReceiveMmsMessageAction
+ com.android.messaging.md3.datamodel.action.ReceiveMmsMessageAction$1
+com/android/messaging/md3/ui/mediapicker/CameraMediaChooserView.java
+ com.android.messaging.md3.ui.mediapicker.CameraMediaChooserView
+ com.android.messaging.md3.ui.mediapicker.CameraMediaChooserView$1
+com/android/messaging/md3/ui/conversationlist/ConversationListFragment.java
+ com.android.messaging.md3.ui.conversationlist.ConversationListFragment
+ com.android.messaging.md3.ui.conversationlist.ConversationListFragment$1
+ com.android.messaging.md3.ui.conversationlist.ConversationListFragment$2
+ com.android.messaging.md3.ui.conversationlist.ConversationListFragment$3
+ com.android.messaging.md3.ui.conversationlist.ConversationListFragment$ConversationListFragmentHost
+com/android/messaging/md3/datamodel/action/SendMessageAction.java
+ com.android.messaging.md3.datamodel.action.SendMessageAction
+ com.android.messaging.md3.datamodel.action.SendMessageAction$1
+com/android/messaging/md3/ui/SmsStorageLowWarningFragment.java
+ com.android.messaging.md3.ui.SmsStorageLowWarningFragment
+ com.android.messaging.md3.ui.SmsStorageLowWarningFragment$ChooseActionDialogFragment
+ com.android.messaging.md3.ui.SmsStorageLowWarningFragment$ChooseActionDialogFragment$1
+ com.android.messaging.md3.ui.SmsStorageLowWarningFragment$ChooseActionDialogFragment$ActionListAdapter
+ com.android.messaging.md3.ui.SmsStorageLowWarningFragment$ChooseActionDialogFragment$ActionListAdapter$1
+ com.android.messaging.md3.ui.SmsStorageLowWarningFragment$ConfirmationDialog
+ com.android.messaging.md3.ui.SmsStorageLowWarningFragment$ConfirmationDialog$1
+ com.android.messaging.md3.ui.SmsStorageLowWarningFragment$ConfirmationDialog$2
+com/android/messaging/md3/ui/ImeDetectFrameLayout.java
+ com.android.messaging.md3.ui.ImeDetectFrameLayout
+com/android/messaging/md3/ui/BaseBugleFragmentActivity.java
+ com.android.messaging.md3.ui.BaseBugleFragmentActivity
+com/android/messaging/md3/datamodel/media/CompositeImageRequestDescriptor.java
+ com.android.messaging.md3.datamodel.media.CompositeImageRequestDescriptor
+com/android/messaging/md3/datamodel/media/MediaCacheManager.java
+ com.android.messaging.md3.datamodel.media.MediaCacheManager
+com/android/messaging/md3/datamodel/data/PendingAttachmentData.java
+ com.android.messaging.md3.datamodel.data.PendingAttachmentData
+ com.android.messaging.md3.datamodel.data.PendingAttachmentData$1
+ com.android.messaging.md3.datamodel.data.PendingAttachmentData$2
+com/android/messaging/md3/ui/AttachmentPreviewFactory.java
+ com.android.messaging.md3.ui.AttachmentPreviewFactory
+ com.android.messaging.md3.ui.AttachmentPreviewFactory$1
+ com.android.messaging.md3.ui.AttachmentPreviewFactory$2
+ com.android.messaging.md3.ui.AttachmentPreviewFactory$3
+com/android/messaging/md3/ui/PlainTextEditText.java
+ com.android.messaging.md3.ui.PlainTextEditText
+com/android/messaging/md3/datamodel/CursorQueryData.java
+ com.android.messaging.md3.datamodel.CursorQueryData
+androidx/appcompat/mms/DownloadRequest.java
+ androidx.appcompat.mms.DownloadRequest
+ androidx.appcompat.mms.DownloadRequest$1
+ androidx.appcompat.mms.DownloadRequest$2
+com/android/messaging/md3/datamodel/action/BackgroundWorkerService.java
+ com.android.messaging.md3.datamodel.action.BackgroundWorkerService
+com/android/messaging/md3/datamodel/DatabaseWrapper.java
+ com.android.messaging.md3.datamodel.DatabaseWrapper
+ com.android.messaging.md3.datamodel.DatabaseWrapper$1
+ com.android.messaging.md3.datamodel.DatabaseWrapper$TransactionData
+com/android/messaging/md3/util/exif/ByteBufferInputStream.java
+ com.android.messaging.md3.util.exif.ByteBufferInputStream
+com/android/messaging/md3/datamodel/data/ConversationMessageBubbleData.java
+ com.android.messaging.md3.datamodel.data.ConversationMessageBubbleData
+com/android/messaging/md3/util/TextUtil.java
+ com.android.messaging.md3.util.TextUtil
+com/android/messaging/md3/ui/SnackBarManager.java
+ com.android.messaging.md3.ui.SnackBarManager
+ com.android.messaging.md3.ui.SnackBarManager$1
+ com.android.messaging.md3.ui.SnackBarManager$2
+ com.android.messaging.md3.ui.SnackBarManager$3
+ com.android.messaging.md3.ui.SnackBarManager$4
+ com.android.messaging.md3.ui.SnackBarManager$5
+ com.android.messaging.md3.ui.SnackBarManager$6
+ com.android.messaging.md3.ui.SnackBarManager$7
+ com.android.messaging.md3.ui.SnackBarManager$8
+com/android/messaging/md3/ui/contact/AllContactsListViewHolder.java
+ com.android.messaging.md3.ui.contact.AllContactsListViewHolder
+com/android/messaging/md3/ui/conversation/ConversationFastScroller.java
+ com.android.messaging.md3.ui.conversation.ConversationFastScroller
+ com.android.messaging.md3.ui.conversation.ConversationFastScroller$1
+ com.android.messaging.md3.ui.conversation.ConversationFastScroller$2
+com/android/messaging/md3/mmslib/pdu/PduParser.java
+ com.android.messaging.md3.mmslib.pdu.PduParser
+androidx/appcompat/mms/pdu/QuotedPrintable.java
+ androidx.appcompat.mms.pdu.QuotedPrintable
+com/android/messaging/md3/datamodel/media/DecodedImageResource.java
+ com.android.messaging.md3.datamodel.media.DecodedImageResource
+ com.android.messaging.md3.datamodel.media.DecodedImageResource$EncodeImageRequest
+com/android/messaging/md3/ui/mediapicker/CameraPreview.java
+ com.android.messaging.md3.ui.mediapicker.CameraPreview
+ com.android.messaging.md3.ui.mediapicker.CameraPreview$CameraPreviewHost
+com/android/messaging/md3/sms/MmsConfig.java
+ com.android.messaging.md3.sms.MmsConfig
+ com.android.messaging.md3.sms.MmsConfig$1
+com/android/messaging/md3/util/PendingIntentConstants.java
+ com.android.messaging.md3.util.PendingIntentConstants
+com/android/messaging/md3/util/OsUtil.java
+ com.android.messaging.md3.util.OsUtil
+com/android/messaging/md3/datamodel/action/SyncMessageBatch.java
+ com.android.messaging.md3.datamodel.action.SyncMessageBatch
+com/android/messaging/md3/ui/mediapicker/GalleryMediaChooser.java
+ com.android.messaging.md3.ui.mediapicker.GalleryMediaChooser
+ com.android.messaging.md3.ui.mediapicker.GalleryMediaChooser$1
+com/android/messaging/md3/ui/contact/ContactPickerFragment.java
+ com.android.messaging.md3.ui.contact.ContactPickerFragment
+ com.android.messaging.md3.ui.contact.ContactPickerFragment$1
+ com.android.messaging.md3.ui.contact.ContactPickerFragment$2
+ com.android.messaging.md3.ui.contact.ContactPickerFragment$3
+ com.android.messaging.md3.ui.contact.ContactPickerFragment$4
+ com.android.messaging.md3.ui.contact.ContactPickerFragment$5
+ com.android.messaging.md3.ui.contact.ContactPickerFragment$ContactPickerFragmentHost
+androidx/appcompat/mms/pdu/RetrieveConf.java
+ androidx.appcompat.mms.pdu.RetrieveConf
+com/android/messaging/md3/datamodel/data/DraftMessageData.java
+ com.android.messaging.md3.datamodel.data.DraftMessageData
+ com.android.messaging.md3.datamodel.data.DraftMessageData$1
+ com.android.messaging.md3.datamodel.data.DraftMessageData$CheckDraftForSendTask
+ com.android.messaging.md3.datamodel.data.DraftMessageData$CheckDraftTaskCallback
+ com.android.messaging.md3.datamodel.data.DraftMessageData$DraftMessageDataEventDispatcher
+ com.android.messaging.md3.datamodel.data.DraftMessageData$DraftMessageDataListener
+ com.android.messaging.md3.datamodel.data.DraftMessageData$DraftMessageSubscriptionDataProvider
+com/android/messaging/md3/util/PrefsUtils.java
+ com.android.messaging.md3.util.PrefsUtils
+com/android/messaging/md3/ui/photoviewer/BuglePhotoViewFragment.java
+ com.android.messaging.md3.ui.photoviewer.BuglePhotoViewFragment
+com/android/messaging/md3/datamodel/action/InsertNewMessageAction.java
+ com.android.messaging.md3.datamodel.action.InsertNewMessageAction
+ com.android.messaging.md3.datamodel.action.InsertNewMessageAction$1
+com/android/messaging/md3/util/exif/CountedDataInputStream.java
+ com.android.messaging.md3.util.exif.CountedDataInputStream
+com/android/messaging/md3/datamodel/MessageTextStats.java
+ com.android.messaging.md3.datamodel.MessageTextStats
+com/android/messaging/md3/ui/mediapicker/camerafocus/FocusIndicator.java
+ com.android.messaging.md3.ui.mediapicker.camerafocus.FocusIndicator
+com/android/messaging/md3/ui/VCardDetailAdapter.java
+ com.android.messaging.md3.ui.VCardDetailAdapter
+com/android/messaging/md3/datamodel/media/MessagePartImageRequestDescriptor.java
+ com.android.messaging.md3.datamodel.media.MessagePartImageRequestDescriptor
+com/android/messaging/md3/datamodel/action/ResendMessageAction.java
+ com.android.messaging.md3.datamodel.action.ResendMessageAction
+ com.android.messaging.md3.datamodel.action.ResendMessageAction$1
+com/android/messaging/md3/util/exif/Rational.java
+ com.android.messaging.md3.util.exif.Rational
+com/android/messaging/md3/ui/mediapicker/camerafocus/PieRenderer.java
+ com.android.messaging.md3.ui.mediapicker.camerafocus.PieRenderer
+ com.android.messaging.md3.ui.mediapicker.camerafocus.PieRenderer$1
+ com.android.messaging.md3.ui.mediapicker.camerafocus.PieRenderer$2
+ com.android.messaging.md3.ui.mediapicker.camerafocus.PieRenderer$3
+ com.android.messaging.md3.ui.mediapicker.camerafocus.PieRenderer$4
+ com.android.messaging.md3.ui.mediapicker.camerafocus.PieRenderer$Disappear
+ com.android.messaging.md3.ui.mediapicker.camerafocus.PieRenderer$EndAction
+ com.android.messaging.md3.ui.mediapicker.camerafocus.PieRenderer$LinearAnimation
+ com.android.messaging.md3.ui.mediapicker.camerafocus.PieRenderer$PieListener
+ com.android.messaging.md3.ui.mediapicker.camerafocus.PieRenderer$ScaleAnimation
+com/android/messaging/md3/ui/BlockedParticipantListItemView.java
+ com.android.messaging.md3.ui.BlockedParticipantListItemView
+ com.android.messaging.md3.ui.BlockedParticipantListItemView$1
+com/android/messaging/md3/datamodel/DataModelImpl.java
+ com.android.messaging.md3.datamodel.DataModelImpl
+ com.android.messaging.md3.datamodel.DataModelImpl$1
+ com.android.messaging.md3.datamodel.DataModelImpl$2
+com/android/messaging/md3/datamodel/data/ConversationParticipantsData.java
+ com.android.messaging.md3.datamodel.data.ConversationParticipantsData
+ com.android.messaging.md3.datamodel.data.ConversationParticipantsData$1
+androidx/appcompat/mms/MmsRequest.java
+ androidx.appcompat.mms.MmsRequest
+com/android/messaging/md3/mmslib/pdu/RetrieveConf.java
+ com.android.messaging.md3.mmslib.pdu.RetrieveConf
+com/android/messaging/md3/ui/conversationlist/ConversationListSwipeHelper.java
+ com.android.messaging.md3.ui.conversationlist.ConversationListSwipeHelper
+ com.android.messaging.md3.ui.conversationlist.ConversationListSwipeHelper$1
+ com.android.messaging.md3.ui.conversationlist.ConversationListSwipeHelper$2
+com/android/messaging/md3/sms/DatabaseMessages.java
+ com.android.messaging.md3.sms.DatabaseMessages
+ com.android.messaging.md3.sms.DatabaseMessages$1
+ com.android.messaging.md3.sms.DatabaseMessages$DatabaseMessage
+ com.android.messaging.md3.sms.DatabaseMessages$LocalDatabaseMessage
+ com.android.messaging.md3.sms.DatabaseMessages$LocalDatabaseMessage$1
+ com.android.messaging.md3.sms.DatabaseMessages$MmsAddr
+ com.android.messaging.md3.sms.DatabaseMessages$MmsMessage
+ com.android.messaging.md3.sms.DatabaseMessages$MmsMessage$1
+ com.android.messaging.md3.sms.DatabaseMessages$MmsPart
+ com.android.messaging.md3.sms.DatabaseMessages$MmsPart$1
+ com.android.messaging.md3.sms.DatabaseMessages$SmsMessage
+ com.android.messaging.md3.sms.DatabaseMessages$SmsMessage$1
+com/android/messaging/md3/datamodel/data/ParticipantData.java
+ com.android.messaging.md3.datamodel.data.ParticipantData
+ com.android.messaging.md3.datamodel.data.ParticipantData$1
+ com.android.messaging.md3.datamodel.data.ParticipantData$ParticipantsQuery
+com/android/messaging/md3/util/ConversationIdSet.java
+ com.android.messaging.md3.util.ConversationIdSet
+com/android/messaging/md3/datamodel/data/PersonItemData.java
+ com.android.messaging.md3.datamodel.data.PersonItemData
+ com.android.messaging.md3.datamodel.data.PersonItemData$PersonItemDataListener
+com/android/messaging/md3/receiver/CaptchaCodeReceiver.java
+ com.android.messaging.md3.receiver.CaptchaCodeReceiver
+com/android/messaging/md3/ui/BlockedParticipantsFragment.java
+ com.android.messaging.md3.ui.BlockedParticipantsFragment
+ com.android.messaging.md3.ui.BlockedParticipantsFragment$BlockedParticipantListAdapter
+com/android/messaging/md3/ui/animation/RectEvaluatorCompat.java
+ com.android.messaging.md3.ui.animation.RectEvaluatorCompat
+com/android/messaging/md3/util/Dates.java
+ com.android.messaging.md3.util.Dates
+com/android/messaging/md3/receiver/SmsDeliverReceiver.java
+ com.android.messaging.md3.receiver.SmsDeliverReceiver
+com/android/messaging/md3/datamodel/SyncManager.java
+ com.android.messaging.md3.datamodel.SyncManager
+ com.android.messaging.md3.datamodel.SyncManager$ConversationCustomization
+ com.android.messaging.md3.datamodel.SyncManager$TelephonyMessagesObserver
+ com.android.messaging.md3.datamodel.SyncManager$ThreadInfoCache
+com/android/messaging/md3/datamodel/action/WriteDraftMessageAction.java
+ com.android.messaging.md3.datamodel.action.WriteDraftMessageAction
+ com.android.messaging.md3.datamodel.action.WriteDraftMessageAction$1
+com/android/messaging/md3/datamodel/media/CompositeImageRequest.java
+ com.android.messaging.md3.datamodel.media.CompositeImageRequest
+com/android/messaging/md3/ui/AttachmentPreview.java
+ com.android.messaging.md3.ui.AttachmentPreview
+ com.android.messaging.md3.ui.AttachmentPreview$1
+ com.android.messaging.md3.ui.AttachmentPreview$2
+ com.android.messaging.md3.ui.AttachmentPreview$2$1
+ com.android.messaging.md3.ui.AttachmentPreview$3
+ com.android.messaging.md3.ui.AttachmentPreview$4
+ com.android.messaging.md3.ui.AttachmentPreview$5
+com/android/messaging/md3/util/BuglePrefsKeys.java
+ com.android.messaging.md3.util.BuglePrefsKeys
+com/android/messaging/md3/util/PhoneUtils.java
+ com.android.messaging.md3.util.PhoneUtils
+ com.android.messaging.md3.util.PhoneUtils$LMr1
+ com.android.messaging.md3.util.PhoneUtils$PhoneUtilsLMR1
+ com.android.messaging.md3.util.PhoneUtils$PhoneUtilsPreLMR1
+ com.android.messaging.md3.util.PhoneUtils$SubscriptionRunnable
+com/android/messaging/md3/widget/WidgetConversationProvider.java
+ com.android.messaging.md3.widget.WidgetConversationProvider
+ com.android.messaging.md3.widget.WidgetConversationProvider$1
+com/android/messaging/md3/ui/conversationsettings/PeopleOptionsItemView.java
+ com.android.messaging.md3.ui.conversationsettings.PeopleOptionsItemView
+ com.android.messaging.md3.ui.conversationsettings.PeopleOptionsItemView$1
+ com.android.messaging.md3.ui.conversationsettings.PeopleOptionsItemView$HostInterface
+com/android/messaging/md3/util/MaterialPalette.java
+ com.android.messaging.md3.util.MaterialPalette
+com/android/messaging/md3/ui/CustomHeaderViewPagerAdapter.java
+ com.android.messaging.md3.ui.CustomHeaderViewPagerAdapter
+com/android/messaging/md3/util/YouTubeUtil.java
+ com.android.messaging.md3.util.YouTubeUtil
+com/android/messaging/md3/ui/mediapicker/LevelTrackingMediaRecorder.java
+ com.android.messaging.md3.ui.mediapicker.LevelTrackingMediaRecorder
+ com.android.messaging.md3.ui.mediapicker.LevelTrackingMediaRecorder$1
+ com.android.messaging.md3.ui.mediapicker.LevelTrackingMediaRecorder$2
+com/android/messaging/md3/ui/CustomHeaderPagerListViewHolder.java
+ com.android.messaging.md3.ui.CustomHeaderPagerListViewHolder
+ com.android.messaging.md3.ui.CustomHeaderPagerListViewHolder$1
+com/android/messaging/md3/ui/animation/PopupTransitionAnimation.java
+ com.android.messaging.md3.ui.animation.PopupTransitionAnimation
+ com.android.messaging.md3.ui.animation.PopupTransitionAnimation$1
+ com.android.messaging.md3.ui.animation.PopupTransitionAnimation$2
+ com.android.messaging.md3.ui.animation.PopupTransitionAnimation$3
+ com.android.messaging.md3.ui.animation.PopupTransitionAnimation$4
+ com.android.messaging.md3.ui.animation.PopupTransitionAnimation$5
+com/android/messaging/md3/ui/MaxHeightScrollView.java
+ com.android.messaging.md3.ui.MaxHeightScrollView
+com/android/messaging/md3/datamodel/binding/BindingBase.java
+ com.android.messaging.md3.datamodel.binding.BindingBase
+com/android/messaging/md3/ui/mediapicker/MediaPickerGridView.java
+ com.android.messaging.md3.ui.mediapicker.MediaPickerGridView
+com/android/messaging/md3/ui/PlaybackStateView.java
+ com.android.messaging.md3.ui.PlaybackStateView
+com/android/messaging/md3/datamodel/action/ReadDraftDataAction.java
+ com.android.messaging.md3.datamodel.action.ReadDraftDataAction
+ com.android.messaging.md3.datamodel.action.ReadDraftDataAction$1
+ com.android.messaging.md3.datamodel.action.ReadDraftDataAction$DraftData
+ com.android.messaging.md3.datamodel.action.ReadDraftDataAction$ReadDraftDataActionListener
+ com.android.messaging.md3.datamodel.action.ReadDraftDataAction$ReadDraftDataActionMonitor
+com/android/messaging/md3/util/BugleGservicesImpl.java
+ com.android.messaging.md3.util.BugleGservicesImpl
+com/android/messaging/md3/ui/conversationlist/ConversationListAdapter.java
+ com.android.messaging.md3.ui.conversationlist.ConversationListAdapter
+ com.android.messaging.md3.ui.conversationlist.ConversationListAdapter$ConversationListViewHolder
+com/android/messaging/md3/ui/LicenseActivity.java
+ com.android.messaging.md3.ui.LicenseActivity
+com/android/messaging/md3/mmslib/MmsException.java
+ com.android.messaging.md3.mmslib.MmsException
+com/android/messaging/md3/datamodel/media/SimSelectorAvatarRequest.java
+ com.android.messaging.md3.datamodel.media.SimSelectorAvatarRequest
+com/android/messaging/md3/mmslib/pdu/ReadRecInd.java
+ com.android.messaging.md3.mmslib.pdu.ReadRecInd
+com/android/messaging/md3/ui/mediapicker/GalleryGridItemView.java
+ com.android.messaging.md3.ui.mediapicker.GalleryGridItemView
+ com.android.messaging.md3.ui.mediapicker.GalleryGridItemView$1
+ com.android.messaging.md3.ui.mediapicker.GalleryGridItemView$2
+ com.android.messaging.md3.ui.mediapicker.GalleryGridItemView$3
+ com.android.messaging.md3.ui.mediapicker.GalleryGridItemView$3$1
+ com.android.messaging.md3.ui.mediapicker.GalleryGridItemView$HostInterface
+com/android/messaging/md3/receiver/MmsWapPushReceiver.java
+ com.android.messaging.md3.receiver.MmsWapPushReceiver
+androidx/appcompat/mms/pdu/ReadRecInd.java
+ androidx.appcompat.mms.pdu.ReadRecInd
+com/android/messaging/md3/ui/SnackBarInteraction.java
+ com.android.messaging.md3.ui.SnackBarInteraction
+ com.android.messaging.md3.ui.SnackBarInteraction$BasicSnackBarInteraction
+com/android/messaging/md3/ui/conversation/ComposeMessageView.java
+ com.android.messaging.md3.ui.conversation.ComposeMessageView
+ com.android.messaging.md3.ui.conversation.ComposeMessageView$1
+ com.android.messaging.md3.ui.conversation.ComposeMessageView$10
+ com.android.messaging.md3.ui.conversation.ComposeMessageView$2
+ com.android.messaging.md3.ui.conversation.ComposeMessageView$3
+ com.android.messaging.md3.ui.conversation.ComposeMessageView$4
+ com.android.messaging.md3.ui.conversation.ComposeMessageView$5
+ com.android.messaging.md3.ui.conversation.ComposeMessageView$6
+ com.android.messaging.md3.ui.conversation.ComposeMessageView$7
+ com.android.messaging.md3.ui.conversation.ComposeMessageView$8
+ com.android.messaging.md3.ui.conversation.ComposeMessageView$9
+ com.android.messaging.md3.ui.conversation.ComposeMessageView$AsyncUpdateMessageBodySizeTask
+ com.android.messaging.md3.ui.conversation.ComposeMessageView$IComposeMessageViewHost
+com/android/messaging/md3/datamodel/media/ImageRequestDescriptor.java
+ com.android.messaging.md3.datamodel.media.ImageRequestDescriptor
+com/android/messaging/md3/ui/SmsStorageLowWarningActivity.java
+ com.android.messaging.md3.ui.SmsStorageLowWarningActivity
+com/android/messaging/md3/datamodel/FileProvider.java
+ com.android.messaging.md3.datamodel.FileProvider
+com/android/messaging/md3/sms/BugleUserAgentInfoLoader.java
+ com.android.messaging.md3.sms.BugleUserAgentInfoLoader
+com/android/messaging/md3/datamodel/media/FileImageRequest.java
+ com.android.messaging.md3.datamodel.media.FileImageRequest
+com/android/messaging/md3/ui/photoviewer/BuglePhotoBitmapLoader.java
+ com.android.messaging.md3.ui.photoviewer.BuglePhotoBitmapLoader
+com/android/messaging/md3/datamodel/action/Action.java
+ com.android.messaging.md3.datamodel.action.Action
+com/android/messaging/md3/ui/conversationlist/ConversationListItemView.java
+ com.android.messaging.md3.ui.conversationlist.ConversationListItemView
+ com.android.messaging.md3.ui.conversationlist.ConversationListItemView$1
+ com.android.messaging.md3.ui.conversationlist.ConversationListItemView$2
+ com.android.messaging.md3.ui.conversationlist.ConversationListItemView$HostInterface
+com/android/messaging/md3/ui/PersistentInstanceState.java
+ com.android.messaging.md3.ui.PersistentInstanceState
+com/android/messaging/md3/util/MediaUtil.java
+ com.android.messaging.md3.util.MediaUtil
+ com.android.messaging.md3.util.MediaUtil$OnCompletionListener
+com/android/messaging/md3/util/LoggingTimer.java
+ com.android.messaging.md3.util.LoggingTimer
+com/android/messaging/md3/ui/mediapicker/MediaPicker.java
+ com.android.messaging.md3.ui.mediapicker.MediaPicker
+ com.android.messaging.md3.ui.mediapicker.MediaPicker$1
+ com.android.messaging.md3.ui.mediapicker.MediaPicker$2
+ com.android.messaging.md3.ui.mediapicker.MediaPicker$3
+ com.android.messaging.md3.ui.mediapicker.MediaPicker$4
+ com.android.messaging.md3.ui.mediapicker.MediaPicker$5
+ com.android.messaging.md3.ui.mediapicker.MediaPicker$6
+ com.android.messaging.md3.ui.mediapicker.MediaPicker$7
+ com.android.messaging.md3.ui.mediapicker.MediaPicker$8
+ com.android.messaging.md3.ui.mediapicker.MediaPicker$9
+ com.android.messaging.md3.ui.mediapicker.MediaPicker$MediaPickerListener
+com/android/messaging/md3/ui/SnackBar.java
+ com.android.messaging.md3.ui.SnackBar
+ com.android.messaging.md3.ui.SnackBar$1
+ com.android.messaging.md3.ui.SnackBar$Action
+ com.android.messaging.md3.ui.SnackBar$Builder
+ com.android.messaging.md3.ui.SnackBar$Placement
+ com.android.messaging.md3.ui.SnackBar$SnackBarListener
+com/android/messaging/md3/datamodel/media/MessagePartVideoThumbnailRequestDescriptor.java
+ com.android.messaging.md3.datamodel.media.MessagePartVideoThumbnailRequestDescriptor
+com/android/messaging/md3/ui/AudioAttachmentView.java
+ com.android.messaging.md3.ui.AudioAttachmentView
+ com.android.messaging.md3.ui.AudioAttachmentView$1
+ com.android.messaging.md3.ui.AudioAttachmentView$2
+ com.android.messaging.md3.ui.AudioAttachmentView$3
+ com.android.messaging.md3.ui.AudioAttachmentView$4
+com/android/messaging/md3/datamodel/data/ConversationListItemData.java
+ com.android.messaging.md3.datamodel.data.ConversationListItemData
+ com.android.messaging.md3.datamodel.data.ConversationListItemData$ConversationListViewColumns
+com/android/messaging/md3/sms/ApnsXmlProcessor.java
+ com.android.messaging.md3.sms.ApnsXmlProcessor
+ com.android.messaging.md3.sms.ApnsXmlProcessor$ApnHandler
+ com.android.messaging.md3.sms.ApnsXmlProcessor$MmsConfigHandler
+com/android/messaging/md3/datamodel/data/VCardContactItemData.java
+ com.android.messaging.md3.datamodel.data.VCardContactItemData
+androidx/appcompat/mms/MmsXmlResourceParser.java
+ androidx.appcompat.mms.MmsXmlResourceParser
+com/android/messaging/md3/ui/conversation/ConversationSimSelector.java
+ com.android.messaging.md3.ui.conversation.ConversationSimSelector
+ com.android.messaging.md3.ui.conversation.ConversationSimSelector$1
+ com.android.messaging.md3.ui.conversation.ConversationSimSelector$2
+com/android/messaging/md3/mmslib/util/AbstractCache.java
+ com.android.messaging.md3.mmslib.util.AbstractCache
+ com.android.messaging.md3.mmslib.util.AbstractCache$1
+ com.android.messaging.md3.mmslib.util.AbstractCache$CacheEntry
+com/android/messaging/md3/datamodel/media/FileImageRequestDescriptor.java
+ com.android.messaging.md3.datamodel.media.FileImageRequestDescriptor
+com/android/messaging/md3/util/ContactUtil.java
+ com.android.messaging.md3.util.ContactUtil
+ com.android.messaging.md3.util.ContactUtil$EmailQuery
+ com.android.messaging.md3.util.ContactUtil$FrequentContactQuery
+ com.android.messaging.md3.util.ContactUtil$PhoneLookupQuery
+ com.android.messaging.md3.util.ContactUtil$PhoneQuery
+ com.android.messaging.md3.util.ContactUtil$SelfQuery
+ com.android.messaging.md3.util.ContactUtil$StructuredNameQuery
+com/android/messaging/md3/mmslib/pdu/DeliveryInd.java
+ com.android.messaging.md3.mmslib.pdu.DeliveryInd
+com/android/messaging/md3/datamodel/data/ParticipantListItemData.java
+ com.android.messaging.md3.datamodel.data.ParticipantListItemData
+com/android/messaging/md3/util/WakeLockHelper.java
+ com.android.messaging.md3.util.WakeLockHelper
+com/android/messaging/md3/datamodel/media/VCardResourceEntry.java
+ com.android.messaging.md3.datamodel.media.VCardResourceEntry
+ com.android.messaging.md3.datamodel.media.VCardResourceEntry$1
+ com.android.messaging.md3.datamodel.media.VCardResourceEntry$2
+ com.android.messaging.md3.datamodel.media.VCardResourceEntry$VCardResourceEntryDestinationItem
+ com.android.messaging.md3.datamodel.media.VCardResourceEntry$VCardResourceEntryDestinationItem$1
+com/android/messaging/md3/ui/conversation/MessageBubbleBackground.java
+ com.android.messaging.md3.ui.conversation.MessageBubbleBackground
+com/android/messaging/md3/util/Typefaces.java
+ com.android.messaging.md3.util.Typefaces
+com/android/messaging/md3/ui/mediapicker/camerafocus/OverlayRenderer.java
+ com.android.messaging.md3.ui.mediapicker.camerafocus.OverlayRenderer
+com/android/messaging/md3/util/NotificationsUtil.java
+ com.android.messaging.md3.util.NotificationsUtil
+androidx/appcompat/mms/UserAgentInfoLoader.java
+ androidx.appcompat.mms.UserAgentInfoLoader
+com/android/messaging/md3/ui/contact/ContactDropdownLayouter.java
+ com.android.messaging.md3.ui.contact.ContactDropdownLayouter
+ com.android.messaging.md3.ui.contact.ContactDropdownLayouter$1
+ com.android.messaging.md3.ui.contact.ContactDropdownLayouter$2
+com/android/messaging/md3/datamodel/action/HandleLowStorageAction.java
+ com.android.messaging.md3.datamodel.action.HandleLowStorageAction
+ com.android.messaging.md3.datamodel.action.HandleLowStorageAction$1
+com/android/messaging/md3/ui/ListEmptyView.java
+ com.android.messaging.md3.ui.ListEmptyView
+com/android/messaging/md3/datamodel/media/CustomVCardEntryConstructor.java
+ com.android.messaging.md3.datamodel.media.CustomVCardEntryConstructor
+ com.android.messaging.md3.datamodel.media.CustomVCardEntryConstructor$EntryHandler
+com/android/messaging/md3/ui/CursorRecyclerAdapter.java
+ com.android.messaging.md3.ui.CursorRecyclerAdapter
+ com.android.messaging.md3.ui.CursorRecyclerAdapter$1
+ com.android.messaging.md3.ui.CursorRecyclerAdapter$ChangeObserver
+ com.android.messaging.md3.ui.CursorRecyclerAdapter$MyDataSetObserver
+com/android/messaging/md3/ui/mediapicker/AudioRecordView.java
+ com.android.messaging.md3.ui.mediapicker.AudioRecordView
+ com.android.messaging.md3.ui.mediapicker.AudioRecordView$1
+ com.android.messaging.md3.ui.mediapicker.AudioRecordView$2
+ com.android.messaging.md3.ui.mediapicker.AudioRecordView$3
+ com.android.messaging.md3.ui.mediapicker.AudioRecordView$4
+ com.android.messaging.md3.ui.mediapicker.AudioRecordView$HostInterface
+com/android/messaging/md3/util/exif/ExifOutputStream.java
+ com.android.messaging.md3.util.exif.ExifOutputStream
+com/android/messaging/md3/ui/ClassZeroActivity.java
+ com.android.messaging.md3.ui.ClassZeroActivity
+ com.android.messaging.md3.ui.ClassZeroActivity$1
+ com.android.messaging.md3.ui.ClassZeroActivity$2
+ com.android.messaging.md3.ui.ClassZeroActivity$3
+com/android/messaging/md3/ui/mediapicker/MmsVideoRecorder.java
+ com.android.messaging.md3.ui.mediapicker.MmsVideoRecorder
+ com.android.messaging.md3.ui.mediapicker.MmsVideoRecorder$1
+com/android/messaging/md3/datamodel/data/MessageData.java
+ com.android.messaging.md3.datamodel.data.MessageData
+ com.android.messaging.md3.datamodel.data.MessageData$1
+com/android/messaging/md3/ui/BaseBugleActivity.java
+ com.android.messaging.md3.ui.BaseBugleActivity
+com/android/messaging/md3/ui/mediapicker/ImagePersistTask.java
+ com.android.messaging.md3.ui.mediapicker.ImagePersistTask
+com/android/messaging/md3/datamodel/media/AsyncMediaRequestWrapper.java
+ com.android.messaging.md3.datamodel.media.AsyncMediaRequestWrapper
+com/android/messaging/md3/ui/ConversationDrawables.java
+ com.android.messaging.md3.ui.ConversationDrawables
+com/android/messaging/md3/datamodel/media/MediaResourceManager.java
+ com.android.messaging.md3.datamodel.media.MediaResourceManager
+ com.android.messaging.md3.datamodel.media.MediaResourceManager$1
+ com.android.messaging.md3.datamodel.media.MediaResourceManager$2
+ com.android.messaging.md3.datamodel.media.MediaResourceManager$MediaLoadingResult
+ com.android.messaging.md3.datamodel.media.MediaResourceManager$MediaResourceLoadListener
+com/android/messaging/md3/util/SwitchCompatUtils.java
+ com.android.messaging.md3.util.SwitchCompatUtils
+com/android/messaging/md3/util/AvatarUriUtil.java
+ com.android.messaging.md3.util.AvatarUriUtil
+com/android/messaging/md3/sms/MmsFailureException.java
+ com.android.messaging.md3.sms.MmsFailureException
+com/android/messaging/md3/ui/AsyncImageView.java
+ com.android.messaging.md3.ui.AsyncImageView
+ com.android.messaging.md3.ui.AsyncImageView$1
+ com.android.messaging.md3.ui.AsyncImageView$AsyncImageViewDelayLoader
+com/android/messaging/md3/util/exif/ExifTag.java
+ com.android.messaging.md3.util.exif.ExifTag
+com/android/messaging/md3/util/exif/OrderedDataOutputStream.java
+ com.android.messaging.md3.util.exif.OrderedDataOutputStream
+com/android/messaging/md3/ui/contact/AddContactsConfirmationDialog.java
+ com.android.messaging.md3.ui.contact.AddContactsConfirmationDialog
+com/android/messaging/md3/mmslib/Downloads.java
+ com.android.messaging.md3.mmslib.Downloads
+ com.android.messaging.md3.mmslib.Downloads$Impl
+ com.android.messaging.md3.mmslib.Downloads$Impl$RequestHeaders
+com/android/messaging/md3/util/MediaUtilImpl.java
+ com.android.messaging.md3.util.MediaUtilImpl
+ com.android.messaging.md3.util.MediaUtilImpl$1
+com/android/messaging/md3/datamodel/BugleNotifications.java
+ com.android.messaging.md3.datamodel.BugleNotifications
+ com.android.messaging.md3.datamodel.BugleNotifications$1
+com/android/messaging/md3/ui/conversation/SimSelectorItemView.java
+ com.android.messaging.md3.ui.conversation.SimSelectorItemView
+ com.android.messaging.md3.ui.conversation.SimSelectorItemView$1
+ com.android.messaging.md3.ui.conversation.SimSelectorItemView$HostInterface
+com/android/messaging/md3/util/BuglePrefs.java
+ com.android.messaging.md3.util.BuglePrefs
+com/android/messaging/md3/ui/MiuiPermissionGrantActivity.java
+ com.android.messaging.md3.ui.MiuiPermissionGrantActivity
+com/android/messaging/md3/ui/ViewPagerTabStrip.java
+ com.android.messaging.md3.ui.ViewPagerTabStrip
+com/android/messaging/md3/BugleApplication.java
+ com.android.messaging.md3.BugleApplication
+ com.android.messaging.md3.BugleApplication$1
+ com.android.messaging.md3.BugleApplication$2
+ com.android.messaging.md3.BugleApplication$3
+ com.android.messaging.md3.BugleApplication$4
+ com.android.messaging.md3.BugleApplication$5
+com/android/messaging/md3/ui/animation/ViewGroupItemVerticalExplodeAnimation.java
+ com.android.messaging.md3.ui.animation.ViewGroupItemVerticalExplodeAnimation
+ com.android.messaging.md3.ui.animation.ViewGroupItemVerticalExplodeAnimation$ViewExplodeAnimationJellyBeanMR2
+ com.android.messaging.md3.ui.animation.ViewGroupItemVerticalExplodeAnimation$ViewExplodeAnimationJellyBeanMR2$1
+com/android/messaging/md3/Factory.java
+ com.android.messaging.md3.Factory
+androidx/appcompat/mms/DefaultApnSettingsLoader.java
+ androidx.appcompat.mms.DefaultApnSettingsLoader
+ androidx.appcompat.mms.DefaultApnSettingsLoader$1
+ androidx.appcompat.mms.DefaultApnSettingsLoader$BaseApn
+ androidx.appcompat.mms.DefaultApnSettingsLoader$MemoryApn
+com/android/messaging/md3/datamodel/media/EncodedImageResource.java
+ com.android.messaging.md3.datamodel.media.EncodedImageResource
+ com.android.messaging.md3.datamodel.media.EncodedImageResource$DecodeImageRequest
+com/android/messaging/md3/util/ContactRecipientEntryUtils.java
+ com.android.messaging.md3.util.ContactRecipientEntryUtils
+com/android/messaging/md3/ui/attachmentchooser/AttachmentGridView.java
+ com.android.messaging.md3.ui.attachmentchooser.AttachmentGridView
+ com.android.messaging.md3.ui.attachmentchooser.AttachmentGridView$1
+ com.android.messaging.md3.ui.attachmentchooser.AttachmentGridView$AttachmentGridHost
+ com.android.messaging.md3.ui.attachmentchooser.AttachmentGridView$SavedState
+ com.android.messaging.md3.ui.attachmentchooser.AttachmentGridView$SavedState$1
+com/android/messaging/md3/ui/TestActivity.java
+ com.android.messaging.md3.ui.TestActivity
+ com.android.messaging.md3.ui.TestActivity$FragmentEventListener
+com/android/messaging/md3/datamodel/binding/BindableOnceData.java
+ com.android.messaging.md3.datamodel.binding.BindableOnceData
+com/android/messaging/md3/ui/BugleActionBarActivity.java
+ com.android.messaging.md3.ui.BugleActionBarActivity
+ com.android.messaging.md3.ui.BugleActionBarActivity$CustomActionMode
+com/android/messaging/md3/datamodel/media/MediaCache.java
+ com.android.messaging.md3.datamodel.media.MediaCache
+com/android/messaging/md3/util/BugleGservices.java
+ com.android.messaging.md3.util.BugleGservices
+com/android/messaging/md3/datamodel/FrequentContactsCursorBuilder.java
+ com.android.messaging.md3.datamodel.FrequentContactsCursorBuilder
+ com.android.messaging.md3.datamodel.FrequentContactsCursorBuilder$1
+com/android/messaging/md3/datamodel/DatabaseUpgradeHelper.java
+ com.android.messaging.md3.datamodel.DatabaseUpgradeHelper
+com/android/messaging/md3/datamodel/action/UpdateDestinationBlockedAction.java
+ com.android.messaging.md3.datamodel.action.UpdateDestinationBlockedAction
+ com.android.messaging.md3.datamodel.action.UpdateDestinationBlockedAction$1
+ com.android.messaging.md3.datamodel.action.UpdateDestinationBlockedAction$UpdateDestinationBlockedActionListener
+ com.android.messaging.md3.datamodel.action.UpdateDestinationBlockedAction$UpdateDestinationBlockedActionMonitor
+com/android/messaging/md3/util/LongSparseSet.java
+ com.android.messaging.md3.util.LongSparseSet
+com/android/messaging/md3/ui/appsettings/SettingsActivity.java
+ com.android.messaging.md3.ui.appsettings.SettingsActivity
+ com.android.messaging.md3.ui.appsettings.SettingsActivity$SettingsFragment
+ com.android.messaging.md3.ui.appsettings.SettingsActivity$SettingsFragment$SettingsListAdapter
+com/android/messaging/md3/ui/ContactIconView.java
+ com.android.messaging.md3.ui.ContactIconView
+ com.android.messaging.md3.ui.ContactIconView$1
+androidx/appcompat/mms/CarrierConfigXmlParser.java
+ androidx.appcompat.mms.CarrierConfigXmlParser
+ androidx.appcompat.mms.CarrierConfigXmlParser$KeyValueProcessor

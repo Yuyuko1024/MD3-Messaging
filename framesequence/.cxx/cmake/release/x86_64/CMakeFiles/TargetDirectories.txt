@@ -1,0 +1,4 @@
+C:/Users/30337/Desktop/Messaging/framesequence/.cxx/cmake/release/x86_64/CMakeFiles/framesequence.dir
+C:/Users/30337/Desktop/Messaging/framesequence/.cxx/cmake/release/x86_64/CMakeFiles/gif.dir
+C:/Users/30337/Desktop/Messaging/framesequence/.cxx/cmake/release/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/30337/Desktop/Messaging/framesequence/.cxx/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir

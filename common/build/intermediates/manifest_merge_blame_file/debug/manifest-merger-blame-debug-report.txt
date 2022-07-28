@@ -1,0 +1,13 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.common"
+4    android:versionCode="10000"
+5    android:versionName="1.0.0-aosp" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\30337\Desktop\Messaging\common\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\30337\Desktop\Messaging\common\src\main\AndroidManifest.xml
+10
+11</manifest>

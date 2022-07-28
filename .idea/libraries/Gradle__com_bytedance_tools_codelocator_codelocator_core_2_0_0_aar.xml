@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.bytedance.tools.codelocator:codelocator-core:2.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1715dd7308edae549ced2fca0e118d8a/transformed/jetified-codelocator-core-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1715dd7308edae549ced2fca0e118d8a/transformed/jetified-codelocator-core-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1715dd7308edae549ced2fca0e118d8a/transformed/jetified-codelocator-core-2.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bytedance.tools.codelocator/codelocator-core/2.0.0/a86eab71799423d88936543875cba87a59a5db7/codelocator-core-2.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bytedance.tools.codelocator/codelocator-core/2.0.0/d9443f44498b94b846d560824bc8c55ad30c0ee0/codelocator-core-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

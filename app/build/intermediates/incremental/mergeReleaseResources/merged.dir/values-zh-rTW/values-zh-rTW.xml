@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="empty_subject_strings">
+    <item msgid="8900116186849071724">"無主旨"</item>
+    <item msgid="272485471009191934">"無主旨"</item>
+  </string-array>
+    <string-array name="notification_reply_choices">
+    <item msgid="1875991048685328264">"是"</item>
+    <item msgid="6049132459802288033">"否"</item>
+    <item msgid="3084376867445867895">"確定"</item>
+    <item msgid="3155097332660174689">"呵呵"</item>
+    <item msgid="2611328818571146775">"謝謝"</item>
+    <item msgid="4881335087096496747">"我同意"</item>
+    <item msgid="2422296858597420738">"很好"</item>
+    <item msgid="4805581752819452687">"我正在路上"</item>
+    <item msgid="4746700499431366214">"好，我稍後再回覆您"</item>
+    <item msgid="4342041517788201970">":)"</item>
+    <item msgid="7439437911747961187">":("</item>
+  </string-array>
+    <plurals formatted="false" msgid="782438833843363189" name="add_invalid_contact_error">
+      <item quantity="other">聯絡人無效</item>
+      <item quantity="one">聯絡人無效</item>
+    </plurals>
+    <plurals formatted="false" msgid="5592871135747616108" name="attachment_changed_accessibility_announcement">
+      <item quantity="other">有 <ns1:g id="ATTACHMENT_COUNT">%d</ns1:g> 個附件可隨郵件傳送</item>
+      <item quantity="one">有 1 個附件可隨郵件傳送</item>
+    </plurals>
+    <plurals formatted="false" msgid="5631719319690969981" name="attachment_preview_close_content_description">
+      <item quantity="other">捨棄附件</item>
+      <item quantity="one">捨棄附件</item>
+    </plurals>
+    <plurals formatted="false" msgid="2068837227090109833" name="attachment_save_error">
+      <item quantity="other">無法儲存 <ns1:g id="QUANTITY_1">%d</ns1:g> 個附件</item>
+      <item quantity="one">無法儲存 <ns1:g id="QUANTITY_0">%d</ns1:g> 個附件</item>
+    </plurals>
+    <plurals formatted="false" msgid="6925000482183379648" name="attachments_saved">
+      <item quantity="other">已儲存 <ns1:g id="QUANTITY_1">%d</ns1:g> 個附件</item>
+      <item quantity="one">已儲存 <ns1:g id="QUANTITY_0">%d</ns1:g> 個附件</item>
+    </plurals>
+    <plurals formatted="false" msgid="8407480699515308929" name="attachments_saved_to_album">
+      <item quantity="other"><ns1:g id="QUANTITY_2">%d</ns1:g> 份附件已儲存到「<ns1:g id="ALBUMNAME_3">%s</ns1:g>」相簿</item>
+      <item quantity="one"><ns1:g id="QUANTITY_0">%d</ns1:g> 份附件已儲存到「<ns1:g id="ALBUMNAME_1">%s</ns1:g>」相簿</item>
+    </plurals>
+    <plurals formatted="false" msgid="1886864019411801995" name="attachments_saved_to_downloads">
+      <item quantity="other"><ns1:g id="QUANTITY_1">%d</ns1:g> 份附件已儲存到「下載內容」</item>
+      <item quantity="one"><ns1:g id="QUANTITY_0">%d</ns1:g> 份附件已儲存到「下載內容」</item>
+    </plurals>
+    <plurals formatted="false" msgid="1778518334602418000" name="compose_message_view_hint_text_attachments">
+      <item quantity="other">傳送附件</item>
+      <item quantity="one">傳送附件</item>
+    </plurals>
+    <plurals formatted="false" msgid="5934090345811195170" name="compose_message_view_hint_text_audio">
+      <item quantity="other">傳送音訊</item>
+      <item quantity="one">傳送音訊</item>
+    </plurals>
+    <plurals formatted="false" msgid="8937589900456604618" name="compose_message_view_hint_text_photo">
+      <item quantity="other">傳送相片</item>
+      <item quantity="one">傳送相片</item>
+    </plurals>
+    <plurals formatted="false" msgid="933064969858631242" name="compose_message_view_hint_text_vcard">
+      <item quantity="other">傳送聯絡人卡片</item>
+      <item quantity="one">傳送聯絡人卡片</item>
+    </plurals>
+    <plurals formatted="false" msgid="9188048653766960507" name="compose_message_view_hint_text_video">
+      <item quantity="other">傳送影片</item>
+      <item quantity="one">傳送影片</item>
+    </plurals>
+    <plurals formatted="false" msgid="2285567882353326800" name="delete_conversations_confirmation_dialog_title">
+      <item quantity="other">要刪除這些對話嗎？</item>
+      <item quantity="one">要刪除這個對話嗎？</item>
+    </plurals>
+    <plurals formatted="false" msgid="4858515363324110232" name="month_count">
+      <item quantity="other"><ns1:g id="COUNT">%d</ns1:g> 個月</item>
+      <item quantity="one">1 個月</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d 則新通知</item>
+    <item quantity="other">%d 則新通知</item>
+  </plurals>
+    <plurals formatted="false" msgid="5341490525457911398" name="notification_download_failures">
+      <item quantity="other"><ns1:g id="CONVERSATIONS">%d</ns1:g> 個對話中的 <ns1:g id="MESSAGES_1">%d</ns1:g> 則訊息</item>
+      <item quantity="one">1 個對話中的 <ns1:g id="MESSAGES_0">%d</ns1:g> 則訊息</item>
+    </plurals>
+    <plurals formatted="false" msgid="610594317958128842" name="notification_new_messages">
+      <item quantity="other"><ns1:g id="MESSAGES">%d</ns1:g> 則新訊息</item>
+      <item quantity="one">新訊息</item>
+    </plurals>
+    <plurals formatted="false" msgid="6938919932879650691" name="notification_send_failures">
+      <item quantity="other"><ns1:g id="CONVERSATIONS">%d</ns1:g> 個對話中的 <ns1:g id="MESSAGES_1">%d</ns1:g> 則訊息</item>
+      <item quantity="one">1 個對話中的 <ns1:g id="MESSAGES_0">%d</ns1:g> 則訊息</item>
+    </plurals>
+    <plurals formatted="false" msgid="8753803762044567843" name="num_days_ago">
+      <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g> 天</item>
+      <item quantity="one"><ns1:g id="COUNT_0">%d</ns1:g> 天</item>
+    </plurals>
+    <plurals formatted="false" msgid="8010868301590914325" name="num_hours_ago">
+      <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g> 小時</item>
+      <item quantity="one"><ns1:g id="COUNT_0">%d</ns1:g> 小時</item>
+    </plurals>
+    <plurals formatted="false" msgid="4085627474543076735" name="num_minutes_ago">
+      <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g> 分鐘</item>
+      <item quantity="one"><ns1:g id="COUNT_0">%d</ns1:g> 分鐘</item>
+    </plurals>
+    <plurals formatted="false" msgid="7529478299745446838" name="photos_saved_to_album">
+      <item quantity="other"><ns1:g id="QUANTITY_2">%d</ns1:g> 張相片已儲存到「<ns1:g id="ALBUMNAME_3">%s</ns1:g>」相簿</item>
+      <item quantity="one"><ns1:g id="QUANTITY_0">%d</ns1:g> 張相片已儲存到「<ns1:g id="ALBUMNAME_1">%s</ns1:g>」相簿</item>
+    </plurals>
+    <plurals formatted="false" msgid="2884224435488996028" name="vcard_multiple_display_name">
+      <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g> 位聯絡人</item>
+      <item quantity="one"><ns1:g id="COUNT_0">%d</ns1:g> 位聯絡人</item>
+    </plurals>
+    <plurals formatted="false" msgid="6821121808257576788" name="videos_saved_to_album">
+      <item quantity="other"><ns1:g id="QUANTITY_2">%d</ns1:g> 段影片已儲存到「<ns1:g id="ALBUMNAME_3">%s</ns1:g>」相簿</item>
+      <item quantity="one"><ns1:g id="QUANTITY_0">%d</ns1:g> 段影片已儲存到「<ns1:g id="ALBUMNAME_1">%s</ns1:g>」相簿</item>
+    </plurals>
+    <plurals formatted="false" msgid="3037889420270036143" name="wearable_participant_count">
+      <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g> 位參與者</item>
+      <item quantity="one"><ns1:g id="COUNT_0">%d</ns1:g> 位參與者</item>
+    </plurals>
+    <plurals formatted="false" msgid="1301973226125551953" name="week_count">
+      <item quantity="other"><ns1:g id="COUNT">%d</ns1:g> 週</item>
+      <item quantity="one">1 週</item>
+    </plurals>
+    <plurals formatted="false" msgid="4522546496183798317" name="year_count">
+      <item quantity="other"><ns1:g id="COUNT">%d</ns1:g> 年</item>
+      <item quantity="one">1 年</item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"瀏覽首頁"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"完成"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"關閉"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"開啟"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete 鍵"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter 鍵"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"空格鍵"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"搜尋…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"分享對象"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"與「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"收合"</string>
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">"沒有建議收件者"</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">"已開啟聯絡人建議"</string>
+    <string msgid="8248615862739848672" name="action_add_contact">"新增聯絡人"</string>
+    <string msgid="5437034800324083170" name="action_archive">"封存"</string>
+    <string msgid="9032076625645190136" name="action_block">"封鎖"</string>
+    <string msgid="6596167921517350362" name="action_call">"進行通話"</string>
+    <string msgid="1840519376200478419" name="action_close">"關閉"</string>
+    <string msgid="8283370294120913166" name="action_confirm_multiselect">"確認選取"</string>
+    <string msgid="3787494008738625806" name="action_confirm_selection">"確認選取項目"</string>
+    <string msgid="2440658410677323714" name="action_debug_options">"偵錯"</string>
+    <string msgid="4076795795307486019" name="action_delete">"刪除"</string>
+    <string msgid="2728883749416365507" name="action_delete_message">"刪除"</string>
+    <string msgid="7786338136368564146" name="action_download">"下載"</string>
+    <string msgid="7172664623795021857" name="action_label">"返回"</string>
+    <string msgid="1628518043533374868" name="action_menu_show_archived">"已封存"</string>
+    <string msgid="1219683118692013380" name="action_multiselect">"選取多張圖片"</string>
+    <string msgid="4823658797441716246" name="action_notification_off">"關閉通知"</string>
+    <string msgid="8244389452685364211" name="action_notification_on">"開啟通知"</string>
+    <string msgid="2748020184252106661" name="action_people_and_options">"參與者和選項"</string>
+    <string msgid="377635240181672039" name="action_send">"傳送"</string>
+    <string msgid="1329008122345201684" name="action_settings">"設定"</string>
+    <string msgid="2143483844803153871" name="action_share">"分享"</string>
+    <string msgid="139681611159869493" name="action_unarchive">"取消封存"</string>
+    <string msgid="2355153262520375529" name="activity_not_found_message">"找不到適用的應用程式"</string>
+    <string msgid="1479380805406328264" name="add_contact_confirmation">"新增聯絡人"</string>
+    <string msgid="1898307408816625598" name="add_contact_confirmation_dialog_title">"加到聯絡人？"</string>
+    <string msgid="12460574490350327" name="add_more_participants_button_content_description">"新增更多參與者"</string>
+    <string msgid="6411454224069259687" name="advanced_category_pref_title">"進階"</string>
+    <string msgid="5870459931510000742" name="advanced_settings">"進階"</string>
+    <string msgid="7397017836928206201" name="advanced_settings_activity_title">"進階設定"</string>
+    <string msgid="1197541953189716999" name="apn_apn">"APN"</string>
+    <string msgid="2134993966166435648" name="apn_edit">"編輯存取點"</string>
+    <string msgid="8102023058623950736" name="apn_mcc">"MCC"</string>
+    <string msgid="6181253508404620479" name="apn_mms_port">"多媒體訊息通訊埠"</string>
+    <string msgid="4343743931563107100" name="apn_mms_proxy">"多媒體訊息 Proxy"</string>
+    <string msgid="2584154739440281747" name="apn_mmsc">"MMSC"</string>
+    <string msgid="1372437523197012866" name="apn_mnc">"MNC"</string>
+    <string msgid="1572691851070894985" name="apn_name">"名稱"</string>
+    <string msgid="463728018542184151" name="apn_not_set">"未設定"</string>
+    <string msgid="3179955111000379490" name="apn_settings">"APN"</string>
+    <string msgid="5136389328322585717" name="apn_settings_not_available">"這位使用者無法修改存取點名稱設定"</string>
+    <string msgid="8409755622399386584" name="apn_type">"APN 類型"</string>
+    <string msgid="3062916848713424329" name="app_name">"簡訊"</string>
+    <string msgid="4738212324460451188" name="archived_activity_title">"已封存"</string>
+    <string msgid="6109126963298874571" name="archived_conversation_list_empty_text">"封存的對話會顯示在這裡"</string>
+    <string msgid="8109348891515322512" name="archived_toast_message">"已封存 <ns1:g id="COUNT">%d</ns1:g> 個"</string>
+    <string msgid="2758624209216276682" name="attachMediaButtonContentDescription">"新增附件"</string>
+    <string msgid="4049093653421684774" name="attachment_chooser_activity_title">"選取附件"</string>
+    <string msgid="3616821885478549778" name="attachment_chooser_selection">"選取了 <ns1:g id="COUNT">%d</ns1:g> 個附件"</string>
+    <string msgid="3056972820372291694" name="attachment_file_description">"已儲存的多媒體訊息附件"</string>
+    <string msgid="2983376679583030373" name="attachment_limit_reached_dialog_message_when_composing">"請移除一或多個附件，然後再試一次。"</string>
+    <string msgid="3917529855170816197" name="attachment_limit_reached_dialog_message_when_sending">"您可以嘗試傳送訊息，但可能必須移除一或多個附件才能順利傳送。"</string>
+    <string msgid="2348790618093735551" name="attachment_limit_reached_send_anyway">"確定傳送"</string>
+    <string msgid="4917927407363303333" name="attachment_load_failed_dialog_message">"「簡訊」無法載入附件。"</string>
+    <string msgid="2861573099241369958" name="attachment_more_items">"超過 <ns1:g id="COUNT">%d</ns1:g> 個項目"</string>
+    <string msgid="499334244765270108" name="audio_attachment_content_description">"音訊附件"</string>
+    <string msgid="7578169887065513701" name="audio_pause_content_description">"暫停"</string>
+    <string msgid="6986250080467111491" name="audio_picker_hint_text">"輕觸並按住"</string>
+    <string msgid="4932509227281251607" name="audio_play_content_description">"播放音訊附件"</string>
+    <string msgid="29401157183728655" name="audio_record_view_content_description">"輕觸並按住即可錄製音訊"</string>
+    <string msgid="7762310055059024872" name="audio_recording_error">"無法儲存音訊，請再試一次。"</string>
+    <string msgid="3585760856463273828" name="audio_recording_replay_failed">"無法播放音訊，請再試一次。"</string>
+    <string msgid="4442450764642560851" name="audio_recording_start_failed">"無法錄製音訊，請再試一次。"</string>
+    <string msgid="7766679943833404968" name="auto_delete_oldest_messages">"自動刪除超過 <ns1:g id="DURATION">%s</ns1:g>的訊息"</string>
+    <string msgid="9071499976729145269" name="auto_delete_oldest_messages_confirmation">"刪除超過 <ns1:g id="DURATION">%s</ns1:g>的訊息並開啟自動刪除設定？"</string>
+    <string msgid="2253902455786205335" name="auto_retrieve_mms_pref_summary">"自動擷取多媒體訊息"</string>
+    <string msgid="1316094876978218980" name="auto_retrieve_mms_pref_title">"自動擷取"</string>
+    <string msgid="7347177867673486983" name="auto_retrieve_mms_when_roaming_pref_summary">"漫遊時自動擷取多媒體訊息"</string>
+    <string msgid="2918775628609759349" name="auto_retrieve_mms_when_roaming_pref_title">"漫遊時自動擷取"</string>
+    <string msgid="1477626055115561645" name="back">"返回"</string>
+    <string msgid="185429978461824228" name="block_confirmation_message">"您將持續接收來自這個號碼的訊息，但不會再收到通知。此對話將由系統封存。"</string>
+    <string msgid="8288283455512985682" name="block_confirmation_title">"封鎖 <ns1:g id="DESTINATION">%s</ns1:g>？"</string>
+    <string msgid="6968382557194643329" name="block_contact_title">"封鎖 <ns1:g id="DESTINATION">%s</ns1:g>"</string>
+    <string msgid="7709164518967312281" name="blocked_contacts_title">"封鎖的聯絡人"</string>
+    <string msgid="2560554234438548817" name="blocked_pref_title">"已封鎖"</string>
+    <string msgid="7903364256385612569" name="blocked_toast_message">"已封鎖並封存聯絡人"</string>
+    <string name="bottomsheet_action_expand_halfway">展開一半</string>
+    <string msgid="6431544304743145818" name="camera_cancel_recording">"停止錄影"</string>
+    <string msgid="4894133709734862250" name="camera_error_failure_taking_picture">"無法拍照"</string>
+    <string msgid="2739332294400420426" name="camera_error_opening">"無法使用相機"</string>
+    <string msgid="5536300789483863989" name="camera_error_storage_fail">"無法儲存媒體"</string>
+    <string msgid="4283956364220459608" name="camera_error_unknown">"無法使用相機"</string>
+    <string msgid="994632067015578879" name="camera_error_video_init_fail">"無法錄影"</string>
+    <string msgid="6532763214546593687" name="camera_media_failure">"無法載入相機圖片"</string>
+    <string msgid="1736478301191221786" name="camera_start_recording">"開始錄影"</string>
+    <string msgid="5331592576107271152" name="camera_stop_recording">"停止錄影並附加影片"</string>
+    <string msgid="1566112129296559159" name="camera_switch_camera_facing">"切換使用前置與後置鏡頭"</string>
+    <string msgid="6156039742035097276" name="camera_switch_full_screen">"切換至全螢幕相機"</string>
+    <string msgid="4419617715199157958" name="camera_switch_to_still_mode">"拍攝靜態影像"</string>
+    <string msgid="2926868205952641428" name="camera_switch_to_video_mode">"錄影"</string>
+    <string msgid="2573317952200799489" name="camera_take_picture">"拍照"</string>
+    <string msgid="4301887223941009907" name="cant_send_message_while_loading_attachments">"載入附件時無法傳送訊息。"</string>
+    <string msgid="7130532514190813716" name="cant_send_message_without_active_subscription">"網路尚未就緒，請再試一次。"</string>
+    <string name="captcha_copy_action">複製 %s</string>
+    <string name="captcha_has_copied_toast">驗證碼已經複製到剪貼板，長按輸入框進行粘貼。</string>
+    <string msgid="3796492439123251453" name="carrier_send_error">"無法透過<ns1:g id="CARRIERNAME">%1$s</ns1:g>傳送訊息 (錯誤代碼：<ns1:g id="ERRORCODE">%2$d</ns1:g>)"</string>
+    <string msgid="1210665032244425938" name="carrier_send_error_unknown_carrier">"無法透過不明行動通訊業者傳送訊息 (錯誤代碼：<ns1:g id="ERRORCODE">%1$d</ns1:g>)"</string>
+    <string name="character_counter_content_description">已輸入 %1$d 個字元 (上限為 %2$d 個字元)</string>
+    <string name="character_counter_overflowed_content_description">超過字元限制 (共 %1$d 字元，上限 %2$d 字元)</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"取消"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">"複製"</string>
+    <string msgid="4655699207140895492" name="chips_delete_content_description">"移除收件者"</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"允許聯絡人建議"</string>
+    <string msgid="123760854728616068" name="chips_text_delete_button_content_description">"刪除文字"</string>
+    <string msgid="4603850264073169854" name="class_0_message_activity">"等級 0 訊息"</string>
+    <string name="clear_text_end_icon_content_description">清除文字</string>
+    <string msgid="1248663997452044787" name="color_picker_default_title">"選取顏色"</string>
+    <string msgid="2883438431173736180" name="color_swatch_description">"色彩 <ns1:g id="COLOR_INDEX">%1$d</ns1:g>"</string>
+    <string msgid="5020921249944943124" name="color_swatch_description_selected">"已選取色彩 <ns1:g id="COLOR_INDEX">%1$d</ns1:g>"</string>
+    <string msgid="5214836453231753054" name="compose_message_view_hint_text">"傳送簡訊"</string>
+    <string msgid="2829154383848677160" name="compose_message_view_hint_text_multi_sim">"&lt;small>透過 <ns1:g id="SIM_NAME">%s</ns1:g>&lt;/small>&lt;br> 傳送訊息"</string>
+    <string msgid="6076616675845705660" name="compose_message_view_subject_hint_text">"主旨"</string>
+    <string msgid="7473740533133798616" name="confrim_participants_button_content_description">"確認參與者"</string>
+    <string msgid="1036353827229041942" name="contact_list_empty_text">"輸入聯絡人名稱或電話號碼，即可開始傳送新訊息"</string>
+    <string msgid="3167455944684758290" name="contact_list_send_to_text">"傳送至 <ns1:g id="DESTINATION">%s</ns1:g>"</string>
+    <string msgid="1424746082040243161" name="contact_picker_all_contacts_tab_title">"所有聯絡人"</string>
+    <string msgid="7157326165824706883" name="contact_picker_frequents_tab_title">"常用聯絡人"</string>
+    <string msgid="7078061834874737466" name="content_description_for_number_eight">"8"</string>
+    <string msgid="8078774905490022978" name="content_description_for_number_five">"5"</string>
+    <string msgid="7515917522043407213" name="content_description_for_number_four">"4"</string>
+    <string msgid="4276787959475295232" name="content_description_for_number_nine">"9"</string>
+    <string msgid="3886554185135150473" name="content_description_for_number_one">"1"</string>
+    <string msgid="5870011338757220060" name="content_description_for_number_seven">"7"</string>
+    <string msgid="9192012772645396654" name="content_description_for_number_six">"6"</string>
+    <string msgid="8471442614073144385" name="content_description_for_number_three">"3"</string>
+    <string msgid="1562486479385891146" name="content_description_for_number_two">"2"</string>
+    <string msgid="7992301592202897868" name="content_description_for_number_zero">"0"</string>
+    <string msgid="8597624563218724441" name="conversation_creation_failure">"無法發起對話"</string>
+    <string msgid="6088388615460305424" name="conversation_deleted">"對話已刪除"</string>
+    <string msgid="7505706551294769667" name="conversation_list_empty_text">"這裡會列出您發起的新對話"</string>
+    <string msgid="3749751291444609993" name="conversation_list_first_sync_text">"正在載入對話…"</string>
+    <string msgid="3592923997082845035" name="conversation_list_item_view_draft_message">"草稿"</string>
+    <string msgid="9202622757034736175" name="conversation_list_item_view_sent_from_other_prefix">"<ns1:g id="FIRSTNAMEOFSENDER">%s</ns1:g>： "</string>
+    <string msgid="1735457801737604211" name="conversation_list_item_view_sent_from_you_prefix">"您： "</string>
+    <string msgid="7894183429890407387" name="conversation_list_snippet_audio_clip">"音訊剪輯"</string>
+    <string msgid="5326960910088541826" name="conversation_list_snippet_picture">"圖片"</string>
+    <string msgid="5004837959112452394" name="conversation_list_snippet_vcard">"聯絡人卡片"</string>
+    <string msgid="7101059507173671233" name="conversation_list_snippet_video">"影片"</string>
+    <string msgid="5634274498769555505" name="conversation_message_view_subject_text">"主旨： "</string>
+    <string msgid="6083905920877235314" name="copy">"複製"</string>
+    <string msgid="1084563757174121331" name="copy_email">"複製電子郵件地址"</string>
+    <string msgid="8860802152973030914" name="copy_number">"複製電話號碼"</string>
+    <string msgid="1977083934277981786" name="copy_to_clipboard">"複製"</string>
+    <string msgid="494269163973708182" name="copy_to_clipboard_dialog_title">"複製到剪貼簿？"</string>
+    <string msgid="8459265782521418031" name="db_full">"儲存空間即將用盡，部分資料可能會遺失。"</string>
+    <string msgid="8765138968242505061" name="debug_category_pref_title">"偵錯"</string>
+    <string msgid="5549693176734564386" name="delete_all_media">"刪除所有內含媒體的訊息"</string>
+    <string msgid="4601960420953525559" name="delete_all_media_confirmation">"刪除所有內含媒體的訊息？"</string>
+    <string msgid="744574085809600863" name="delete_conversation_confirmation_button">"刪除"</string>
+    <string msgid="5470021965641900456" name="delete_conversation_decline_button">"取消"</string>
+    <string msgid="3888584614972573382" name="delete_message_confirmation_button">"刪除"</string>
+    <string msgid="3952533622691031375" name="delete_message_confirmation_dialog_text">"這項操作無法復原。"</string>
+    <string msgid="4723834210275712001" name="delete_message_confirmation_dialog_title">"刪除這則訊息？"</string>
+    <string msgid="9204277306804390707" name="delete_oldest_messages">"刪除超過 <ns1:g id="DURATION">%s</ns1:g>的訊息"</string>
+    <string msgid="6172297718425265784" name="delete_oldest_messages_confirmation">"刪除超過 <ns1:g id="DURATION">%s</ns1:g>的訊息？"</string>
+    <string msgid="8910749398836396698" name="delete_subject_content_description">"刪除主旨"</string>
+    <string msgid="3433965196058436991" name="delivered_status_content_description">"已傳送"</string>
+    <string msgid="4272502420621500421" name="delivery_reports_pref_summary">"傳送簡訊後要求傳送回條"</string>
+    <string msgid="5115727259825309087" name="delivery_reports_pref_title">"簡訊傳送報告"</string>
+    <string msgid="1016285369211000297" name="disable_group_mms">"分別傳送簡訊給所有收件者 (如有任何回覆，只有您會收到)"</string>
+    <string msgid="8744588243554006189" name="dl_failure_notification">"無法下載來自 <ns1:g id="FROM">%2$s</ns1:g> 的這則訊息：<ns1:g id="SUBJECT">%1$s</ns1:g>。"</string>
+    <string msgid="635370887537738004" name="download_message_failure">"無法下載訊息"</string>
+    <string msgid="6752478540984118382" name="download_message_failure_airplane_mode">"在飛航模式下無法下載訊息"</string>
+    <string msgid="6830055949399088532" name="download_message_failure_no_data">"行動數據已關閉。請檢查您的設定。"</string>
+    <string msgid="3514921076616367225" name="download_message_success">"訊息下載完成"</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">"從收件者名單中移除<ns1:g id="CONTACT">%s</ns1:g>"</string>
+    <string msgid="7901698352188687659" name="dump_mms_pref_summary">"將收到的多媒體訊息原始資料傾印到外部儲存空間檔案"</string>
+    <string msgid="6699074152055891680" name="dump_mms_pref_title">"傾印多媒體訊息"</string>
+    <string msgid="3694039770323225329" name="dump_sms_pref_summary">"將收到的簡訊原始資料傾印到外部儲存空間檔案"</string>
+    <string msgid="4057657151746557281" name="dump_sms_pref_title">"傾印簡訊"</string>
+    <string msgid="4311733160940564593" name="enable_group_mms">"傳送一則多媒體訊息給所有收件者"</string>
+    <string msgid="2778471831376319587" name="enable_permission_procedure">"如要變更權限，請依序前往 [設定] > [應用程式] > [簡訊] > [權限]。"</string>
+    <string msgid="8672121020793945630" name="enable_permission_procedure_description">"如要變更權限，請依序前往 [設定]、[應用程式]、[簡訊] 及 [權限]。"</string>
+    <string msgid="6242965213882272822" name="enter_phone_number_hint">"手機號碼"</string>
+    <string msgid="4539767473801195966" name="enter_phone_number_text">"這個一次性步驟可確保「簡訊」正確傳送群組訊息。"</string>
+    <string msgid="7263355879949248448" name="enter_phone_number_title">"驗證您的手機號碼"</string>
+    <string msgid="7032804261692931808" name="enumeration_comma">"、 "</string>
+    <string msgid="6799644880052534839" name="error_apn_empty">"APN 不可留空。"</string>
+    <string msgid="7770363665690646716" name="error_apn_name_empty">"名稱欄位不可留空。"</string>
+    <string name="error_icon_content_description">錯誤</string>
+    <string msgid="3693788817630985838" name="error_mcc_not3">"MCC 欄位的值必須為 3 碼。"</string>
+    <string msgid="3726130455168743554" name="error_mnc_not23">"MNC 欄位的值必須為 2 或 3 碼。"</string>
+    <string msgid="1905187380359981199" name="exit">"結束"</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"進階"</string>
+    <string name="exposed_dropdown_menu_content_description">顯示下拉式選單</string>
+    <string msgid="412233184776827353" name="fail_to_load_attachment">"無法載入附件，請再試一次。"</string>
+    <string msgid="8338915262229269954" name="failed">"無法載入圖片"</string>
+    <string msgid="7711070643740368402" name="failed_loading_vcard">"無法載入聯絡人卡片"</string>
+    <string msgid="7047161648867054936" name="failed_message_content_description">"訊息傳送失敗，輕觸即可重試。"</string>
+    <string msgid="4689730643900226699" name="forward_message_activity_title">"轉寄郵件"</string>
+    <string msgid="1947831848146564875" name="from_label">"寄件者： "</string>
+    <string msgid="2503122727700475428" name="gallery_checkbox_content_description">"選取此項目"</string>
+    <string msgid="5409336577057897710" name="general_settings">"一般"</string>
+    <string msgid="3012187932521771578" name="general_settings_activity_title">"一般設定"</string>
+    <string msgid="4465312111301728995" name="general_settings_title">"一般"</string>
+    <string msgid="2339270924401184182" name="group_conversation_description">"與<ns1:g id="PARTICIPANTS">%s</ns1:g>的對話"</string>
+    <string msgid="7085805237707481779" name="group_incoming_failed_message_prefix">"<ns1:g id="SENDER">%1$s</ns1:g>嘗試傳送訊息但未成功：<ns1:g id="MESSAGE">%2$s</ns1:g>。時間：<ns1:g id="TIME">%3$s</ns1:g>。<ns1:g id="GROUPINFO">%4$s</ns1:g>。"</string>
+    <string msgid="7248506967059447054" name="group_incoming_successful_message_prefix">"<ns1:g id="SENDER">%1$s</ns1:g>傳送了訊息：<ns1:g id="MESSAGE">%2$s</ns1:g>。時間：<ns1:g id="TIME">%3$s</ns1:g>。<ns1:g id="GROUPINFO">%4$s</ns1:g>。"</string>
+    <string msgid="3758710015912690629" name="group_mms_pref_summary">"有多位收件者時，也使用多媒體訊息傳送訊息"</string>
+    <string msgid="6553612309209383106" name="group_mms_pref_title">"群組簡訊"</string>
+    <string msgid="1655013812805454648" name="group_outgoing_draft_message_prefix">"給<ns1:g id="GROUP">%1$s</ns1:g>的訊息尚未送出：<ns1:g id="MESSAGE">%2$s</ns1:g>。時間：<ns1:g id="TIME">%3$s</ns1:g>。"</string>
+    <string msgid="5059983340377901592" name="group_outgoing_failed_message_prefix">"無法傳送訊息給<ns1:g id="GROUP">%1$s</ns1:g>：<ns1:g id="MESSAGE">%2$s</ns1:g>。時間：<ns1:g id="TIME">%3$s</ns1:g>。"</string>
+    <string msgid="7636874745414695556" name="group_outgoing_sending_message_prefix">"正在傳送訊息給<ns1:g id="GROUP">%1$s</ns1:g>：<ns1:g id="MESSAGE">%2$s</ns1:g>。時間：<ns1:g id="TIME">%3$s</ns1:g>。"</string>
+    <string msgid="1593702642852987920" name="group_outgoing_successful_message_prefix">"已傳送訊息給<ns1:g id="GROUP">%1$s</ns1:g>：<ns1:g id="MESSAGE">%2$s</ns1:g>。時間：<ns1:g id="TIME">%3$s</ns1:g>。"</string>
+    <string msgid="8070710971014835182" name="help_and_feedback_activity_label">"説明"</string>
+    <string msgid="5054789216911282696" name="hidden_sender_address">"隱藏的寄件者地址"</string>
+    <string name="icon_content_description">對話方塊圖示</string>
+    <string msgid="7063392681130898793" name="ignore">"忽略"</string>
+    <string msgid="7311780674392006753" name="in_conversation_notify_new_message_action">"查看"</string>
+    <string msgid="8207541514656839042" name="in_conversation_notify_new_message_text">"新訊息"</string>
+    <string msgid="6369259405539452011" name="incoming_message_announcement">"收到<ns1:g id="SENDER">%1$s</ns1:g>傳送的訊息，內容如下：<ns1:g id="MESSAGE">%2$s</ns1:g>。"</string>
+    <string msgid="7512757244515303701" name="incoming_sender_content_description">"來自<ns1:g id="SENDER">%s</ns1:g>的訊息"</string>
+    <string msgid="4244076415705614525" name="incoming_sim_name_text">"傳送至 <ns1:g id="SIM_NAME">%s</ns1:g>"</string>
+    <string msgid="2481078288502342745" name="incoming_text_sender_content_description">"<ns1:g id="SENDER">%s</ns1:g>說了"</string>
+    <string msgid="8214889988397524630" name="invalid_destination">"收件者無效，因此無法傳送訊息。"</string>
+    <string name="item_view_role_description">分頁標籤</string>
+    <string msgid="8700344957248709584" name="link_display_format">"<ns1:g id="TEXT">%1$s</ns1:g> (<ns1:g id="URL">%2$s</ns1:g>)"</string>
+    <string msgid="2890879017729068514" name="loading_conversations">"正在載入對話"</string>
+    <string msgid="3894765818932489665" name="loading_messages">"正在載入訊息"</string>
+    <string msgid="3961520941271265083" name="loading_vcard">"正在載入聯絡人卡片"</string>
+    <string msgid="5300743415198486619" name="low_memory">"記憶體不足，因此無法完成資料庫作業"</string>
+    <string name="material_clock_toggle_content_description">選取上午或下午</string>
+    <string name="material_hour_selection">請選取時段</string>
+    <string name="material_hour_suffix">%1$s 點</string>
+    <string name="material_minute_selection">選取分鐘數</string>
+    <string name="material_minute_suffix">%1$s 分</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">切換至時鐘模式來輸入時間。</string>
+    <string name="material_timepicker_hour">小時</string>
+    <string name="material_timepicker_minute">分鐘</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">選取時間</string>
+    <string name="material_timepicker_text_input_mode_description">切換至文字輸入模式來輸入時間。</string>
+    <string msgid="3660616501040372452" name="mediapicker_audioChooserDescription">"錄音"</string>
+    <string msgid="5455016591560739789" name="mediapicker_audio_title">"錄音"</string>
+    <string msgid="8498255650058981250" name="mediapicker_cameraChooserDescription">"拍照或錄影"</string>
+    <string msgid="1227741581156455777" name="mediapicker_galleryChooserDescription">"選擇這個裝置上的圖片"</string>
+    <string msgid="8812237405495409901" name="mediapicker_gallery_image_item_description">"圖片 (<ns1:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</ns1:g>)"</string>
+    <string msgid="8142175029053370662" name="mediapicker_gallery_image_item_description_no_date">"圖片"</string>
+    <string msgid="2569545441879514283" name="mediapicker_gallery_item_selected_content_description">"已選取媒體。"</string>
+    <string msgid="40021674722525910" name="mediapicker_gallery_item_unselected_content_description">"已取消選取媒體。"</string>
+    <string msgid="3169528536727885763" name="mediapicker_gallery_title">"選擇相片"</string>
+    <string msgid="3621616141966436510" name="mediapicker_gallery_title_selection">"已選取 <ns1:g id="COUNT">%d</ns1:g> 個項目"</string>
+    <string msgid="4947391038600888284" name="menu_delete_apn">"刪除 APN"</string>
+    <string msgid="310569150407968648" name="menu_discard_apn_change">"捨棄"</string>
+    <string msgid="1157954180701135202" name="menu_license">"開放原始碼授權"</string>
+    <string msgid="8286285392706532511" name="menu_new">"新增 APN"</string>
+    <string msgid="1564461309350814037" name="menu_new_apn">"新增 APN"</string>
+    <string msgid="6342935229867973523" name="menu_restore_default_apn">"重設為預設值"</string>
+    <string msgid="5445335896951613691" name="menu_save_apn">"儲存"</string>
+    <string msgid="479412726781330278" name="menu_send_feedback">"提供意見"</string>
+    <string msgid="6122616816253404821" name="menu_version_info">"版本資訊"</string>
+    <string msgid="3792488955421628684" name="menu_view_in_store">"前往 Google Play 商店查看"</string>
+    <string msgid="8241684826917957666" name="message_context_menu_copy_text">"複製文字"</string>
+    <string msgid="4924354182554857475" name="message_context_menu_delete_message">"刪除"</string>
+    <string msgid="4848326950037554575" name="message_context_menu_forward_message">"轉寄"</string>
+    <string msgid="5036023289586457642" name="message_context_menu_title">"訊息選項"</string>
+    <string msgid="2077089491219912840" name="message_context_menu_view_details">"查看詳細資料"</string>
+    <string msgid="8451487656255395372" name="message_details_title">"訊息詳細資料"</string>
+    <string msgid="2144370964507743673" name="message_fwd">"轉寄：<ns1:g id="SUBJECT">%s</ns1:g>"</string>
+    <string msgid="621604138442762130" name="message_image_content_description">"圖片"</string>
+    <string msgid="8840394477993741203" name="message_size_label">"大小： "</string>
+    <string msgid="6527275493954932656" name="message_status_download">"輕觸即可下載"</string>
+    <string msgid="285219832844160" name="message_status_download_action">"下載或刪除"</string>
+    <string msgid="6957738686287397519" name="message_status_download_error">"訊息已過期或無法存取"</string>
+    <string msgid="7298035414448355842" name="message_status_download_failed">"輕觸即可再試一次"</string>
+    <string msgid="7159807805159805428" name="message_status_downloading">"下載中…"</string>
+    <string msgid="8009695010381848311" name="message_status_failed">"失敗"</string>
+    <string msgid="7718458416521355708" name="message_status_resend">"重新傳送或刪除"</string>
+    <string msgid="5443627648028194631" name="message_status_send_failed">"傳送失敗，輕觸即可再試一次。"</string>
+    <string msgid="1738854184297159948" name="message_status_send_failed_emergency_number">"目前無法傳送您的簡訊，請撥打語音電話聯絡緊急服務。"</string>
+    <string msgid="650840088043267981" name="message_status_send_retrying">"傳送失敗，正在嘗試重新傳送…"</string>
+    <string msgid="3306260780518886107" name="message_status_sending">"傳送中…"</string>
+    <string msgid="3867223594671090459" name="message_title_download_failed">"無法下載"</string>
+    <string msgid="6418481644146460124" name="message_title_downloading">"新的多媒體訊息"</string>
+    <string msgid="2761223322277801061" name="message_title_manual_download">"可下載新的多媒體訊息"</string>
+    <string msgid="6442873901113487978" name="message_type_label">"類型： "</string>
+    <string msgid="8303890455085643301" name="mms_attachment_limit_reached">"已達附件數量上限"</string>
+    <string msgid="5697191348996648727" name="mms_attachment_load_failed">"無法載入附件。"</string>
+    <string msgid="6212773250215580849" name="mms_failure_outgoing_address">"無法傳送訊息：目的地位址無效"</string>
+    <string msgid="919220273446626565" name="mms_failure_outgoing_content">"無法傳送訊息：不支援的內容"</string>
+    <string msgid="6132734324976690436" name="mms_failure_outgoing_corrupt">"無法傳送訊息：訊息無效"</string>
+    <string msgid="4662217039143124592" name="mms_failure_outgoing_service">"訊息未傳送：未在網路上啟用服務"</string>
+    <string msgid="3917966922000717407" name="mms_failure_outgoing_too_large">"訊息未傳送：內容過大"</string>
+    <string msgid="2614377585077448979" name="mms_failure_outgoing_unsupported">"無法傳送訊息：不支援的訊息"</string>
+    <string msgid="3402311750134118165" name="mms_info">"大小：<ns1:g id="MESSAGESIZE">%1$s</ns1:g>，期限：<ns1:g id="MESSAGEEXPIRE">%2$s</ns1:g>"</string>
+    <string msgid="4816815152658525660" name="mms_messaging_category_pref_title">"多媒體訊息"</string>
+    <string msgid="5445275222817760638" name="mms_phone_number_pref_title">"您的電話號碼"</string>
+    <string msgid="1528791558806015806" name="mms_text">"多媒體訊息"</string>
+    <string msgid="643992135011109762" name="more_string">"+<ns1:g id="COUNT">%1$d</ns1:g> 人"</string>
+    <string name="mtrl_badge_numberless_content_description">新通知</string>
+    <string name="mtrl_chip_close_icon_content_description">移除 %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">超過 %1$d 則新通知</string>
+    <string name="mtrl_picker_a11y_next_month">變更至下個月</string>
+    <string name="mtrl_picker_a11y_prev_month">變更至上個月</string>
+    <string name="mtrl_picker_announce_current_selection">目前選取：%1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">選取日期</string>
+    <string name="mtrl_picker_date_header_unselected">所選日期</string>
+    <string name="mtrl_picker_day_of_week_column_header">星期幾資料欄：%1$s</string>
+    <string name="mtrl_picker_invalid_format">格式無效。</string>
+    <string name="mtrl_picker_invalid_format_example">範例：%1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用：%1$s</string>
+    <string name="mtrl_picker_invalid_range">日期範圍無效。</string>
+    <string name="mtrl_picker_navigate_to_year_description">前往 %1$s 年</string>
+    <string name="mtrl_picker_out_of_range">超出日期範圍：%1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">開始日期 – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – 結束日期</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">選取範圍</string>
+    <string name="mtrl_picker_range_header_unselected">開始日期 - 結束日期</string>
+    <string name="mtrl_picker_save">儲存</string>
+    <string name="mtrl_picker_text_input_date_hint">日期</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">結束日期</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">開始日期</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">切換至日曆輸入模式</string>
+    <string name="mtrl_picker_toggle_to_day_selection">輕觸即可切換為選取星期幾</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">切換至文字輸入模式</string>
+    <string name="mtrl_picker_toggle_to_year_selection">輕觸即可切換為選取年份</string>
+    <string msgid="2199989099980111684" name="multimedia_message">"多媒體訊息"</string>
+    <string msgid="4496962051601713843" name="next">"繼續"</string>
+    <string msgid="2840729397885031655" name="next_with_arrow">"繼續 >"</string>
+    <string msgid="8583927728936521140" name="no_preferred_sim_selected">"尚未選取傳送簡訊時慣用的 SIM 卡"</string>
+    <string msgid="5587715902648568767" name="no_subject">"(無主旨)"</string>
+    <string msgid="6573031135582639649" name="not_set">"未設定"</string>
+    <string msgid="5926581589398218150" name="notification_audio">"音訊剪輯"</string>
+    <string msgid="1697982467160426345" name="notification_download_failures_line1_plural">"「簡訊」未下載部分訊息"</string>
+    <string msgid="4424772073720626885" name="notification_download_failures_line1_singular">"訊息未順利下載"</string>
+    <string msgid="6206807985355359528" name="notification_download_mms">"下載"</string>
+    <string msgid="6311715277789488996" name="notification_emergency_send_failure_line1">"無法傳送訊息給 <ns1:g id="NUMBER">%1$s</ns1:g>"</string>
+    <string msgid="6461481033351036996" name="notification_emergency_send_failure_line2">"目前無法將您的簡訊傳送至 <ns1:g id="NUMBER">%1$s</ns1:g>，請撥打語音電話聯絡緊急服務。"</string>
+    <string msgid="5203458459139408265" name="notification_off_toast_message">"已關閉通知功能"</string>
+    <string msgid="1240626023754746310" name="notification_on_toast_message">"已開啟通知功能"</string>
+    <string msgid="1176665337098921822" name="notification_picture">"圖片"</string>
+    <string msgid="1836023392294480241" name="notification_reply_prompt">"回覆"</string>
+    <string msgid="6706012871186064035" name="notification_reply_via_mms">"透過多媒體訊息回覆"</string>
+    <string msgid="6990127304684161722" name="notification_reply_via_sms">"透過簡訊回覆"</string>
+    <string msgid="7228944748028969272" name="notification_send_failures_line1_plural">"「簡訊」未傳送部分訊息"</string>
+    <string msgid="6783835440207655217" name="notification_send_failures_line1_singular">"訊息未傳送"</string>
+    <string msgid="3472521786709813414" name="notification_separator">"  "</string>
+    <string msgid="3685506528957337849" name="notification_sound_pref_title">"音效"</string>
+    <string msgid="9007689386066977972" name="notification_space_separator">"  "</string>
+    <string msgid="5229975483160300625" name="notification_subject">"<ns1:g id="SUBJECT_LABEL">%1$s</ns1:g>：<ns1:g id="MESSAGETEXT">%2$s</ns1:g>"</string>
+    <string msgid="2027929074008933906" name="notification_ticker_separator">"： "</string>
+    <string msgid="7658061674440552878" name="notification_vcard">"聯絡人卡片"</string>
+    <string msgid="6668564570045187390" name="notification_vibrate_pref_title">"震動"</string>
+    <string msgid="4331423498662606204" name="notification_video">"影片"</string>
+    <string msgid="1492686092760478206" name="notifications_enabled_conversation_pref_title">"通知"</string>
+    <string msgid="4127288731844373795" name="notifications_enabled_pref_title">"通知"</string>
+    <string msgid="1403198418131594073" name="numeric_text_keyboard_toggle_button_content_description">"切換輸入的文字和數字"</string>
+    <string msgid="6985644411445605747" name="one_on_one_incoming_failed_message_prefix">"<ns1:g id="SENDER">%1$s</ns1:g>嘗試傳送訊息但未成功：<ns1:g id="MESSAGE">%2$s</ns1:g>。時間：<ns1:g id="TIME">%3$s</ns1:g>。"</string>
+    <string msgid="6190814597935995703" name="one_on_one_incoming_successful_message_prefix">"<ns1:g id="SENDER">%1$s</ns1:g>傳送了訊息：<ns1:g id="MESSAGE">%2$s</ns1:g>。時間：<ns1:g id="TIME">%3$s</ns1:g>。"</string>
+    <string msgid="8721053088385740646" name="one_on_one_outgoing_draft_message_prefix">"給<ns1:g id="CONTACT">%1$s</ns1:g>的訊息尚未送出：<ns1:g id="MESSAGE">%2$s</ns1:g>。時間：<ns1:g id="TIME">%3$s</ns1:g>。"</string>
+    <string msgid="7194065651879454314" name="one_on_one_outgoing_failed_message_prefix">"無法傳送訊息給<ns1:g id="CONTACT">%1$s</ns1:g>：<ns1:g id="MESSAGE">%2$s</ns1:g>。時間：<ns1:g id="TIME">%3$s</ns1:g>。"</string>
+    <string msgid="3929653530203574220" name="one_on_one_outgoing_sending_message_prefix">"正在傳送訊息給<ns1:g id="CONTACT">%1$s</ns1:g>：<ns1:g id="MESSAGE">%2$s</ns1:g>。時間：<ns1:g id="TIME">%3$s</ns1:g>。"</string>
+    <string msgid="7128492863867327814" name="one_on_one_outgoing_successful_message_prefix">"已傳送訊息給<ns1:g id="CONTACT">%1$s</ns1:g>：<ns1:g id="MESSAGE">%2$s</ns1:g>。時間：<ns1:g id="TIME">%3$s</ns1:g>。"</string>
+    <string msgid="5983163141994434778" name="outgoing_sender_content_description">"您傳送了訊息"</string>
+    <string msgid="3492116976256510272" name="outgoing_text_sender_content_description">"您說了"</string>
+    <string msgid="8624855187574757110" name="participant_list_title">"這個對話的參與者"</string>
+    <string name="password_toggle_content_description">顯示密碼</string>
+    <string msgid="5443749025829291736" name="people_and_options_activity_title">"參與者和選項"</string>
+    <string msgid="6556006393051918135" name="photo_view_activity_title">"簡訊相片"</string>
+    <string msgid="3972196711827497300" name="photo_view_count">"第 <ns1:g id="CURRENT_POS">%1$d</ns1:g> 張 (共 <ns1:g id="COUNT">%2$d</ns1:g> 張)"</string>
+    <string msgid="132845956503874378" name="pick_image_from_document_library_content_description">"選擇文件庫中的圖片"</string>
+    <string msgid="8961547034116059566" name="plus_n">"還有 %d 位參與者"</string>
+    <string msgid="9010288417554932581" name="plus_one">"還有 1 位參與者"</string>
+    <string msgid="6632467048088811568" name="posted_just_now">"剛剛"</string>
+    <string msgid="867560789350406701" name="posted_now">"最新"</string>
+    <string msgid="6685851473431805375" name="preference_copied">"已將「<ns1:g id="SUMMARY">%1$s</ns1:g>」複製到剪貼簿。"</string>
+    <string msgid="728836357310908368" name="priority_high">"高"</string>
+    <string msgid="5029073794896222902" name="priority_label">"優先順序： "</string>
+    <string msgid="7398724779026801851" name="priority_low">"低"</string>
+    <string msgid="8918221917628753075" name="priority_normal">"一般"</string>
+    <string msgid="4442494712757995203" name="received_label">"接收時間： "</string>
+    <string msgid="1819710673158265515" name="recipient_hint">"收件者"</string>
+    <string msgid="7769636305626277844" name="recommend_set_default_sms_app">"如要接收訊息，請將「簡訊」設為預設的簡訊應用程式"</string>
+    <string msgid="2967630094609648609" name="reply_activity_title">"回覆"</string>
+    <string msgid="3898014894175251590" name="required_permissions_promo">"「簡訊」需要取得簡訊、電話和聯絡人應用程式的存取權限。"</string>
+    <string msgid="7477365167876194810" name="requires_default_sms_app">"將「簡訊」設為預設的簡訊應用程式"</string>
+    <string msgid="171048611973157166" name="requires_default_sms_app_to_send">"如要傳送訊息，請將「簡訊」設為預設的簡訊應用程式"</string>
+    <string msgid="6717443481161057941" name="requires_default_sms_change_button">"變更"</string>
+    <string msgid="8601569832171759435" name="requires_sms_permissions_close_button">"確定"</string>
+    <string msgid="2179684358095980506" name="requires_sms_permissions_message">"裝置擁有者不允許這個應用程式的要求。"</string>
+    <string msgid="7180447255249638396" name="restore_default_apn">"正在還原預設 APN 設定。"</string>
+    <string msgid="7421687541468349715" name="restore_default_apn_completed">"預設 APN 設定的重設程序已完成。"</string>
+    <string msgid="3791698559547529232" name="retry">"重試"</string>
+    <string msgid="5081141452059463572" name="save">"儲存"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"搜尋"</string>
+    <string msgid="2386669280323553032" name="secondary_user_new_message_ticker">"新訊息。"</string>
+    <string msgid="201938947573987596" name="secondary_user_new_message_title">"新訊息"</string>
+    <string msgid="4504796674843354505" name="selected_sim_content_message">"已選取「<ns1:g id="SELECTED_SIM">%s</ns1:g>」"</string>
+    <string msgid="8422114979691093956" name="sendButtonContentDescription">"傳送訊息"</string>
+    <string msgid="979624100711380593" name="send_button_long_click_description_no_sim_selector">"編輯主旨"</string>
+    <string msgid="7670274457707760465" name="send_button_long_click_description_with_sim_selector">"選取 SIM 卡或編輯主旨"</string>
+    <string msgid="5273892629851390023" name="send_message_failure">"無法傳送訊息"</string>
+    <string msgid="3966519541237053840" name="send_message_failure_airplane_mode">"飛航模式下無法傳送訊息"</string>
+    <string msgid="7404080465234559802" name="send_message_failure_no_data">"行動數據已關閉。請檢查您的設定。"</string>
+    <string msgid="4088006261869323324" name="send_message_success">"訊息成功送出"</string>
+    <string msgid="6284747469983942370" name="send_sound_pref_title">"訊息傳送音效"</string>
+    <string msgid="6363584950085384929" name="sending_message">"正在傳送訊息"</string>
+    <string msgid="5186286057597137301" name="sent_label">"傳送時間： "</string>
+    <string msgid="8350935323904134751" name="service_message_not_found">"訊息已過期或無法存取"</string>
+    <string msgid="3765738916704013318" name="service_network_problem">"網路發生問題，因此無法傳送"</string>
+    <string msgid="5512558652052977817" name="service_not_activated">"尚未透過網路啟用服務"</string>
+    <string msgid="1045695083932447399" name="settings">"設定"</string>
+    <string msgid="3380813834835334258" name="settings_activity_title">"設定"</string>
+    <string msgid="8534633224579301342" name="settings_with_arrow">"設定 >"</string>
+    <string msgid="6666929391961668469" name="share_cancel">"取消"</string>
+    <string msgid="2939454246983196756" name="share_intent_activity_label">"選取對話"</string>
+    <string msgid="6920483598866144717" name="share_intent_label">"簡訊"</string>
+    <string msgid="2135955613694195483" name="share_new_message">"新訊息"</string>
+    <string msgid="8073534180322059814" name="silent_ringtone">"靜音"</string>
+    <string msgid="2706003016582772108" name="sim_label">"SIM 卡： "</string>
+    <string msgid="2407660715957787727" name="sim_selector_button_content_description">"SIM 卡選取器"</string>
+    <string msgid="4042539046779910617" name="sim_selector_button_content_description_with_selection">"已選取「<ns1:g id="SIM_0">%1$s</ns1:g>」，SIM 卡選取器"</string>
+    <string msgid="1885996389432991383" name="sim_settings_unknown_number">"不明號碼"</string>
+    <string msgid="5934005977415016295" name="sim_slot_identifier">"SIM 卡 <ns1:g id="SIM_SLOT_NUMBER">%s</ns1:g>"</string>
+    <string msgid="948779178668552448" name="sim_specific_settings">"「<ns1:g id="SIM_NAME">%s</ns1:g>」SIM 卡"</string>
+    <string msgid="7238879696319945853" name="skip">"略過"</string>
+    <string msgid="1351513141821300879" name="sms_apns_title">"存取點名稱"</string>
+    <string msgid="4988773371061820432" name="sms_disabled">"簡訊功能已停用"</string>
+    <string msgid="6352764741524717132" name="sms_disabled_pref_title">"預設簡訊應用程式"</string>
+    <string msgid="2961457081888153323" name="sms_enabled_pref_title">"預設簡訊應用程式"</string>
+    <string msgid="8836401937872068406" name="sms_storage_low_auto_delete_enabled_dialog_text">"裝置儲存空間不足，「簡訊」會自動刪除較舊簡訊以釋出空間。"</string>
+    <string msgid="2393739822170029830" name="sms_storage_low_notification_ticker">"簡訊儲存空間即將用完，建議您刪除部分訊息。"</string>
+    <string msgid="7036247475855447830" name="sms_storage_low_text">"在裝置可用空間增加前，「簡訊」可能無法收發訊息。"</string>
+    <string msgid="7985379565293259177" name="sms_storage_low_title">"儲存空間不足"</string>
+    <string msgid="7140970704902570020" name="snack_bar_retry">"重試"</string>
+    <string msgid="4523395751563700308" name="snack_bar_undo">"復原"</string>
+    <string msgid="7984539515326392793" name="start_conversation">"發起"</string>
+    <string msgid="3924471215595992758" name="start_new_conversation">"發起新對話"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="1887378451808609152" name="subject_label">"主旨： "</string>
+    <string msgid="446082111129170749" name="subtitle_format_for_version_number">"版本 %1$s"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>、<ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="7591682335533041774" name="tap_to_configure">"已刪除對話。輕觸即可顯示其他「簡訊」對話"</string>
+    <string msgid="1284284144816901647" name="tap_to_unblock_message">"解除封鎖"</string>
+    <string msgid="7415419755252205721" name="text_message">"簡訊"</string>
+    <string msgid="3827868765772315200" name="titles">"<ns1:g id="TITLE_0">%1$s</ns1:g>，<ns1:g id="SUBTITLE">%2$s</ns1:g>"</string>
+    <string msgid="1816631887533235762" name="to_address_label">"收件者： "</string>
+    <string msgid="2923745971897322476" name="toast_after_setting_default_sms_app">"已成功將「簡訊」設為預設的簡訊應用程式。"</string>
+    <string msgid="2767997591700713113" name="toast_after_setting_default_sms_app_for_message_send">"設定程序已完成，請再次輕觸 [傳送]。"</string>
+    <string msgid="5857516461210932810" name="too_many_participants">"對話參與者人數過多"</string>
+    <string msgid="5010777423084203833" name="unarchived_toast_message">"已解除封存 <ns1:g id="COUNT">%d</ns1:g> 個"</string>
+    <string msgid="4719854710980066596" name="unblock_contact_title">"解除封鎖 <ns1:g id="DESTINATION">%s</ns1:g>"</string>
+    <string msgid="4927617874263586622" name="unblocked_toast_message">"已解除封鎖及解除封存聯絡人"</string>
+    <string msgid="5191326096424554297" name="unknown_phone_number_pref_display_value">"不明"</string>
+    <string msgid="3186565052350548852" name="unknown_self_participant">"我"</string>
+    <string msgid="504272434917395677" name="unknown_sender">"寄件者不明"</string>
+    <string msgid="3110576506102839465" name="untitled_apn">"未命名"</string>
+    <string msgid="4577227174205233981" name="update_destination_blocked">"已封鎖"</string>
+    <string msgid="5369499874676600478" name="update_destination_unblocked">"已解除封鎖"</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"關閉"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"開啟"</string>
+    <string msgid="591540798943754991" name="vcard_detail_activity_title">"聯絡人卡片"</string>
+    <string msgid="7196021537629120021" name="vcard_detail_birthday_label">"生日"</string>
+    <string msgid="6104179009509800126" name="vcard_detail_notes_label">"附註"</string>
+    <string msgid="4940284329175200952" name="vcard_tap_hint">"查看聯絡人卡片"</string>
+    <string msgid="8545536951461996462" name="video_attachment_limit_exceeded_when_sending">"每則訊息只能傳送一部影片。請移除額外的影片，然後再試一次。"</string>
+    <string msgid="3506938388391260811" name="video_thumbnail_view_play_button_content_description">"播放影片"</string>
+    <string msgid="7417596291306885403" name="view_blocked_contacts_title">"封鎖的聯絡人"</string>
+    <string msgid="2430542054023217740" name="view_more_conversations">"查看更多對話"</string>
+    <string msgid="6463224009407336178" name="view_more_messages">"查看更多訊息"</string>
+    <string msgid="2857560951820802321" name="welcome">"歡迎使用"</string>
+    <string msgid="4137121313374868821" name="widget_conversation_list_content_description">"會話群組清單"</string>
+    <string msgid="4005037639000611925" name="widget_conversation_list_name">"訊息清單"</string>
+    <string msgid="3900606239571892871" name="widget_conversation_name">"簡訊"</string>
+    <string msgid="4214201569175733579" name="widget_new_conversation_content_description">"發起新對話"</string>
+    <string msgid="2706347689522691188" name="widget_new_message_content_description">"新訊息"</string>
+    <string msgid="5802836840910466231" name="widget_title_content_description">"簡訊"</string>
+    <string msgid="8218925605166939654" name="wireless_alerts_title">"無線災害示警"</string>
+</resources>

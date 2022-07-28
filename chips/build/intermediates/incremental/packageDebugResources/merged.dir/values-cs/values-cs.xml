@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">"Nejsou k dispozici žádné návrhy"</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">"Otevřené návrhy kontaktů"</string>
+    <string msgid="7172664623795021857" name="action_label">"Enter"</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"Zrušit"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">"Kopírovat"</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"Povolit návrhy kontaktů"</string>
+    <string msgid="1084563757174121331" name="copy_email">"Kopírovat e-mailovou adresu"</string>
+    <string msgid="8860802152973030914" name="copy_number">"Kopírovat telefonní číslo"</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">"Odstranit z příjemců kontakt <ns1:g id="CONTACT">%s</ns1:g>"</string>
+    <string msgid="643992135011109762" name="more_string">"+<ns1:g id="COUNT">%1$d</ns1:g>"</string>
+</resources>

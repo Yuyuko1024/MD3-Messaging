@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\30337\\Desktop\\Messaging\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldrtl-v21\\values-ldrtl-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\30337\\Desktop\\Messaging\\app\\src\\main\\res\\values-ldrtl-v21\\styles.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "681",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "1037"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "411"
+                    }
+                }
+            ]
+        }
+    ]
+}

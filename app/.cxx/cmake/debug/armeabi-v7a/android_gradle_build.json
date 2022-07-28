@@ -1,0 +1,96 @@
+{
+  "stringTable": {
+    "0": "C:/Users/30337/Desktop/Messaging/app/.cxx/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi21 --sysroot=D:/SDK/ndk/24.0.8215888/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgiftranscode_EXPORTS -IC:/Users/30337/Desktop/Messaging/app/src/main/cpp/gif -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -fno-limit-debug-info -fPIC -Wall -Wno-unused-parameter -Wno-switch",
+    "2": "--target=armv7-none-linux-androideabi21 --sysroot=D:/SDK/ndk/24.0.8215888/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DHAVE_CONFIG_H -IC:/Users/30337/Desktop/Messaging/app/src/main/cpp/gif -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -fno-limit-debug-info -fPIC -Wno-format -Wno-sign-compare -Wno-unused-parameter"
+  },
+  "buildFiles": [
+    "D:\\SDK\\ndk\\24.0.8215888\\build\\cmake\\android-legacy.toolchain.cmake",
+    "D:\\SDK\\ndk\\24.0.8215888\\build\\cmake\\compiler_id.cmake",
+    "C:\\Users\\30337\\Desktop\\Messaging\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "D:\\SDK\\ndk\\24.0.8215888\\build\\cmake\\android.toolchain.cmake",
+    "D:\\SDK\\ndk\\24.0.8215888\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\30337\\Desktop\\Messaging\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\30337\\Desktop\\Messaging\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "giftranscode-Debug-armeabi-v7a": {
+      "buildCommand": "D:\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\30337\\Desktop\\Messaging\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" giftranscode",
+      "buildType": "debug",
+      "toolchain": "1666683852",
+      "abi": "armeabi-v7a",
+      "artifactName": "giftranscode",
+      "files": [
+        {
+          "src": "C:\\Users\\30337\\Desktop\\Messaging\\app\\src\\main\\cpp\\GifTranscoder.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\30337\\Desktop\\Messaging\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libgiftranscode.so",
+      "runtimeFiles": []
+    },
+    "gif-Debug-armeabi-v7a": {
+      "buildCommand": "D:\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\30337\\Desktop\\Messaging\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" gif",
+      "buildType": "debug",
+      "toolchain": "1666683852",
+      "abi": "armeabi-v7a",
+      "artifactName": "gif",
+      "files": [
+        {
+          "src": "C:\\Users\\30337\\Desktop\\Messaging\\app\\src\\main\\cpp\\gif\\dgif_lib.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\30337\\Desktop\\Messaging\\app\\src\\main\\cpp\\gif\\egif_lib.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\30337\\Desktop\\Messaging\\app\\src\\main\\cpp\\gif\\gifalloc.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\30337\\Desktop\\Messaging\\app\\src\\main\\cpp\\gif\\gif_err.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\30337\\Desktop\\Messaging\\app\\src\\main\\cpp\\gif\\gif_hash.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\30337\\Desktop\\Messaging\\app\\src\\main\\cpp\\gif\\openbsd-reallocarray.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\30337\\Desktop\\Messaging\\app\\src\\main\\cpp\\gif\\quantize.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\30337\\Desktop\\Messaging\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\libgif.a",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "1666683852": {
+      "cCompilerExecutable": "D:\\SDK\\ndk\\24.0.8215888\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "D:\\SDK\\ndk\\24.0.8215888\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">"Walang available na mga suhestyon"</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">"Nakabukas ang mga suhestyon sa contact"</string>
+    <string msgid="7172664623795021857" name="action_label">"Bumalik"</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"Kanselahin"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">"Kopyahin"</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"Payagan ang mga suhestyon sa mga contact"</string>
+    <string msgid="1084563757174121331" name="copy_email">"Kopyahin ang email address"</string>
+    <string msgid="8860802152973030914" name="copy_number">"Kopyahin ang numero ng telepono"</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">"Alisin si <ns1:g id="CONTACT">%s</ns1:g> sa mga tatanggap"</string>
+    <string msgid="643992135011109762" name="more_string">"+<ns1:g id="COUNT">%1$d</ns1:g>"</string>
+</resources>

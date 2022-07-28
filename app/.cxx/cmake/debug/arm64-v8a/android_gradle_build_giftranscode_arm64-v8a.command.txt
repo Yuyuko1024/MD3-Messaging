@@ -1,0 +1,7 @@
+Executable : D:\SDK\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+C:\Users\30337\Desktop\Messaging\app\.cxx\cmake\debug\arm64-v8a
+giftranscode
+jvmArgs : 
+

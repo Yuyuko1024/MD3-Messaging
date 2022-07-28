@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <attr format="reference" name="footerPreferenceStyle"/>
+    <dimen name="app_icon_min_width">56dp</dimen>
+    <dimen name="app_preference_padding_start">?android:attr/listPreferredItemPaddingStart</dimen>
+    <dimen name="secondary_app_icon_size">32dp</dimen>
+    <dimen name="settingslib_dialogCornerRadius">8dp</dimen>
+    <dimen name="two_target_min_width">72dp</dimen>
+    <string name="accessibility_work_profile_app_description">Work <ns1:g example="Camera" id="app_name">%s</ns1:g></string>
+    <style name="Theme.AlertDialog.SettingsLib" parent="@style/Theme.AppCompat.DayNight.Dialog.Alert">
+        <!-- TODO(b/189308264): fix the crash in Android R if set the attributes:
+             <item name="colorAccent">@*android:color/accent_device_default_light</item>
+             <item name="android:colorBackground">@color/settingslib_dialog_background</item>
+             <item name="dialogCornerRadius">@dimen/settingslib_dialogCornerRadius</item>
+        -->
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:clipToPadding">true</item>
+        <item name="android:clipChildren">true</item>
+    </style>
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.DeviceDefault.Settings">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+    <style name="Theme.SubSettingsBase" parent="Theme.SettingsBase">
+        <!-- Suppress the built-in action bar -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorControlNormal">?android:attr/colorControlNormal</item>
+        <!-- For AndroidX AlertDialog -->
+        <item name="alertDialogTheme">@style/Theme.AlertDialog.SettingsLib</item>
+    </style>
+</resources>

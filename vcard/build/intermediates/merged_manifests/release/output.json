@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "applicationId": "com.android.vcard",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 10000,
+        "versionName": "1.0.0-aosp",
+        "outputFile": "vcard-release.aar",
+        "fullName": "release",
+        "baseName": "release",
+        "dirName": ""
+      },
+      "path": "../../library_manifest/release/AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.android.vcard",
+        "split": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\30337\Desktop\Messaging\framesequence\.cxx\cmake\debug\armeabi-v7a'
+ninja: no work to do.

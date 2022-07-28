@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "applicationId": "android.support.rastermill",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 10000,
+        "versionName": "1.0.0-aosp",
+        "outputFile": "framesequence-release.aar",
+        "fullName": "release",
+        "baseName": "release",
+        "dirName": ""
+      },
+      "path": "../../library_manifest/release/AndroidManifest.xml",
+      "properties": {
+        "packageId": "android.support.rastermill",
+        "split": ""
+      }
+    }
+  ]
+}

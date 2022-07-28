@@ -1,0 +1,15 @@
+ninja: Entering directory `C:\Users\30337\Desktop\Messaging\app\.cxx\cmake\release\arm64-v8a'
+[1/10] Building C object CMakeFiles/gif.dir/gif/gifalloc.c.o
+[2/10] Building C object CMakeFiles/gif.dir/gif/dgif_lib.c.o
+[3/10] Building C object CMakeFiles/gif.dir/gif/openbsd-reallocarray.c.o
+[4/10] Building C object CMakeFiles/gif.dir/gif/gif_err.c.o
+[5/10] Building C object CMakeFiles/gif.dir/gif/gif_hash.c.o
+[6/10] Building C object CMakeFiles/gif.dir/gif/egif_lib.c.o
+[7/10] Building CXX object CMakeFiles/giftranscode.dir/GifTranscoder.cpp.o
+C:/Users/30337/Desktop/Messaging/app/src/main/cpp/GifTranscoder.cpp:80:12: warning: variable 't0' set but not used [-Wunused-but-set-variable]
+    double t0;
+           ^
+1 warning generated.
+[8/10] Building C object CMakeFiles/gif.dir/gif/quantize.c.o
+[9/10] Linking C static library libgif.a
+[10/10] Linking CXX shared library C:\Users\30337\Desktop\Messaging\app\build\intermediates\cmake\release\obj\arm64-v8a\libgiftranscode.so

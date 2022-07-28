@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3" xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res"/><source path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\build\generated\res\rs\release"/><source path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\build\generated\res\resValues\release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res"><file name="settingslib_switch_track_on" path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\color-night-v31\settingslib_switch_track_on.xml" qualifiers="night-v31" type="color"/><file name="settingslib_surface_light" path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\color-v31\settingslib_surface_light.xml" qualifiers="v31" type="color"/><file name="settingslib_switch_thumb_color" path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\color-v31\settingslib_switch_thumb_color.xml" qualifiers="v31" type="color"/><file name="settingslib_switch_track_color" path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\color-v31\settingslib_switch_track_color.xml" qualifiers="v31" type="color"/><file name="settingslib_switch_track_off" path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\color-v31\settingslib_switch_track_off.xml" qualifiers="v31" type="color"/><file name="settingslib_progress_horizontal" path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\drawable-v31\settingslib_progress_horizontal.xml" qualifiers="v31" type="drawable"/><file name="settingslib_switch_thumb" path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\drawable-v31\settingslib_switch_thumb.xml" qualifiers="v31" type="drawable"/><file name="settingslib_switch_track" path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\drawable-v31\settingslib_switch_track.xml" qualifiers="v31" type="drawable"/><file name="collapsing_toolbar_base_layout" path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\layout\collapsing_toolbar_base_layout.xml" qualifiers="" type="layout"/><file name="exthm_collapsing_toolbar_base_layout" path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\layout\exthm_collapsing_toolbar_base_layout.xml" qualifiers="" type="layout"/><file name="collapsing_toolbar_base_layout" path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\layout-v31\collapsing_toolbar_base_layout.xml" qualifiers="v31" type="layout"/><file name="exthm_collapsing_toolbar_base_layout" path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\layout-v31\exthm_collapsing_toolbar_base_layout.xml" qualifiers="v31" type="layout"/><file name="settingslib_dropdown_preference" path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\layout-v31\settingslib_dropdown_preference.xml" qualifiers="v31" type="layout"/><file name="settingslib_icon_frame" path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\layout-v31\settingslib_icon_frame.xml" qualifiers="v31" type="layout"/><file name="settingslib_preference" path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\layout-v31\settingslib_preference.xml" qualifiers="v31" type="layout"/><file path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\values\attrs.xml" qualifiers=""><attr format="reference" name="footerPreferenceStyle"/></file><file path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\values\dimens.xml" qualifiers=""><dimen name="secondary_app_icon_size">32dp</dimen><dimen name="app_preference_padding_start">?android:attr/listPreferredItemPaddingStart</dimen><dimen name="app_icon_min_width">56dp</dimen><dimen name="two_target_min_width">72dp</dimen><dimen name="settingslib_dialogCornerRadius">8dp</dimen></file><file path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\values\strings.xml" qualifiers=""><string name="accessibility_work_profile_app_description">Work <ns1:g example="Camera" id="app_name">%s</ns1:g></string></file><file path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.SettingsBase" parent="@android:style/Theme.DeviceDefault.Settings">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style><style name="Theme.SubSettingsBase" parent="Theme.SettingsBase">
+        
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorControlNormal">?android:attr/colorControlNormal</item>
+        
+        <item name="alertDialogTheme">@style/Theme.AlertDialog.SettingsLib</item>
+    </style><style name="Theme.AlertDialog.SettingsLib" parent="@style/Theme.AppCompat.DayNight.Dialog.Alert">
+        
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:clipToPadding">true</item>
+        <item name="android:clipChildren">true</item>
+    </style></file><file path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\values-night-v31\colors.xml" qualifiers="night-v31"><color name="settingslib_thumb_disabled_color">@android:color/system_neutral1_700</color><color name="settingslib_thumb_off_color">@android:color/system_neutral1_400</color><color name="settingslib_track_on_color">@color/settingslib_switch_track_on</color><color name="settingslib_track_off_color">@android:color/system_neutral1_700</color><color name="settingslib_dialog_accent">@android:color/system_accent1_100</color><color name="settingslib_dialog_background">@android:color/system_neutral1_800</color><color name="settingslib_dialog_colorError">#f28b82</color><color name="settingslib_colorSurfaceVariant">@android:color/system_neutral1_700</color><color name="settingslib_colorSurfaceHeader">@android:color/system_neutral1_700</color><color name="settingslib_accent_primary_variant">@android:color/system_accent1_300</color><color name="settingslib_text_color_primary_device_default">@android:color/system_neutral1_50</color><color name="toobar_background">@android:color/system_neutral2_900</color></file><file path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\values-night-v31\themes.xml" qualifiers="night-v31"><style name="Theme.CollapsingToolbar.Settings" parent="@style/Theme.MaterialComponents.DayNight">
+        <item name="elevationOverlayEnabled">true</item>
+        <item name="elevationOverlayColor">?attr/colorPrimary</item>
+        <item name="colorPrimary">@color/settingslib_primary_dark_device_default_settings</item>
+        <item name="colorAccent">@color/settingslib_accent_device_default_dark</item>
+    </style></file><file path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\values-v31\colors.xml" qualifiers="v31"><color name="settingslib_state_on_color">@android:color/system_accent1_100</color><color name="settingslib_state_off_color">@android:color/system_accent2_100</color><color name="settingslib_thumb_disabled_color">@android:color/system_neutral2_100</color><color name="settingslib_thumb_off_color">@android:color/system_neutral2_300</color><color name="settingslib_track_on_color">@android:color/system_accent1_600</color><color name="settingslib_track_off_color">@color/settingslib_switch_track_off</color><color name="settingslib_dialog_accent">@android:color/system_accent1_600</color><color name="settingslib_dialog_background">@color/settingslib_surface_light</color><color name="settingslib_dialog_colorError">#d93025</color><color name="settingslib_colorSurfaceVariant">@android:color/system_neutral2_100</color><color name="settingslib_colorSurfaceHeader">@android:color/system_neutral1_100</color><color name="settingslib_accent_device_default_dark">@android:color/system_accent1_100</color><color name="settingslib_accent_device_default_light">@android:color/system_accent1_600</color><color name="settingslib_primary_dark_device_default_settings">@android:color/system_neutral1_900</color><color name="settingslib_primary_device_default_settings_light">@android:color/system_neutral1_50</color><color name="settingslib_accent_primary_device_default">@android:color/system_accent1_100</color><color name="settingslib_accent_primary_variant">@android:color/system_accent1_600</color><color name="settingslib_accent_secondary_device_default">@android:color/system_accent2_100</color><color name="settingslib_background_device_default_dark">@android:color/system_neutral1_900</color><color name="settingslib_background_device_default_light">@android:color/system_neutral1_50</color><color name="settingslib_text_color_primary_device_default">@android:color/system_neutral1_900</color><color name="toobar_background">@android:color/system_neutral2_50</color></file><file path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\values-v31\config.xml" qualifiers="v31"><bool name="settingslib_config_icon_space_reserved">false</bool><bool name="settingslib_config_allow_divider">false</bool></file><file path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\values-v31\dimens.xml" qualifiers="v31"><dimen name="exthm_settingslib_toolbar_layout_height">110dp</dimen><dimen name="exthm_settingslib_scrim_visible_height_trigger">68dp</dimen><dimen name="app_preference_padding_start">20dp</dimen><dimen name="app_icon_min_width">52dp</dimen><dimen name="settingslib_preferred_minimum_touch_target">48dp</dimen><dimen name="settingslib_dialogCornerRadius">28dp</dimen><dimen name="settingslib_toolbar_layout_height">179dp</dimen><dimen name="settingslib_scrim_visible_height_trigger">137dp</dimen><dimen name="expanded_title_margin_start">24dp</dimen><dimen name="expanded_title_margin_end">24dp</dimen></file><file path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\values-v31\strings.xml" qualifiers="v31"><string name="settingslib_config_headlineFontFamily" translatable="false">
+        @*android:string/config_headlineFontFamily
+    </string><string name="settingslib_config_headlineFontFamilyMedium" translatable="false">
+        @*android:string/config_headlineFontFamilyMedium
+    </string><string name="settingslib_config_bodyFontFamily" translatable="false">
+        @*android:string/config_bodyFontFamily
+    </string><string name="settingslib_config_bodyFontFamilyMedium" translatable="false">
+        @*android:string/config_bodyFontFamilyMedium
+    </string></file><file path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\values-v31\styles.xml" qualifiers="v31"><style name="TextAppearance.PreferenceTitle.SettingsLib" parent="@android:style/TextAppearance.Material.Subhead">
+        <item name="android:fontFamily">@string/settingslib_config_headlineFontFamily</item>
+        <item name="android:textSize">20sp</item>
+    </style><style name="TextAppearance.CategoryTitle.SettingsLib" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">14sp</item>
+    </style><style name="Switch.SettingsLib" parent="@android:style/Widget.Material.CompoundButton.Switch">
+        <item name="android:switchMinWidth">52dp</item>
+        <item name="android:minHeight">@dimen/settingslib_preferred_minimum_touch_target</item>
+        <item name="android:track">@drawable/settingslib_switch_track</item>
+        <item name="android:thumb">@drawable/settingslib_switch_thumb</item>
+    </style><style name="HorizontalProgressBar.SettingsLib" parent="android:style/Widget.Material.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/settingslib_progress_horizontal</item>
+        <item name="android:scaleY">0.5</item>
+    </style><style name="CollapsingToolbarTitle.Collapsed" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:fontFamily">@string/settingslib_config_headlineFontFamily</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/settingslib_text_color_primary_device_default</item>
+    </style><style name="CollapsingToolbarTitle.Expanded" parent="CollapsingToolbarTitle.Collapsed">
+        <item name="android:textSize">36dp</item>
+        <item name="android:textColor">@color/settingslib_text_color_primary_device_default</item>
+    </style><style name="ExthmCollapsingToolbarTitle.Collapsed" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:fontFamily">@string/settingslib_config_headlineFontFamily</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/settingslib_text_color_primary_device_default</item>
+    </style><style name="ExthmCollapsingToolbarTitle.Expanded" parent="CollapsingToolbarTitle.Collapsed">
+        <item name="android:textSize">28dp</item>
+        <item name="android:textColor">@color/settingslib_text_color_primary_device_default</item>
+    </style></file><file path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\values-v31\style_preference.xml" qualifiers="v31"><style name="PreferenceTheme.SettingsLib" parent="@style/PreferenceThemeOverlay">
+        <item name="preferenceCategoryTitleTextAppearance">@style/TextAppearance.CategoryTitle.SettingsLib</item>
+        <item name="preferenceCategoryStyle">@style/SettingsCategoryPreference.SettingsLib</item>
+        <item name="preferenceStyle">@style/SettingsPreference.SettingsLib</item>
+        <item name="checkBoxPreferenceStyle">@style/SettingsCheckBoxPreference.SettingsLib</item>
+        <item name="dialogPreferenceStyle">@style/SettingsPreference.SettingsLib</item>
+        <item name="editTextPreferenceStyle">@style/SettingsEditTextPreference.SettingsLib</item>
+        <item name="dropdownPreferenceStyle">@style/SettingsDropdownPreference.SettingsLib</item>
+        <item name="switchPreferenceStyle">@style/SettingsSwitchPreference.SettingsLib</item>
+        <item name="seekBarPreferenceStyle">@style/SettingsSeekbarPreference.SettingsLib</item>
+        <item name="footerPreferenceStyle">@style/Preference.Material</item>
+    </style><style name="SettingsCategoryPreference.SettingsLib" parent="@style/Preference.Category.Material">
+        <item name="iconSpaceReserved">@bool/settingslib_config_icon_space_reserved</item>
+        <item name="allowDividerAbove">@bool/settingslib_config_allow_divider</item>
+        <item name="allowDividerBelow">@bool/settingslib_config_allow_divider</item>
+    </style><style name="SettingsPreference.SettingsLib" parent="@style/Preference.Material">
+        <item name="layout">@layout/settingslib_preference</item>
+        <item name="iconSpaceReserved">@bool/settingslib_config_icon_space_reserved</item>
+    </style><style name="SettingsCheckBoxPreference.SettingsLib" parent="@style/Preference.CheckBoxPreference.Material">
+        <item name="layout">@layout/settingslib_preference</item>
+        <item name="iconSpaceReserved">@bool/settingslib_config_icon_space_reserved</item>
+    </style><style name="SettingsEditTextPreference.SettingsLib" parent="@style/Preference.DialogPreference.EditTextPreference.Material">
+        <item name="layout">@layout/settingslib_preference</item>
+        <item name="iconSpaceReserved">@bool/settingslib_config_icon_space_reserved</item>
+    </style><style name="SettingsDropdownPreference.SettingsLib" parent="@style/Preference.DropDown.Material">
+        <item name="layout">@layout/settingslib_dropdown_preference</item>
+        <item name="iconSpaceReserved">@bool/settingslib_config_icon_space_reserved</item>
+    </style><style name="SettingsSwitchPreference.SettingsLib" parent="@style/Preference.SwitchPreference.Material">
+        <item name="layout">@layout/settingslib_preference</item>
+        <item name="iconSpaceReserved">@bool/settingslib_config_icon_space_reserved</item>
+    </style><style name="SettingsSeekbarPreference.SettingsLib" parent="@style/Preference.SeekBarPreference.Material">
+        <item name="iconSpaceReserved">@bool/settingslib_config_icon_space_reserved</item>
+    </style></file><file path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\main\res\values-v31\themes.xml" qualifiers="v31"><style name="Theme.SettingsBase" parent="@android:style/Theme.DeviceDefault.Settings">
+        <item name="android:textAppearanceListItem">@style/TextAppearance.PreferenceTitle.SettingsLib</item>
+        <item name="android:listPreferredItemPaddingStart">24dp</item>
+        <item name="android:listPreferredItemPaddingLeft">24dp</item>
+        <item name="android:listPreferredItemPaddingEnd">16dp</item>
+        <item name="android:listPreferredItemPaddingRight">16dp</item>
+        <item name="preferenceTheme">@style/PreferenceTheme.SettingsLib</item>
+        <item name="android:switchStyle">@style/Switch.SettingsLib</item>
+        <item name="android:progressBarStyleHorizontal">@style/HorizontalProgressBar.SettingsLib</item>
+    </style><style name="Theme.SubSettingsBase" parent="Theme.SettingsBase">
+        
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorControlNormal">?android:attr/colorControlNormal</item>
+        
+        <item name="alertDialogTheme">@style/Theme.AlertDialog.SettingsLib</item>
+    </style><style name="Theme.AlertDialog.SettingsLib" parent="@style/Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorAccent">@color/settingslib_dialog_accent</item>
+        <item name="android:colorError">@color/settingslib_dialog_colorError</item>
+        <item name="android:colorBackground">@color/settingslib_dialog_background</item>
+
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:clipToPadding">true</item>
+        <item name="android:clipChildren">true</item>
+
+        <item name="dialogCornerRadius">@dimen/settingslib_dialogCornerRadius</item>
+    </style><style name="Theme.CollapsingToolbar.Settings" parent="@style/Theme.MaterialComponents.DayNight">
+        <item name="elevationOverlayEnabled">true</item>
+        <item name="elevationOverlayColor">?attr/colorPrimary</item>
+        <item name="colorPrimary">@color/settingslib_primary_device_default_settings_light</item>
+        <item name="colorAccent">@color/settingslib_accent_device_default_light</item>
+    </style></file></source><source path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\build\generated\res\rs\release"/><source path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\build\generated\res\resValues\release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\release\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\30337\Desktop\Messaging\ExthmCollapsingToolbarBaseActivity\src\release\res"/></dataSet><mergedItems/></merger>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2021 The exTHmUI Open Source Project
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+        http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+    <string name="dialog_delete_title">删除</string>
+    <string name="dialog_delete_message">移除所选项目？</string>
+    <string name="captcha_copy_action">复制 %s</string>
+    <string name="captcha_has_copied_toast">验证码已经复制到剪贴板，长按输入框进行粘贴。</string>
+    <string name="captcha_enable_title">验证码识别</string>
+    <string name="captcha_enable_summary">识别短信中的验证码，并且在通知中提供复制操作</string>
+    <string name="captcha_keywords_title">验证码短信关键词</string>
+    <string name="captcha_keywords_header">长按关键词可以进行删除操作。如果关键词列表为空，将会重置为默认的关键词列表</string>
+    <string name="captcha_dialog_tip">你可以使用换行符来分割关键词</string>
+    <string name="add_captcha_keyword">添加关键词</string>
+    <string name="captcha_keyword_add_successsful_tip">添加关键词成功</string>
+    <string name="captcha_keyword_add_empty">你输入的内容为空</string>
+    <string name="captcha_keyword_duplicate">你输入的关键词中存在重复</string>
+    <string name="notification_mark_as_read">标记为已读</string>
+    <string name="error">错误</string>
+    <string name="miui_permissions_text">检测到您正在MIUI上运行短信，为了能够正常收发短信，请在接下来跳转的页面设置“获取手机信息”权限为“始终允许”以使短信正常工作。</string>
+    <!-- Hint text on the contact picker -->
+    <string name="contact_picker_hint_text">点击以打开此设备上的通讯录来选择联系人</string>
+    <string name="swipe_to_delete_conversation_pref_title">滑动删除短信</string>
+    <string name="swipe_to_delete_conversation_pref_summary">向右滑动以删除短信会话</string>
+    <string name="show_emoticons_pref_title">访问表情符号</string>
+    <string name="show_emoticons_pref_summary">在键盘上显示表情符号键</string>
+</resources>

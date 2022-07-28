@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "applicationId": "com.android.colorpicker",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "AAPT_FRIENDLY_MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 10000,
+        "versionName": "1.0.0-aosp",
+        "outputFile": "colorpicker-release.aar",
+        "fullName": "release",
+        "baseName": "release",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.android.colorpicker",
+        "split": ""
+      }
+    }
+  ]
+}

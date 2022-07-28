@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">"ಯಾವುದೇ ಸಲಹೆಗಳು ಲಭ್ಯವಿಲ್ಲ"</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">"ಸಂಪರ್ಕ ಸಲಹೆಗಳನ್ನು ತೆರೆಯಲಾಗಿದೆ"</string>
+    <string msgid="7172664623795021857" name="action_label">"ಹಿಂತಿರುಗು"</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"ರದ್ದುಮಾಡಿ"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">"ನಕಲಿಸಿ"</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"ಸಂಪರ್ಕಗಳ ಸಲಹೆಗಳನ್ನು ಅನುಮತಿಸಿ"</string>
+    <string msgid="1084563757174121331" name="copy_email">"ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ನಕಲಿಸಿ"</string>
+    <string msgid="8860802152973030914" name="copy_number">"ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಕಲಿಸಿ"</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">"ಸ್ವೀಕೃತದಾರರಿಂದ <ns1:g id="CONTACT">%s</ns1:g> ತೆಗೆದುಹಾಕಿ"</string>
+    <string msgid="643992135011109762" name="more_string">"+<ns1:g id="COUNT">%1$d</ns1:g>"</string>
+</resources>

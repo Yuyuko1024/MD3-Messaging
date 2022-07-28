@@ -1,0 +1,29 @@
+{
+  "buildFiles": [
+    "D:\\SDK\\ndk\\24.0.8215888\\build\\cmake\\android-legacy.toolchain.cmake",
+    "D:\\SDK\\ndk\\24.0.8215888\\build\\cmake\\compiler_id.cmake",
+    "C:\\Users\\30337\\Desktop\\Messaging\\framesequence\\src\\main\\cpp\\CMakeLists.txt",
+    "D:\\SDK\\ndk\\24.0.8215888\\build\\cmake\\android.toolchain.cmake",
+    "D:\\SDK\\ndk\\24.0.8215888\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\30337\\Desktop\\Messaging\\framesequence\\.cxx\\cmake\\debug\\x86\" clean"
+  ],
+  "buildTargetsCommand": "D:\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\30337\\Desktop\\Messaging\\framesequence\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "framesequence-Debug-x86": {
+      "artifactName": "framesequence",
+      "buildCommand": "D:\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\30337\\Desktop\\Messaging\\framesequence\\.cxx\\cmake\\debug\\x86\" framesequence",
+      "abi": "x86",
+      "output": "C:\\Users\\30337\\Desktop\\Messaging\\framesequence\\build\\intermediates\\cmake\\debug\\obj\\x86\\libframesequence.so",
+      "runtimeFiles": []
+    },
+    "gif-Debug-x86": {
+      "artifactName": "gif",
+      "buildCommand": "D:\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\30337\\Desktop\\Messaging\\framesequence\\.cxx\\cmake\\debug\\x86\" gif",
+      "abi": "x86",
+      "output": "C:\\Users\\30337\\Desktop\\Messaging\\framesequence\\.cxx\\cmake\\debug\\x86\\libgif.a",
+      "runtimeFiles": []
+    }
+  }
+}

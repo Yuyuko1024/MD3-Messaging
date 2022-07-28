@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="91481373431329121" name="accessbility_suggestion_dropdown_closed">"沒有建議收件者"</string>
+    <string msgid="9015267358421989409" name="accessbility_suggestion_dropdown_opened">"已開啟聯絡人建議"</string>
+    <string msgid="7172664623795021857" name="action_label">"返回"</string>
+    <string msgid="2582257014578396781" name="chips_action_cancel">"取消"</string>
+    <string msgid="6984158516334578792" name="chips_action_copy">"複製"</string>
+    <string msgid="5601284803674008863" name="chips_permission_text">"允許聯絡人建議"</string>
+    <string msgid="1084563757174121331" name="copy_email">"複製電子郵件地址"</string>
+    <string msgid="8860802152973030914" name="copy_number">"複製電話號碼"</string>
+    <string msgid="4359394656487762022" name="dropdown_delete_button_desc">"從收件者名單中移除<ns1:g id="CONTACT">%s</ns1:g>"</string>
+    <string msgid="643992135011109762" name="more_string">"+<ns1:g id="COUNT">%1$d</ns1:g> 人"</string>
+</resources>

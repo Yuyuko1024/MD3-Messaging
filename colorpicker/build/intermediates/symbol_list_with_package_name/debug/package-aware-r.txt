@@ -1,0 +1,15 @@
+com.android.colorpicker
+dimen color_swatch_large
+dimen color_swatch_margins_large
+dimen color_swatch_margins_small
+dimen color_swatch_small
+drawable color_picker_swatch
+drawable ic_colorpicker_swatch_selected
+id color_picker
+id color_picker_checkmark
+id color_picker_swatch
+layout color_picker_dialog
+layout color_picker_swatch
+string color_picker_default_title
+string color_swatch_description
+string color_swatch_description_selected
