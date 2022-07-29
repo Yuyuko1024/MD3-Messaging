@@ -172,7 +172,7 @@
         <activity
             android:name=".ui.appsettings.CaptchaKeywordsSettingsActivity"
             android:label="@string/captcha_keywords_title"
-            android:theme="@style/Theme.SubSettingsBase"
+            android:theme="@style/BugleTheme.SettingsActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="user"
             android:exported="true">
