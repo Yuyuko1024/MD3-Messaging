@@ -12,3 +12,7 @@ framesequence/build
 framesequence/.cxx
 photoviewer/build
 vcard/build
+MainSwitchPreference/build
+SettingsTheme/build
+Utils/build
+Lib.zip

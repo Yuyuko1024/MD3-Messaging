@@ -61,7 +61,7 @@ dependencies {
     implementation project(':common')
     implementation project(':framesequence')
     implementation project(':ExthmCollapsingToolbarBaseActivity')
-    implementation "androidx.annotation:annotation:1.3.0"
+    implementation "androidx.annotation:annotation:1.4.0"
     implementation "androidx.core:core:1.8.0"
     implementation "androidx.media:media:1.6.0"
     implementation "androidx.legacy:legacy-support-core-utils:1.0.0"
