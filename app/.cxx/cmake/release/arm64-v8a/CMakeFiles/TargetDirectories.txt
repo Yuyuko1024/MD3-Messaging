@@ -1,4 +1,0 @@
-C:/Users/30337/Desktop/Messaging/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/giftranscode.dir
-C:/Users/30337/Desktop/Messaging/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/gif.dir
-C:/Users/30337/Desktop/Messaging/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
-C:/Users/30337/Desktop/Messaging/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir

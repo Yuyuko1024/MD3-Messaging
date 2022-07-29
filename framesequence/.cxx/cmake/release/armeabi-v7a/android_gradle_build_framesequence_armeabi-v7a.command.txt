@@ -1,7 +1,0 @@
-Executable : D:\SDK\cmake\3.10.2.4988404\bin\ninja.exe
-arguments : 
--C
-C:\Users\30337\Desktop\Messaging\framesequence\.cxx\cmake\release\armeabi-v7a
-framesequence
-jvmArgs : 
-

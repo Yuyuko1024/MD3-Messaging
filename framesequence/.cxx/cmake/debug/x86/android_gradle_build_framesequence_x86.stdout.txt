@@ -1,2 +1,0 @@
-ninja: Entering directory `C:\Users\30337\Desktop\Messaging\framesequence\.cxx\cmake\debug\x86'
-ninja: no work to do.

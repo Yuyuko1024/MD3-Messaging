@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <string msgid="8338915262229269954" name="failed">"Hindi ma-load ang larawan"</string>
-    <string msgid="3972196711827497300" name="photo_view_count">"<ns1:g id="CURRENT_POS">%1$d</ns1:g> ng <ns1:g id="COUNT">%2$d</ns1:g>"</string>
-    <string msgid="3791698559547529232" name="retry">"Subukang muli"</string>
-    <string msgid="3827868765772315200" name="titles">"<ns1:g id="TITLE_0">%1$s</ns1:g>, <ns1:g id="SUBTITLE">%2$s</ns1:g>"</string>
-</resources>

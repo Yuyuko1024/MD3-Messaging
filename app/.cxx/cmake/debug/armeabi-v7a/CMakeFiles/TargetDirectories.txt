@@ -1,4 +1,0 @@
-C:/Users/30337/Desktop/Messaging/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/giftranscode.dir
-C:/Users/30337/Desktop/Messaging/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/gif.dir
-C:/Users/30337/Desktop/Messaging/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
-C:/Users/30337/Desktop/Messaging/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
