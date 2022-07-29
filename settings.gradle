@@ -1,1 +1,1 @@
-include ':app', ':common', ':framesequence', ':vcard', ':chips', ':photoviewer', ':colorpicker', ':ExthmCollapsingToolbarBaseActivity', ':MainSwitchPreference', ':SettingsTheme', ':Utils'
+include ':app', ':common', ':framesequence', ':vcard', ':chips', ':photoviewer', ':colorpicker', ':ExthmCollapsingToolbarBaseActivity', ':SettingsTheme'
