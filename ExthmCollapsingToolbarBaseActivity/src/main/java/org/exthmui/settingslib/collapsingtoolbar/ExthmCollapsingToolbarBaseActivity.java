@@ -18,6 +18,7 @@ package org.exthmui.settingslib.collapsingtoolbar;
 
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,10 +28,8 @@ import android.widget.Toolbar;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
-import androidx.fragment.app.FragmentActivity;
 
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
-import com.android.settingslib.utils.BuildCompatUtils;
 
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
@@ -54,7 +53,7 @@ public class ExthmCollapsingToolbarBaseActivity extends CollapsingToolbarBaseAct
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (mCustomizeLayoutResId > 0 && !BuildCompatUtils.isAtLeastS()) {
+        if (mCustomizeLayoutResId > 0 && !isAtLeastS()) {
             super.setContentView(mCustomizeLayoutResId);
             return;
         }
@@ -171,5 +170,16 @@ public class ExthmCollapsingToolbarBaseActivity extends CollapsingToolbarBaseAct
                     }
                 });
         params.setBehavior(behavior);
+    }
+
+    public static boolean isAtLeastS() {
+        if (Build.VERSION.SDK_INT < 30) {
+            return false;
+        }
+
+        return (Build.VERSION.CODENAME.equals("REL") && Build.VERSION.SDK_INT >= 31)
+                || (Build.VERSION.CODENAME.length() >= 1
+                && Build.VERSION.CODENAME.toUpperCase().charAt(0) >= 'S'
+                && Build.VERSION.CODENAME.toUpperCase().charAt(0) <= 'Z');
     }
 }
