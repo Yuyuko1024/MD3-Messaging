@@ -160,7 +160,7 @@
         <activity
             android:name=".ui.appsettings.SettingsActivity"
             android:label="@string/settings_activity_title"
-            android:theme="@style/BugleTheme.SettingsActivity"
+            android:theme="@style/Theme.SubSettingsBase"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="user"
             android:parentActivityName=".ui.conversationlist.ConversationListActivity">
@@ -172,7 +172,7 @@
         <activity
             android:name=".ui.appsettings.CaptchaKeywordsSettingsActivity"
             android:label="@string/captcha_keywords_title"
-            android:theme="@style/BugleTheme.SettingsActivity"
+            android:theme="@style/Theme.SubSettingsBase"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="user"
             android:exported="true">
@@ -184,7 +184,7 @@
         <activity
             android:name=".ui.appsettings.PerSubscriptionSettingsActivity"
             android:label="@string/advanced_settings_activity_title"
-            android:theme="@style/BugleTheme.SettingsActivity"
+            android:theme="@style/Theme.SubSettingsBase"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="user"
             android:parentActivityName=".ui.appsettings.SettingsActivity">
@@ -196,7 +196,7 @@
         <activity
             android:name=".ui.appsettings.ApplicationSettingsActivity"
             android:label="@string/general_settings_activity_title"
-            android:theme="@style/BugleTheme.SettingsActivity"
+            android:theme="@style/Theme.SubSettingsBase"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="user"
             android:parentActivityName=".ui.appsettings.SettingsActivity"

@@ -87,4 +87,7 @@ dependencies {
     api 'com.googlecode.libphonenumber:prefixmapper:2.140'
     api 'com.googlecode.libphonenumber:carrier:1.130'
     implementation project(':colorpicker')
+    implementation project(':MainSwitchPreference')
+    implementation project(':SettingsTheme')
+    implementation project(':Utils')
 }
