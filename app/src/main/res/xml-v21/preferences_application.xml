@@ -61,6 +61,10 @@
         android:defaultValue="false"
         android:persistent="true" />
 
+    <Preference
+            android:key="@string/key_license"
+            android:title="@string/menu_license"/>
+
     <PreferenceScreen
             android:key="@string/advanced_pref_key"
             android:title="@string/advanced_settings" />

@@ -974,4 +974,6 @@
 
     <!-- When making a call to emergency numbers, show this toast -->
     <string name="disallow_emergency_call">Can\'t make a voice call to emergency services here.</string>
+
+    <string name="key_license" translatable="false">key_opensource_license</string>
 </resources>
