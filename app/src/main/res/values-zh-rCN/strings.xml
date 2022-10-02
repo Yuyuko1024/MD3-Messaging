@@ -512,4 +512,15 @@
     <string name="conversation_creation_failure" msgid="8597624563218724441">"无法发起对话"</string>
     <string name="link_display_format" msgid="8700344957248709584">"<xliff:g id="TEXT">%1$s</xliff:g> (<xliff:g id="URL">%2$s</xliff:g>)"</string>
     <string name="selected_sim_content_message" msgid="4504796674843354505">"已选择<xliff:g id="SELECTED_SIM">%s</xliff:g>"</string>
+
+    <!-- Swipe to delete conversation -->
+    <string name="swipe_to_delete_conversation_pref_title">滑动删除信息</string>
+    <string name="swipe_to_delete_conversation_pref_summary">向右滑动以删除对话</string>
+
+    <!-- Show emoticons -->
+    <string name="show_emoticons_pref_title">Emojis访问性</string>
+    <string name="show_emoticons_pref_summary">在键盘上（特指GBoard或者是AOSP Keyboards上）显示Emojis按钮</string>
+
+    <!-- Notification channel -->
+    <string name="notification_channel_messages_title">短信通知通道</string>
 </resources>
