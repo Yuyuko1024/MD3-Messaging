@@ -21,14 +21,14 @@
 
     <item
         android:id="@+id/action_call"
-        android:icon="@drawable/ic_phone_small_light"
+        android:icon="@drawable/ic_twotone_phone_in_talk_24"
         android:orderInCategory="80"
         android:title="@string/action_call"
         appcompat:showAsAction="ifRoom"/>
 
     <item
         android:id="@+id/action_add_contact"
-        android:icon="@drawable/ic_person_add_light"
+        android:icon="@drawable/ic_twotone_people_24"
         android:orderInCategory="90"
         android:title="@string/action_add_contact"
         android:showAsAction="never"/>

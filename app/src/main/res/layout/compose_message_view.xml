@@ -76,7 +76,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@null"
-                android:src="@drawable/ic_remove_light"
+                android:src="@drawable/ic_twotone_remove_circle_24"
                 android:translationY="@dimen/compose_message_subject_cancel_top_offset"
                 android:contentDescription="@string/delete_subject_content_description" />
 
@@ -125,16 +125,57 @@
                         android:hint="@string/compose_message_view_hint_text"
                         android:imeOptions="actionSend|flagNoEnterAction|flagNoExtractUi" />
 
+                    <com.android.messaging.ui.conversation.SimIconView
+                            android:id="@+id/self_send_icon"
+                            android:layout_width="@dimen/conversation_message_contact_icon_size"
+                            android:layout_height="@dimen/conversation_message_contact_icon_size"
+                            android:layout_gravity="center_vertical"
+                            android:importantForAccessibility="no"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginEnd="8dp"
+                            app:icon_Size="normal"
+                            app:reveal="true"
+                            android:clickable="true" />
+
+                    <ImageButton
+                            android:id="@+id/send_message_button"
+                            android:layout_width="@dimen/conversation_message_contact_icon_size"
+                            android:layout_height="@dimen/conversation_message_contact_icon_size"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="8dp"
+                            android:src="@drawable/ic_send_light"
+                            android:background="@drawable/send_arrow_background"
+                            android:contentDescription="@string/sendButtonContentDescription"/>
+
                 </LinearLayout>
 
-                <TextView
-                    android:id="@+id/message_body_size"
-                    style="@style/ComposeMessageViewMessageBodySizeStyle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:singleLine="true"
-                    android:maxLines="1"
-                    android:visibility="invisible" />
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="right">
+
+                    <TextView
+                            android:id="@+id/mms_indicator"
+                            style="@style/MmsIndicatorStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:maxLines="1"
+                            android:visibility="invisible"
+                            android:text="@string/mms_text" />
+
+                    <TextView
+                            android:id="@+id/message_body_size"
+                            style="@style/ComposeMessageViewMessageBodySizeStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:maxLines="1"
+                            android:visibility="invisible" />
+
+                </LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
@@ -142,38 +183,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <FrameLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    style="@style/ComposeMessageViewFrameLayoutStyle"
-                    android:layout_gravity="top" >
-                    <com.android.messaging.ui.conversation.SimIconView
-                        android:id="@+id/self_send_icon"
-                        android:layout_width="@dimen/conversation_message_contact_icon_size"
-                        android:layout_height="@dimen/conversation_message_contact_icon_size"
-                        android:importantForAccessibility="no"
-                        app:icon_Size="normal"
-                        app:reveal="true"
-                        android:clickable="true" />
-                    <ImageButton
-                        android:id="@+id/send_message_button"
-                        android:layout_width="@dimen/conversation_message_contact_icon_size"
-                        android:layout_height="@dimen/conversation_message_contact_icon_size"
-                        android:src="@drawable/ic_send_light"
-                        android:background="@drawable/send_arrow_background"
-                        android:contentDescription="@string/sendButtonContentDescription"
-                        android:visibility="gone" />
-                </FrameLayout>
 
-                <TextView
-                    android:id="@+id/mms_indicator"
-                    style="@style/MmsIndicatorStyle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:singleLine="true"
-                    android:maxLines="1"
-                    android:visibility="invisible"
-                    android:text="@string/mms_text" />
+
+
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

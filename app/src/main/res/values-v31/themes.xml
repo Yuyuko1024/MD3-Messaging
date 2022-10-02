@@ -12,6 +12,14 @@
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back</item>
+        <item name="android:actionOverflowButtonStyle">@style/CustomActionBarMenuButton</item>
+    </style>
+
+    <style name="CustomActionBarMenuButton" parent="Widget.Material3.PopupMenu.Overflow">
+        <item name="overlapAnchor">true</item>
+        <item name="android:src">@drawable/ic_twotone_menu_24</item>
+        <item name="android:paddingRight">12dp</item>
     </style>
 
     <style name="LaunchTheme" parent="Widget.Material3.ActionBar.Solid">
@@ -104,6 +112,25 @@
         <item name="android:textSize">@dimen/settings_list_detail_text_size</item>
         <item name="android:textColor">@color/settings_list_text_secondary</item>
         <item name="android:background">@null</item>
+    </style>
+
+    <style name="MmsIndicatorStyle">
+        <item name="android:textColor">@color/mms_indicator_color</item>
+        <item name="android:textSize">@dimen/mms_indicator_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingRight">@dimen/compose_message_send_button_padding_right</item>
+        <item name="android:paddingTop">@dimen/compose_message_mms_indicator_padding_top</item>
+        <item name="android:layout_gravity">right|center_vertical</item>
+    </style>
+
+    <style name="ComposeMessageViewMessageBodySizeStyle">
+        <item name="android:textColor">@color/message_body_size_text_color</item>
+        <item name="android:textSize">@dimen/message_body_size_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_gravity">right|center_vertical</item>
+        <item name="android:paddingTop">@dimen/compose_message_mms_indicator_padding_top</item>
+        <item name="android:paddingRight">@dimen/compose_message_text_box_padding_side</item>
     </style>
 
 </resources>
