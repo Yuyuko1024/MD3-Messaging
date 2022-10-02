@@ -64,7 +64,7 @@
     <dimen name="compose_message_subject_cancel_left_margin">12dp</dimen>
     <dimen name="compose_message_mms_indicator_padding_top">2dp</dimen>
     <dimen name="compose_message_send_button_padding_right">12dp</dimen>
-    <dimen name="compose_message_text_box_padding_side">8dp</dimen>
+    <dimen name="compose_message_text_box_padding_side">12dp</dimen>
 
     <!-- Notification related dimensions. -->
     <dimen name="notification_wearable_image_height">240dp</dimen>
@@ -104,7 +104,7 @@
 
     <!-- Videos in the message list view should at least be this big in the smallest dimension -->
     <dimen name="video_message_min_size">320dp</dimen>
-    <dimen name="attachment_rounded_corner_radius">3dp</dimen>
+    <dimen name="attachment_rounded_corner_radius">8dp</dimen>
     <dimen name="progress_indicator_default_stroke_width">2dp</dimen>
     <dimen name="progress_indicator_default_radius">12dp</dimen>
     <dimen name="participant_list_text_size">18sp</dimen>

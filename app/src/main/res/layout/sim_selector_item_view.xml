@@ -17,9 +17,10 @@
 <com.android.messaging.ui.conversation.SimSelectorItemView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
+    android:layout_gravity="end"
     android:background="?android:attr/selectableItemBackground"
     android:padding="12dp"
     android:clipToPadding="false">
@@ -28,8 +29,7 @@
         android:id="@+id/details_container"
         android:orientation="vertical"
         style="@style/SimSelectorItemLinearLayoutStyle"
-        android:layout_width="0dp"
-        android:layout_weight="1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical" >
 

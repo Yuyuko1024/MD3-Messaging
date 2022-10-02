@@ -133,4 +133,9 @@
         <item name="android:paddingRight">@dimen/compose_message_text_box_padding_side</item>
     </style>
 
+    <style name="ComposeMessageViewAttachMediaButtonStyle">
+        <item name="android:padding">@dimen/compose_message_attachment_padding_sides</item>
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+    </style>
+
 </resources>

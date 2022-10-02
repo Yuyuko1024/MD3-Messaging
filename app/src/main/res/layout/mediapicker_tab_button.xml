@@ -17,7 +17,7 @@
 
 <!-- android:contentDescription is set in code -->
 <ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="48dp"
+    android:layout_width="70dp"
     android:layout_height="48dp"
     android:background="@drawable/mediapicker_tab_button_background"
     android:contentDescription="@null">

@@ -260,7 +260,7 @@ public class UiUtils {
                 location[0] + view.getMeasuredWidth(), location[1] + view.getMeasuredHeight());
     }
 
-    public static void setStatusBarColor(final Activity activity, final int color) {
+    /*public static void setStatusBarColor(final Activity activity, final int color) {
         if (OsUtil.isAtLeastL()) {
             // To achieve the appearance of an 80% opacity blend against a black background,
             // each color channel is reduced in value by 20%.
@@ -271,7 +271,7 @@ public class UiUtils {
             activity.getWindow().setStatusBarColor(
                     Color.rgb(blendedRed, blendedGreen, blendedBlue));
         }
-    }
+    }*/
 
     public static void lockOrientation(final Activity activity) {
         final int orientation = activity.getResources().getConfiguration().orientation;

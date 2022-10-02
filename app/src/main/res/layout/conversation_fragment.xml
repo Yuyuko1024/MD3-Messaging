@@ -39,7 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:listSelector="@android:color/transparent"
-                android:paddingTop="@dimen/action_bar_height"
+                android:paddingBottom="15dp"
                 android:clipToPadding="false" />
 
             <View

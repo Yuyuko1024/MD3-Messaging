@@ -21,6 +21,7 @@ import android.database.Cursor;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
+import android.widget.RelativeLayout;
 import androidx.annotation.Nullable;
 import android.text.Spanned;
 import android.text.TextUtils;
@@ -79,7 +80,7 @@ import java.util.List;
 /**
  * The view for a single entry in a conversation.
  */
-public class ConversationMessageView extends FrameLayout implements View.OnClickListener,
+public class ConversationMessageView extends RelativeLayout implements View.OnClickListener,
         View.OnLongClickListener, OnAttachmentClickListener {
     public interface ConversationMessageViewHost {
         boolean onAttachmentClick(ConversationMessageView view, MessagePartData attachment,
@@ -176,7 +177,7 @@ public class ConversationMessageView extends FrameLayout implements View.OnClick
         // We need to subtract contact icon width twice from the horizontal space to get
         // the max leftover space because we want the message bubble to extend no further than the
         // starting position of the message bubble in the opposite direction.
-        final int maxLeftoverSpace = horizontalSpace - mContactIconView.getMeasuredWidth() * 2
+        final int maxLeftoverSpace = horizontalSpace - mContactIconView.getMeasuredWidth()
                 - arrowWidth - getPaddingLeft() - getPaddingRight();
         final int messageContentWidthMeasureSpec = MeasureSpec.makeMeasureSpec(maxLeftoverSpace,
                 MeasureSpec.AT_MOST);
@@ -185,7 +186,7 @@ public class ConversationMessageView extends FrameLayout implements View.OnClick
 
         final int maxHeight = Math.max(mContactIconView.getMeasuredHeight(),
                 mMessageBubble.getMeasuredHeight());
-        setMeasuredDimension(horizontalSpace, maxHeight + getPaddingBottom() + getPaddingTop());
+        setMeasuredDimension(horizontalSpace, maxHeight + getPaddingBottom() + getPaddingTop()*2);
     }
 
     @Override
@@ -198,7 +199,7 @@ public class ConversationMessageView extends FrameLayout implements View.OnClick
         final int iconTop = getPaddingTop();
         final int contentWidth = (right -left) - iconWidth - getPaddingLeft() - getPaddingRight();
         final int contentHeight = mMessageBubble.getMeasuredHeight();
-        final int contentTop = iconTop;
+        final int contentTop = iconTop * 2;
 
         final int iconLeft;
         final int contentLeft;

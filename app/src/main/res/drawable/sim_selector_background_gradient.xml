@@ -16,9 +16,10 @@
 -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <gradient
-        android:startColor="@color/sim_selector_background_start"
-        android:endColor="@color/sim_selector_background_end"
         android:angle="90"
         android:dither="true"
-     />
+        android:endColor="@color/sim_selector_background_end"
+        android:startColor="@color/sim_selector_background_start" />
+    <corners android:radius="8dp" />
+    <stroke android:color="@color/primary_color" android:width="1dp"/>
 </shape>
