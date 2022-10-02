@@ -21,24 +21,22 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.view.Menu;
 import android.view.MenuItem;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.app.NavUtils;
 import androidx.fragment.app.Fragment;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreference;
-import androidx.preference.PreferenceFragmentCompat;
-
 import com.android.messaging.R;
 import com.android.messaging.ui.LicenseActivity;
 import com.android.messaging.ui.UIIntents;
 import com.android.messaging.util.BuglePrefs;
 import com.android.messaging.util.DebugUtils;
-import com.android.messaging.util.OsUtil;
-import com.android.messaging.util.PhoneUtils;
 import org.exthmui.settingslib.collapsingtoolbar.ExthmCollapsingToolbarBaseActivity;
+
+import java.util.Objects;
 
 public class ApplicationSettingsActivity extends ExthmCollapsingToolbarBaseActivity {
     Fragment applicationSettingsFragment = new ApplicationSettingsFragment();
@@ -82,16 +80,10 @@ public class ApplicationSettingsActivity extends ExthmCollapsingToolbarBaseActiv
     }
 
     public static class ApplicationSettingsFragment extends PreferenceFragmentCompat implements com.android.messaging.ui.appsettings.ApplicationSettingsFragment {
-
         private String mNotificationsPreferenceKey;
         private Preference mNotificationsPreference;
-        private String mSmsDisabledPrefKey;
-        private Preference mSmsDisabledPreference;
-        private String mSmsEnabledPrefKey;
-        private Preference mSmsEnabledPreference;
         private Preference mLicensePreference;
         private String mLicensePrefKey;
-        private boolean mIsSmsPreferenceClicked;
         private String mSwipeRightToDeleteConversationkey;
         private SwitchPreference mSwipeRightToDeleteConversationPreference;
 
@@ -107,16 +99,11 @@ public class ApplicationSettingsActivity extends ExthmCollapsingToolbarBaseActiv
             mNotificationsPreferenceKey =
                     getString(R.string.notifications_pref_key);
             mNotificationsPreference = findPreference(mNotificationsPreferenceKey);
-            mSmsDisabledPrefKey = getString(R.string.sms_disabled_pref_key);
-            mSmsDisabledPreference = findPreference(mSmsDisabledPrefKey);
-            mSmsEnabledPrefKey = getString(R.string.sms_enabled_pref_key);
-            mSmsEnabledPreference = findPreference(mSmsEnabledPrefKey);
             mLicensePrefKey = getString(R.string.key_license);
             mLicensePreference = findPreference(mLicensePrefKey);
             mSwipeRightToDeleteConversationkey = getString(
                     R.string.swipe_right_deletes_conversation_key);
             mSwipeRightToDeleteConversationPreference = findPreference(mSwipeRightToDeleteConversationkey);
-            mIsSmsPreferenceClicked = false;
 
             if (!DebugUtils.isDebugEnabled()) {
                 final Preference debugCategory = findPreference(getString(
@@ -140,60 +127,21 @@ public class ApplicationSettingsActivity extends ExthmCollapsingToolbarBaseActiv
 
         @Override
         public boolean onPreferenceTreeClick(@NonNull Preference preference) {
-            if (preference.getKey() == mNotificationsPreferenceKey) {
+            if (Objects.equals(preference.getKey(), mNotificationsPreferenceKey)) {
                 Intent intent = new Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS);
                 intent.putExtra(Settings.EXTRA_APP_PACKAGE, getContext().getPackageName());
                 startActivity(intent);
             }
-            if (preference.getKey() ==  mSmsDisabledPrefKey ||
-                    preference.getKey() == mSmsEnabledPrefKey) {
-                mIsSmsPreferenceClicked = true;
-            }
-            if (preference.getKey() == mLicensePrefKey){
+            if (Objects.equals(preference.getKey(), mLicensePrefKey)){
                 final Intent intent = new Intent(getActivity(), LicenseActivity.class);
                 startActivity(intent);
             }
             return super.onPreferenceTreeClick(preference);
         }
 
-        private void updateSmsEnabledPreferences() {
-            if (!OsUtil.isAtLeastKLP()) {
-                getPreferenceScreen().removePreference(mSmsDisabledPreference);
-                getPreferenceScreen().removePreference(mSmsEnabledPreference);
-            } else {
-                final String defaultSmsAppLabel = getString(R.string.default_sms_app,
-                        PhoneUtils.getDefault().getDefaultSmsAppLabel());
-                boolean isSmsEnabledBeforeState;
-                boolean isSmsEnabledCurrentState;
-                if (PhoneUtils.getDefault().isDefaultSmsApp()) {
-                    if (getPreferenceScreen().findPreference(mSmsEnabledPrefKey) == null) {
-                        getPreferenceScreen().addPreference(mSmsEnabledPreference);
-                        isSmsEnabledBeforeState = false;
-                    } else {
-                        isSmsEnabledBeforeState = true;
-                    }
-                    isSmsEnabledCurrentState = true;
-                    getPreferenceScreen().removePreference(mSmsDisabledPreference);
-                    mSmsEnabledPreference.setSummary(defaultSmsAppLabel);
-                } else {
-                    if (getPreferenceScreen().findPreference(mSmsDisabledPrefKey) == null) {
-                        getPreferenceScreen().addPreference(mSmsDisabledPreference);
-                        isSmsEnabledBeforeState = true;
-                    } else {
-                        isSmsEnabledBeforeState = false;
-                    }
-                    isSmsEnabledCurrentState = false;
-                    getPreferenceScreen().removePreference(mSmsEnabledPreference);
-                    mSmsDisabledPreference.setSummary(defaultSmsAppLabel);
-                }
-            }
-            mIsSmsPreferenceClicked = false;
-        }
-
         @Override
         public void onResume() {
             super.onResume();
-            updateSmsEnabledPreferences();
         }
     }
 }
