@@ -17,7 +17,7 @@
 <FrameLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@android:id/list"
@@ -37,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-    <ImageView
+    <!--ImageView
         style="@style/ConversationListFragmentStartNewButtonStyle"
         android:id="@+id/start_new_conversation_button"
         android:layout_width="@dimen/fab_size"
@@ -50,6 +50,23 @@
         android:scaleType="center"
         android:src="@drawable/ic_add_white"
         android:stateListAnimator="@animator/fab_anim"
-        android:contentDescription="@string/start_new_conversation"/>
+        android:contentDescription="@string/start_new_conversation"/-->
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            style="@style/Widget.Material3.ExtendedFloatingActionButton.Primary"
+            android:id="@+id/start_new_conversation_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:text="@string/start_new_conversation"
+            android:textColor="@color/netrual_color"
+            android:backgroundTint="@color/system_accent"
+            android:layout_marginBottom="@dimen/fab_bottom_margin"
+            android:layout_marginEnd="@dimen/fab_left_right_margin"
+            android:elevation="@dimen/fab_elevation"
+            app:icon="@drawable/ic_twotone_sms_24"
+            app:iconTint="@color/netrual_color"
+            android:stateListAnimator="@animator/fab_anim"
+            android:contentDescription="@string/start_new_conversation"/>
 
 </FrameLayout>
