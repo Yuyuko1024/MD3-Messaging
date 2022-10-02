@@ -13,7 +13,7 @@ android {
     def buildType = "debug"
 
     defaultConfig {
-        applicationId "com.android.messaging.md3"
+        applicationId "com.android.messaging"
         minSdkVersion 30
         targetSdkVersion rootProject.ext.sdkVersion
         versionCode rootProject.ext.verCode
