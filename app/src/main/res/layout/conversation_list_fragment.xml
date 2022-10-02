@@ -30,10 +30,12 @@
         android:dividerHeight="0px" />
 
     <include
-        layout="@layout/list_empty_view"
-        android:id="@+id/no_conversations_view"
-        android:visibility="gone"
-        android:layout_marginBottom="@dimen/conversation_list_empty_text_bottom_margin" />
+            layout="@layout/list_empty_view"
+            android:id="@+id/no_conversations_view"
+            android:visibility="gone"
+            android:layout_marginBottom="@dimen/conversation_list_empty_text_bottom_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
     <ImageView
         style="@style/ConversationListFragmentStartNewButtonStyle"
