@@ -16,20 +16,18 @@
 
 package com.android.messaging.ui;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.webkit.WebView;
-
 import com.android.messaging.R;
+import org.exthmui.settingslib.collapsingtoolbar.ExthmCollapsingToolbarBaseActivity;
 
-public class LicenseActivity extends Activity {
-    private final String LICENSE_URL = "file:///android_asset/licenses.html";
+public class LicenseActivity extends ExthmCollapsingToolbarBaseActivity {
 
     @Override
     public void onCreate(final Bundle bundle) {
         super.onCreate(bundle);
         setContentView(R.layout.license_activity);
-        final WebView webView = (WebView) findViewById(R.id.content);
-        webView.loadUrl(LICENSE_URL);
+        final WebView webView = findViewById(R.id.content);
+        webView.loadUrl("file:///android_asset/licenses.html");
     }
 }
