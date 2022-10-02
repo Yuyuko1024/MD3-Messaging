@@ -25,10 +25,6 @@
             android:title="@string/group_mms_pref_title"
             android:key="@string/group_mms_pref_key"/>
 
-        <com.android.messaging.ui.appsettings.PhoneNumberPreference
-            android:key="@string/mms_phone_number_pref_key"
-            android:title="@string/mms_phone_number_pref_title" />
-
         <SwitchPreference
             android:key="@string/auto_retrieve_mms_pref_key"
             android:title="@string/auto_retrieve_mms_pref_title"

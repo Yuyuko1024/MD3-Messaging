@@ -23,16 +23,17 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.preference.Preference;
-import android.preference.Preference.OnPreferenceClickListener;
-import android.preference.PreferenceCategory;
-import android.preference.PreferenceFragment;
-import android.preference.PreferenceScreen;
 import android.text.TextUtils;
 import android.view.MenuItem;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.mms.MmsManager;
 import androidx.core.app.NavUtils;
+import androidx.fragment.app.Fragment;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceFragmentCompat;
+import androidx.preference.PreferenceScreen;
 
 import com.android.messaging.Factory;
 import com.android.messaging.R;
@@ -41,31 +42,31 @@ import com.android.messaging.datamodel.data.ParticipantData;
 import com.android.messaging.sms.ApnDatabase;
 import com.android.messaging.sms.MmsConfig;
 import com.android.messaging.sms.MmsUtils;
-import com.android.messaging.ui.BugleActionBarActivity;
 import com.android.messaging.ui.UIIntents;
 import com.android.messaging.util.Assert;
 import com.android.messaging.util.BuglePrefs;
 import com.android.messaging.util.LogUtil;
 import com.android.messaging.util.PhoneUtils;
+import org.exthmui.settingslib.collapsingtoolbar.ExthmCollapsingToolbarBaseActivity;
 
-public class PerSubscriptionSettingsActivity extends BugleActionBarActivity {
+public class PerSubscriptionSettingsActivity extends ExthmCollapsingToolbarBaseActivity {
+    Fragment perSubscriptionSettingsFragment = new PerSubscriptionSettingsFragment();
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.settings_activity);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         final String title = getIntent().getStringExtra(
                 UIIntents.UI_INTENT_EXTRA_PER_SUBSCRIPTION_SETTING_TITLE);
         if (!TextUtils.isEmpty(title)) {
-            getSupportActionBar().setTitle(title);
+            setTitle(title);
         } else {
             // This will fall back to the default title, i.e. "Messaging settings," so No-op.
         }
 
-        final FragmentTransaction ft = getFragmentManager().beginTransaction();
-        final PerSubscriptionSettingsFragment fragment = new PerSubscriptionSettingsFragment();
-        ft.replace(android.R.id.content, fragment);
-        ft.commit();
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.fragment_container_view, perSubscriptionSettingsFragment)
+                .commit();
     }
 
     @Override
@@ -78,12 +79,11 @@ public class PerSubscriptionSettingsActivity extends BugleActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public static class PerSubscriptionSettingsFragment extends PreferenceFragment
+    public static class PerSubscriptionSettingsFragment extends PreferenceFragmentCompat
             implements OnSharedPreferenceChangeListener {
         private PhoneNumberPreference mPhoneNumberPreference;
         private Preference mGroupMmsPreference;
         private String mGroupMmsPrefKey;
-        private String mPhoneNumberKey;
         private int mSubId;
 
         public PerSubscriptionSettingsFragment() {
@@ -93,7 +93,10 @@ public class PerSubscriptionSettingsActivity extends BugleActionBarActivity {
         @Override
         public void onCreate(final Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
+        }
 
+        @Override
+        public void onCreatePreferences(@Nullable @org.jetbrains.annotations.Nullable Bundle savedInstanceState, @Nullable @org.jetbrains.annotations.Nullable String rootKey) {
             // Get sub id from launch intent
             final Intent intent = getActivity().getIntent();
             Assert.notNull(intent);
@@ -104,15 +107,10 @@ public class PerSubscriptionSettingsActivity extends BugleActionBarActivity {
             getPreferenceManager().setSharedPreferencesName(subPrefs.getSharedPreferencesName());
             addPreferencesFromResource(R.xml.preferences_per_subscription);
 
-            mPhoneNumberKey = getString(R.string.mms_phone_number_pref_key);
-            mPhoneNumberPreference = (PhoneNumberPreference) findPreference(mPhoneNumberKey);
             final PreferenceCategory advancedCategory = (PreferenceCategory)
                     findPreference(getString(R.string.advanced_category_pref_key));
             final PreferenceCategory mmsCategory = (PreferenceCategory)
                     findPreference(getString(R.string.mms_messaging_category_pref_key));
-
-            mPhoneNumberPreference.setDefaultPhoneNumber(
-                    PhoneUtils.get(mSubId).getCanonicalForSelf(false/*allowOverride*/), mSubId);
 
             mGroupMmsPrefKey = getString(R.string.group_mms_pref_key);
             mGroupMmsPreference = findPreference(mGroupMmsPrefKey);
@@ -123,12 +121,9 @@ public class PerSubscriptionSettingsActivity extends BugleActionBarActivity {
                 // is being sent, making sure we will have a self number for group mms.
                 mmsCategory.removePreference(mGroupMmsPreference);
             } else {
-                mGroupMmsPreference.setOnPreferenceClickListener(new OnPreferenceClickListener() {
-                    @Override
-                    public boolean onPreferenceClick(Preference pref) {
-                        GroupMmsSettingDialog.showDialog(getActivity(), mSubId);
-                        return true;
-                    }
+                mGroupMmsPreference.setOnPreferenceClickListener(pref -> {
+                    GroupMmsSettingDialog.showDialog(getActivity(), mSubId);
+                    return true;
                 });
                 updateGroupMmsPrefSummary();
             }
@@ -229,19 +224,6 @@ public class PerSubscriptionSettingsActivity extends BugleActionBarActivity {
                 final String key) {
             if (key.equals(mGroupMmsPrefKey)) {
                 updateGroupMmsPrefSummary();
-            } else if (key.equals(mPhoneNumberKey)) {
-                // Save the changed phone number in preferences specific to the sub id
-                final String newPhoneNumber = mPhoneNumberPreference.getText();
-                final BuglePrefs subPrefs = BuglePrefs.getSubscriptionPrefs(mSubId);
-                if (TextUtils.isEmpty(newPhoneNumber)) {
-                    subPrefs.remove(mPhoneNumberKey);
-                } else {
-                    subPrefs.putString(getString(R.string.mms_phone_number_pref_key),
-                            newPhoneNumber);
-                }
-                // Update the self participants so the new phone number will be reflected
-                // everywhere in the UI.
-                ParticipantRefresh.refreshSelfParticipants();
             }
         }
 

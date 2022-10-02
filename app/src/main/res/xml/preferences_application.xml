@@ -22,18 +22,11 @@
         android:key="@string/sms_disabled_pref_key"
         android:title="@string/sms_disabled_pref_title"
         android:persistent="false">
-        <intent
-            android:action="android.provider.Telephony.ACTION_CHANGE_DEFAULT">
-            <extra android:name="package" android:value="com.android.messaging" />
-        </intent>
     </PreferenceScreen>
     <PreferenceScreen
         android:key="@string/sms_enabled_pref_key"
         android:title="@string/sms_enabled_pref_title"
         android:persistent="false">
-        <intent
-            android:action="android.settings.WIRELESS_SETTINGS">
-        </intent>
     </PreferenceScreen>
 
     <CheckBoxPreference
