@@ -1,0 +1,15 @@
+build
+.gradle
+.idea
+gradle
+app/.cxx
+app/build
+chips/build
+colorpicker/build
+common/build
+ExthmCollapsingToolbarBaseActivity/build
+framesequence/build
+framesequence/.cxx
+photoviewer/build
+vcard/build
+SettingsTheme/build

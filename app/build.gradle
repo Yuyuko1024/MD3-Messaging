@@ -1,0 +1,90 @@
+import java.text.SimpleDateFormat
+
+def keystorePropertiesFile = rootProject.file("keystore.properties")
+def keystoreProperties = new Properties()
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdk
+
+    def buildDate = new SimpleDateFormat("MMddHHmm").format(new Date())
+    def buildType = "debug"
+
+    defaultConfig {
+        applicationId "com.android.messaging.md3"
+        minSdkVersion 30
+        targetSdkVersion rootProject.ext.sdkVersion
+        versionCode rootProject.ext.verCode
+        versionName "${rootProject.ext.verName}-${buildDate}-${buildType}"
+
+        externalNativeBuild {
+            cmake {
+            }
+        }
+    }
+    buildTypes {
+        release {
+            buildType = "release"
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+        }
+    }
+    ndkVersion '25.1.8937393'
+
+    lintOptions {
+        abortOnError false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    signingConfigs {
+        debug {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+}
+
+dependencies {
+    implementation project(':common')
+    implementation project(':framesequence')
+    implementation project(':ExthmCollapsingToolbarBaseActivity')
+    implementation "androidx.annotation:annotation:1.4.0"
+    implementation "androidx.core:core:1.8.0"
+    implementation "androidx.media:media:1.6.0"
+    implementation "androidx.legacy:legacy-support-core-utils:1.0.0"
+    implementation "androidx.legacy:legacy-support-core-ui:1.0.0"
+    implementation "androidx.fragment:fragment:1.4.1"
+    implementation "androidx.appcompat:appcompat:1.4.2"
+    implementation "androidx.palette:palette:1.0.0"
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+    implementation "androidx.legacy:legacy-support-v13:1.0.0"
+    implementation "androidx.constraintlayout:constraintlayout:2.1.4"
+    implementation "androidx.collection:collection:1.2.0"
+    implementation "androidx.preference:preference:1.2.0"
+    implementation "androidx.viewpager:viewpager:1.0.0"
+    implementation "com.google.android.material:material:1.6.1"
+    // 依赖androidx, 已升级AndroidX的项目集成下面的依赖
+    //implementation "com.bytedance.tools.codelocator:codelocator-core:2.0.0"
+    implementation project(':vcard')
+    api 'com.google.guava:guava:28.2-android'
+    implementation project(':chips')
+    implementation project(':photoviewer')
+    api 'com.googlecode.libphonenumber:libphonenumber:8.12.6'
+    api 'com.googlecode.libphonenumber:geocoder:2.140'
+    api 'com.googlecode.libphonenumber:prefixmapper:2.140'
+    api 'com.googlecode.libphonenumber:carrier:1.130'
+    implementation project(':colorpicker')
+    implementation project(':SettingsTheme')
+}
