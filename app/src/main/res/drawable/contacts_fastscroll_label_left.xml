@@ -23,6 +23,6 @@
                 android:topLeftRadius="@dimen/fastscroll_preview_corner_radius"
                 android:topRightRadius="@dimen/fastscroll_preview_corner_radius"
                 android:bottomRightRadius="@dimen/fastscroll_preview_corner_radius" />
-        <solid android:color="@color/action_bar_background_color" />
+        <solid android:color="@color/system_accent" />
     </shape>
 </inset>

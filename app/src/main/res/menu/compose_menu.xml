@@ -22,28 +22,28 @@
     <!-- This must always be the first item so it appears right next to the chip view -->
     <item
         android:id="@+id/action_delete_text"
-        android:icon="@drawable/ic_cancel_small_light"
+        android:icon="@drawable/ic_twotone_cancel_24"
         android:orderInCategory="0"
         android:title="@string/chips_text_delete_button_content_description"
         appcompat:showAsAction="always"/>
 
     <item
         android:id="@+id/action_ime_dialpad_toggle"
-        android:icon="@drawable/ic_numeric_dialpad"
+        android:icon="@drawable/ic_twotone_dialpad_24"
         android:orderInCategory="100"
         android:title="@string/numeric_text_keyboard_toggle_button_content_description"
         appcompat:showAsAction="always"/>
 
     <item
         android:id="@+id/action_add_more_participants"
-        android:icon="@drawable/ic_people_add_light"
+        android:icon="@drawable/ic_twotone_people_24"
         android:orderInCategory="110"
         android:title="@string/add_more_participants_button_content_description"
         appcompat:showAsAction="always"/>
 
     <item
         android:id="@+id/action_confirm_participants"
-        android:icon="@drawable/ic_checkmark_small_light"
+        android:icon="@drawable/ic_twotone_check_24"
         android:orderInCategory="120"
         android:title="@string/confrim_participants_button_content_description"
         appcompat:showAsAction="always"/>

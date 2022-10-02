@@ -56,7 +56,7 @@
 
     <color name="unblock_item_text_color">@color/system_accent</color>
 
-    <color name="compose_notification_bar_background">@color/system_accent</color>
+    <color name="compose_notification_bar_background">@color/netrual_color</color>
 
     <color name="contact_picker_button_text_color">@color/system_accent</color>
 </resources>
