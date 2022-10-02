@@ -23,7 +23,7 @@
     <dimen name="conversation_status_text_size">12sp</dimen>
     <dimen name="conversation_title_text_size">12sp</dimen>
     <dimen name="conversation_info_text_size">12sp</dimen>
-    <dimen name="conversation_compose_send_text_size">16sp</dimen>
+    <dimen name="conversation_compose_send_text_size">15sp</dimen>
     <dimen name="contact_icon_view_normal_size">42dp</dimen>
     <dimen name="contact_icon_view_large_size">56dp</dimen>
     <dimen name="contact_icon_view_small_size">12dp</dimen>
@@ -53,7 +53,7 @@
     <dimen name="compose_message_chip_padding">3dp</dimen>
     <dimen name="compose_message_fields_horizontal_margin">16dp</dimen>
     <dimen name="compose_message_font_size">16sp</dimen>
-    <dimen name="compose_message_attachment_padding_sides">20dp</dimen>
+    <dimen name="compose_message_attachment_padding_sides">18dp</dimen>
     <dimen name="compose_message_attachment_padding_topBottom">10dp</dimen>
     <dimen name="compose_message_chips_view_max_height">133dp</dimen>
     <dimen name="compose_message_subject_left_padding">52dp</dimen>
