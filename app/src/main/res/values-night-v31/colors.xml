@@ -21,6 +21,10 @@
 
     <color name="action_bar_icon_tint">@color/translucent_white</color>
 
+    <!-- Settings Text -->
+    <color name="settings_list_text_primary">@android:color/white</color>
+    <color name="settings_list_text_secondary">@android:color/white</color>
+
     <color name="compose_message_send_color">@color/system_accent</color>
 
     <color name="contact_list_alphabet_header">@color/system_accent</color>

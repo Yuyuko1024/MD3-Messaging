@@ -92,4 +92,17 @@
         <item name="android:textCursorDrawable">@null</item>
         <item name="android:inputType">textAutoCorrect|textCapSentences|textMultiLine</item>
     </style>
+
+    <style name="SettingsListItem">
+        <item name="android:textSize">@dimen/settings_list_text_size</item>
+        <item name="android:textColor">@color/settings_list_text_primary</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="SettingsListItemDetail">
+        <item name="android:textSize">@dimen/settings_list_detail_text_size</item>
+        <item name="android:textColor">@color/settings_list_text_secondary</item>
+        <item name="android:background">@null</item>
+    </style>
+
 </resources>

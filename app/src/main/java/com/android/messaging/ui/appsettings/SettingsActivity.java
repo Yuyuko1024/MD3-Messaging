@@ -16,7 +16,6 @@
 
 package com.android.messaging.ui.appsettings;
 
-import android.app.Fragment;
 import android.content.Context;
 import android.os.Bundle;
 import androidx.core.app.NavUtils;
@@ -30,6 +29,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import androidx.fragment.app.Fragment;
 import com.android.messaging.R;
 import com.android.messaging.datamodel.DataModel;
 import com.android.messaging.datamodel.binding.Binding;
@@ -37,10 +37,10 @@ import com.android.messaging.datamodel.binding.BindingBase;
 import com.android.messaging.datamodel.data.SettingsData;
 import com.android.messaging.datamodel.data.SettingsData.SettingsDataListener;
 import com.android.messaging.datamodel.data.SettingsData.SettingsItem;
-import com.android.messaging.ui.BugleActionBarActivity;
 import com.android.messaging.ui.UIIntents;
 import com.android.messaging.util.Assert;
 import com.android.messaging.util.PhoneUtils;
+import org.exthmui.settingslib.collapsingtoolbar.ExthmCollapsingToolbarBaseActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -52,11 +52,14 @@ import java.util.List;
  * (e.g. "General settings") will open the detail settings activity (ApplicationSettingsActivity
  * in this case).
  */
-public class SettingsActivity extends BugleActionBarActivity {
+public class SettingsActivity extends ExthmCollapsingToolbarBaseActivity {
+    Fragment SettingsFragment = new SettingsFragment();
+
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setContentView(R.layout.settings_activity);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // Directly open the detailed settings page as the top-level settings activity if this is
         // not a multi-SIM device.
@@ -64,8 +67,8 @@ public class SettingsActivity extends BugleActionBarActivity {
             UIIntents.get().launchApplicationSettingsActivity(this, true /* topLevel */);
             finish();
         } else {
-            getFragmentManager().beginTransaction()
-                    .replace(android.R.id.content, new SettingsFragment())
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container_view,SettingsFragment)
                     .commit();
         }
     }
@@ -89,14 +92,14 @@ public class SettingsActivity extends BugleActionBarActivity {
         public void onCreate(final Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             mBinding.bind(DataModel.get().createSettingsData(getActivity(), this));
-            mBinding.getData().init(getLoaderManager(), mBinding);
+            mBinding.getData().init(requireActivity().getLoaderManager(), mBinding);
         }
 
         @Override
         public View onCreateView(final LayoutInflater inflater, final ViewGroup container,
                 final Bundle savedInstanceState) {
             final View view = inflater.inflate(R.layout.settings_fragment, container, false);
-            mListView = (ListView) view.findViewById(android.R.id.list);
+            mListView = view.findViewById(android.R.id.list);
             mAdapter = new SettingsListAdapter(getActivity());
             mListView.setAdapter(mAdapter);
             return view;

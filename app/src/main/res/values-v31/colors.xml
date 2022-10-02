@@ -33,6 +33,10 @@
     <color name="action_bar_background_color_dark">@color/netrual_color</color>
     <color name="action_bar_title_text_color">@color/system_accent_2_darker</color>
 
+    <!-- Settings Text -->
+    <color name="settings_list_text_primary">@color/system_accent_2_darker</color>
+    <color name="settings_list_text_secondary">@color/system_accent_2</color>
+
     <color name="conversation_action_bar_title_text_color">@color/action_bar_title_text_color</color>
 
     <color name="action_bar_icon_tint">@color/system_accent</color>
