@@ -49,6 +49,7 @@
             android:layout_height="wrap_content"
             android:singleLine="true"
             android:maxLines="1"
+            android:layout_marginTop="3dp"
             android:ellipsize="end"
             style="@style/SimSelectorItemDetail" />
 
@@ -60,7 +61,6 @@
         android:layout_height="@dimen/sim_selector_icon_size"
         android:importantForAccessibility="no"
         android:layout_gravity="center_vertical"
-        android:elevation="3dp"
         app:icon_Size="normal" />
 
 </com.android.messaging.ui.conversation.SimSelectorItemView>

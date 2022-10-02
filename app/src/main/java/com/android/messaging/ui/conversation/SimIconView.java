@@ -44,13 +44,13 @@ public class SimIconView extends ContactIconView {
         }
     }
 
-    @Override
+    /*@Override
     public boolean onTouchEvent(MotionEvent event) {
         if (isClickable()) {
             return super.onTouchEvent(event);
         }
         return true;
-    }
+    }*/
 
     @Override
     protected void maybeInitializeOnClickListener() {

@@ -71,7 +71,7 @@ public class SimSelectorAvatarRequest extends AvatarRequest {
         final float halfWidth = width / 2;
         final float halfHeight = height / 2;
         final int minOfWidthAndHeight = Math.min(width, height);
-        final int backgroundColor = selected ? subColor : Color.WHITE;
+        final int backgroundColor = selected ? subColor : Color.TRANSPARENT;
         final int textColor = selected ? subColor : Color.WHITE;
         final int simColor = selected ? Color.WHITE : subColor;
         final Bitmap bitmap = getBitmapPool().createOrReuseBitmap(width, height, backgroundColor);
@@ -89,10 +89,8 @@ public class SimSelectorAvatarRequest extends AvatarRequest {
         canvas.drawBitmap(sRegularSimIcon, halfWidth - sRegularSimIcon.getWidth() / 2,
                 halfHeight - sRegularSimIcon.getHeight() / 2, paint);
         paint.setColorFilter(null);
-        paint.setAlpha(0xff);
 
         if (!TextUtils.isEmpty(identifier)) {
-            paint.setTypeface(Typeface.create("sans-serif", Typeface.NORMAL));
             paint.setColor(textColor);
             final float letterToTileRatio =
                     resources.getFraction(R.dimen.sim_identifier_to_tile_ratio, 1, 1);
